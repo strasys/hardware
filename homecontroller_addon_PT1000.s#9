@@ -1815,6 +1815,13 @@ at 30/07/2012 16:36:08</description>
 <part name="AGND4" library="strasys_standard" deviceset="GND2" device="" value="AGND"/>
 <part name="R6" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms"/>
 <part name="AGND5" library="strasys_standard" deviceset="GND2" device="" value="AGND"/>
+<part name="R7" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM "/>
+<part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms"/>
+<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms"/>
+<part name="R10" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms"/>
+<part name="R11" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKTC" device="" value="1K Ohm"/>
+<part name="AGND6" library="strasys_standard" deviceset="GND2" device="" value="AGND"/>
+<part name="R12" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms"/>
 </parts>
 <sheets>
 <sheet>
@@ -1823,6 +1830,7 @@ at 30/07/2012 16:36:08</description>
 <text x="259.08" y="116.84" size="1.778" layer="97">0-4.096 V (= full scale)</text>
 <text x="40.64" y="238.76" size="1.778" layer="97">0,47µF</text>
 <text x="83.82" y="228.6" size="1.778" layer="97">0,47µF oder 1µF</text>
+<text x="68.58" y="132.08" size="2.54" layer="97">PT1000 Circuit 1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
@@ -1864,6 +1872,28 @@ at 30/07/2012 16:36:08</description>
 <attribute name="NAME" x="188.9506" y="157.7086" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="AGND5" gate="G$1" x="43.18" y="220.98"/>
+<instance part="R7" gate="A" x="101.6" y="114.3"/>
+<instance part="R8" gate="A" x="86.36" y="114.3" smashed="yes">
+<attribute name="VALUE" x="85.7758" y="108.1024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="87.3506" y="117.0686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="R9" gate="A" x="55.88" y="114.3" smashed="yes">
+<attribute name="VALUE" x="55.2958" y="108.1024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="56.8706" y="117.0686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="R10" gate="A" x="45.72" y="96.52" smashed="yes" rot="R90">
+<attribute name="VALUE" x="51.9176" y="95.9358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="42.9514" y="97.5106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+</instance>
+<instance part="R11" gate="A" x="76.2" y="96.52" smashed="yes" rot="R90">
+<attribute name="VALUE" x="82.3976" y="95.9358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="73.4314" y="97.5106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+</instance>
+<instance part="AGND6" gate="G$1" x="76.2" y="88.9"/>
+<instance part="R12" gate="A" x="109.22" y="99.06" smashed="yes">
+<attribute name="VALUE" x="108.6358" y="92.8624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="110.2106" y="101.8286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1917,6 +1947,11 @@ at 30/07/2012 16:36:08</description>
 <wire x1="50.8" y1="228.6" x2="43.18" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="228.6" x2="43.18" y2="223.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R11" gate="A" pin="2"/>
+<wire x1="76.2" y1="96.52" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="AGND6" gate="G$1" pin="GND2"/>
+</segment>
 </net>
 <net name="+3.3V" class="0">
 <segment>
@@ -1968,8 +2003,8 @@ at 30/07/2012 16:36:08</description>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="SCL"/>
-<wire x1="246.38" y1="160.02" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
-<label x="236.22" y="160.02" size="1.778" layer="95"/>
+<wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
+<label x="233.68" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD5V_F" class="0">
@@ -2019,8 +2054,20 @@ at 30/07/2012 16:36:08</description>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="AIN1"/>
-<wire x1="246.38" y1="152.4" x2="241.3" y2="152.4" width="0.1524" layer="91"/>
-<label x="236.22" y="152.4" size="1.778" layer="95"/>
+<wire x1="246.38" y1="152.4" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="238.76" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="111.76" y1="124.46" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R7" gate="A" pin="2"/>
+<label x="134.62" y="109.22" size="1.778" layer="95"/>
+<pinref part="R12" gate="A" pin="1"/>
+<wire x1="121.92" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="99.06" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="109.22" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<junction x="129.54" y="109.22"/>
 </segment>
 </net>
 <net name="AIN2" class="0">
@@ -2052,6 +2099,15 @@ at 30/07/2012 16:36:08</description>
 <pinref part="R4" gate="A" pin="2"/>
 <wire x1="111.76" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
 <junction x="101.6" y="215.9"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="119.38" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="109.22" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R9" gate="A" pin="2"/>
+<wire x1="55.88" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
+<junction x="45.72" y="114.3"/>
+<pinref part="R10" gate="A" pin="1"/>
+<label x="50.8" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -2090,6 +2146,11 @@ at 30/07/2012 16:36:08</description>
 <wire x1="48.26" y1="162.56" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
 <label x="53.34" y="162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R10" gate="A" pin="2"/>
+<wire x1="45.72" y1="96.52" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="53.34" y="88.9" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="PT1000_2" class="0">
 <segment>
@@ -2117,13 +2178,43 @@ at 30/07/2012 16:36:08</description>
 <net name="I2C1_SDA" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="SDA"/>
-<wire x1="287.02" y1="167.64" x2="294.64" y2="167.64" width="0.1524" layer="91"/>
-<label x="294.64" y="167.64" size="1.778" layer="95"/>
+<wire x1="287.02" y1="167.64" x2="289.56" y2="167.64" width="0.1524" layer="91"/>
+<label x="289.56" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="340.36" y1="127" x2="335.28" y2="127" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="7"/>
 <label x="342.9" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="76.2" y1="109.22" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="114.3" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R8" gate="A" pin="2"/>
+<pinref part="R9" gate="A" pin="1"/>
+<wire x1="76.2" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<junction x="76.2" y="114.3"/>
+<pinref part="R11" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R7" gate="A" pin="1"/>
+<pinref part="R8" gate="A" pin="1"/>
+<wire x1="101.6" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+IN_1" class="0">
+<segment>
+<pinref part="R12" gate="A" pin="2"/>
+<wire x1="109.22" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<label x="93.98" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="+IN_B"/>
+<wire x1="175.26" y1="180.34" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
+<label x="165.1" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RESC1608X60N">
+<wire x1="-0.127" y1="-0.4826" x2="0.127" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="0.127" y1="0.4826" x2="-0.127" y2="0.4826" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.4572" y1="0.4826" x2="-0.8382" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8382" y1="-0.4826" x2="-0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="-0.4826" x2="0.8382" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8382" y1="0.4826" x2="0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.4572" y1="-0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
+<smd name="1" x="-0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
+<smd name="2" x="0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC3216X71N">
+<wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="0.8636" x2="-1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="-0.8636" x2="-0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="-0.8636" x2="1.6764" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="0.8636" x2="0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="-0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RESH">
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRCW06031K00FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06031K00FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469740" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8015" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="1K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06031K40FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06031K40FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469742" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8034" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="1.4K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06031K78FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06031K78FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1157174" constant="no"/>
+<attribute name="OC_NEWARK" value="42K3651" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="1.78K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06031M00FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06031M00FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469746" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8053" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="1 MOhms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06034K70FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06034K70FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469807" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8494" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="4.7K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06035K10FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06035K10FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469819" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8571" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="5.1K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06038K66FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW06038K66FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1152136" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8729" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="8.66K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060310K0FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060310K0FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469748" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8062" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="10K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060310K2FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060310K2FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1652829" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8067" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="10.2K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060315K0FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060315K0FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469758" constant="no"/>
+<attribute name="OC_NEWARK" value="42K3721" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="15K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060347K0FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060347K0FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469811" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8548" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="47K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060349R9FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060349R9FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469817" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8566" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="49.9 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060351K0FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060351K0FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469822" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8588" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="51K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060382K5FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060382K5FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469840" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8737" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="82.5K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060386K6FKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW060386K6FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1652901" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8751" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="86.6K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603210KFKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW0603210KFKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="2138527" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8281" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="210K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603392RFKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW0603392RFKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1354328" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8482" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="392 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603453RFKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW0603453RFKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1364709" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8540" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="453 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603536RFKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW0603536RFKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1152068" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8609" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="536 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603590RFKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW0603590RFKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="2141350" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8633" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="590 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603604RFKEA" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW0603604RFKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1652895" constant="no"/>
+<attribute name="OC_NEWARK" value="52K8646" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="VALUE" value="604 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW12060000Z0EA" prefix="R">
+<description>RESISTOR, 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW12060000Z0EA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469963" constant="no"/>
+<attribute name="OC_NEWARK" value="53K1778" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="-" constant="no"/>
+<attribute name="VALUE" value="0 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.25W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
