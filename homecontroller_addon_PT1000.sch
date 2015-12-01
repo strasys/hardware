@@ -2402,6 +2402,7 @@ at 28/03/2012 12:54:09</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
