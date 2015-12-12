@@ -1524,6 +1524,8 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC3216X71N">
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
 <wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
 <wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
@@ -1536,8 +1538,6 @@ at 30/07/2012 16:36:08</description>
 <wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
 <wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
 <wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
-<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
-<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -1557,6 +1557,8 @@ at 30/07/2012 16:36:08</description>
 <text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
 <symbol name="RESH">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
@@ -1564,8 +1566,6 @@ at 30/07/2012 16:36:08</description>
 <wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
-<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
@@ -1646,10 +1646,10 @@ at 30/07/2012 16:36:08</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW08051K00FKTC" prefix="R">
+<deviceset name="CRCW08051K00FKEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -1659,13 +1659,13 @@ at 30/07/2012 16:36:08</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CRCW08051K00FKTC" constant="no"/>
-<attribute name="OC_FARNELL" value="1871991" constant="no"/>
-<attribute name="OC_NEWARK" value="48P9976" constant="no"/>
-<attribute name="SUPPLIER" value="Vishay Dale" constant="no"/>
+<attribute name="MPN" value="CRCW08051K00FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469847" constant="no"/>
+<attribute name="OC_NEWARK" value="52K9723" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="VALUE" value="1K Ohm" constant="no"/>
-<attribute name="WATTAGE" value="0.125W" constant="no"/>
+<attribute name="VALUE" value="1K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.125 W" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2294,15 +2294,15 @@ at 30/07/2012 16:36:08</description>
 <wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="-1.524" x2="0.635" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="AGND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2565,53 +2565,162 @@ at 28/03/2012 12:54:09</description>
 <attribute name="DRAWING_NO" value="EL-100-010-002-Bl1"/>
 <attribute name="PAGE" value="1"/>
 </part>
-<part name="U1" library="strasys_standard" deviceset="OPA2188AIDGKR" device=""/>
-<part name="U2" library="strasys_standard" deviceset="OPA2188AIDGKR" device=""/>
-<part name="X1" library="strasys_standard" deviceset="S2L3.50/10/90G" device=""/>
-<part name="U3" library="strasys_standard" deviceset="REF3025AIDBZTG4" device=""/>
-<part name="R1" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM "/>
-<part name="R2" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms"/>
-<part name="R3" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms"/>
-<part name="R4" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms"/>
-<part name="R5" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKTC" device="" value="1K Ohm"/>
-<part name="R6" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms"/>
-<part name="R7" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM "/>
-<part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms"/>
-<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms"/>
-<part name="R10" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms"/>
-<part name="R11" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKTC" device="" value="1K Ohm"/>
-<part name="R12" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms"/>
-<part name="RV1" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140"/>
-<part name="C1" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF"/>
-<part name="C2" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF"/>
-<part name="C3" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF"/>
-<part name="RV2" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140"/>
-<part name="C4" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF"/>
+<part name="U1" library="strasys_standard" deviceset="OPA2188AIDGKR" device="">
+<attribute name="MF" value="TEXAS INSTRUMENTS"/>
+<attribute name="OC_FARNELL" value="2057091"/>
+</part>
+<part name="U2" library="strasys_standard" deviceset="OPA2188AIDGKR" device="">
+<attribute name="MF" value="TEXAS INSTRUMENTS"/>
+<attribute name="OC_FARNELL" value="2057091"/>
+</part>
+<part name="X1" library="strasys_standard" deviceset="S2L3.50/10/90G" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="U3" library="strasys_standard" deviceset="REF3025AIDBZTG4" device="">
+<attribute name="MF" value="TEXAS INSTRUMENTS"/>
+</part>
+<part name="R1" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM ">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
+<attribute name="OC_FARNELL" value="1849801"/>
+</part>
+<part name="R2" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R3" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R4" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R5" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R6" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R7" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM ">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
+<attribute name="OC_FARNELL" value="1849801"/>
+</part>
+<part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R10" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R11" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R12" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="RV1" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
+<attribute name="MF" value="WURTH ELEKTRONIK"/>
+</part>
+<part name="C1" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
+<attribute name="MF" value="KEMET"/>
+<attribute name="OC_FARNELL" value="1826304"/>
+</part>
+<part name="C2" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<attribute name="MF" value="KEMET"/>
+</part>
+<part name="C3" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<attribute name="MF" value="KEMET"/>
+</part>
+<part name="RV2" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
+<attribute name="MF" value="WURTH ELEKTRONIK"/>
+</part>
+<part name="C4" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
+<attribute name="MF" value="KEMET"/>
+<attribute name="OC_FARNELL" value="1826304"/>
+</part>
 <part name="SGND" library="strasys_standard" deviceset="GND2" device="" value="SGND"/>
-<part name="C5" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF"/>
-<part name="R13" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K0JNEA" device="" value="10K Ohms"/>
-<part name="C6" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF"/>
-<part name="C7" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF"/>
-<part name="R14" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM "/>
-<part name="R15" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms"/>
-<part name="R16" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms"/>
-<part name="R17" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms"/>
-<part name="R18" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKTC" device="" value="1K Ohm"/>
-<part name="R19" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms"/>
-<part name="RV3" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140"/>
-<part name="C8" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF"/>
-<part name="R20" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM "/>
-<part name="R21" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms"/>
-<part name="R22" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms"/>
-<part name="R23" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms"/>
-<part name="R24" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKTC" device="" value="1K Ohm"/>
-<part name="R25" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms"/>
-<part name="RV4" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140"/>
-<part name="C9" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF"/>
+<part name="C5" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<attribute name="MF" value="KEMET"/>
+</part>
+<part name="R13" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K0JNEA" device="" value="10K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="C6" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<attribute name="MF" value="KEMET"/>
+</part>
+<part name="C7" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<attribute name="MF" value="KEMET"/>
+</part>
+<part name="R14" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM ">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
+<attribute name="OC_FARNELL" value="1849801"/>
+</part>
+<part name="R15" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R16" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R17" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R18" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R19" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="RV3" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
+<attribute name="MF" value="WURTH ELEKTRONIK"/>
+</part>
+<part name="C8" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
+<attribute name="MF" value="KEMET"/>
+<attribute name="OC_FARNELL" value="1826304"/>
+</part>
+<part name="R20" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM ">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
+<attribute name="OC_FARNELL" value="1849801"/>
+</part>
+<part name="R21" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R22" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R23" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R24" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="R25" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
+<part name="RV4" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
+<attribute name="MF" value="WURTH ELEKTRONIK"/>
+</part>
+<part name="C9" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
+<attribute name="MF" value="KEMET"/>
+<attribute name="OC_FARNELL" value="1826304"/>
+</part>
 <part name="SUPPLY1" library="supply2" deviceset="PE" device=""/>
-<part name="C10" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF"/>
+<part name="C10" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
+<attribute name="MF" value="KEMET"/>
+<attribute name="OC_FARNELL" value="1826304"/>
+</part>
 <part name="SUPPLY2" library="supply2" deviceset="PE" device=""/>
-<part name="R26" library="Vishay_By_element14_Batch_1" deviceset="CRCW12060000Z0EA" device="" value="0 Ohms"/>
+<part name="R26" library="Vishay_By_element14_Batch_1" deviceset="CRCW12060000Z0EA" device="" value="0 Ohms">
+<attribute name="MF" value="VISHAY DRALORIC"/>
+</part>
 <part name="SGND1" library="strasys_standard" deviceset="GND2" device="" value="SGND"/>
 <part name="SUPPLY3" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="PE" device=""/>
@@ -2636,8 +2745,14 @@ at 28/03/2012 12:54:09</description>
 <part name="SUPPLY20" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="AGND" device=""/>
-<part name="U4" library="ADS1015" deviceset="ADS1015IDGST" device=""/>
-<part name="X2" library="strasys_standard" deviceset="CON-10X2MM" device=""/>
+<part name="U4" library="ADS1015" deviceset="ADS1015IDGST" device="">
+<attribute name="MF" value="TEXAS INSTRUMENTS"/>
+</part>
+<part name="X2" library="strasys_standard" deviceset="CON-10X2MM" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2655,148 +2770,205 @@ at 28/03/2012 12:54:09</description>
 <attribute name="DATE_DRAWING" x="0" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="PAGE" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U1" gate="A" x="193.04" y="185.42"/>
-<instance part="U2" gate="A" x="193.04" y="111.76"/>
-<instance part="X1" gate="G$1" x="38.1" y="160.02" rot="MR0"/>
-<instance part="U3" gate="A" x="68.58" y="233.68"/>
-<instance part="R1" gate="A" x="180.34" y="215.9"/>
+<instance part="U1" gate="A" x="193.04" y="185.42">
+<attribute name="MF" x="193.04" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U2" gate="A" x="193.04" y="111.76">
+<attribute name="MF" x="193.04" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="X1" gate="G$1" x="38.1" y="160.02" rot="MR0">
+<attribute name="OC_FARNELL" x="38.1" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U3" gate="A" x="68.58" y="233.68">
+<attribute name="MF" x="68.58" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="A" x="180.34" y="215.9">
+<attribute name="MF" x="180.34" y="215.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R2" gate="A" x="101.6" y="198.12" smashed="yes" rot="R90">
 <attribute name="VALUE" x="107.7976" y="197.5358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="98.8314" y="199.1106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="101.6" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="A" x="165.1" y="215.9" smashed="yes">
 <attribute name="VALUE" x="164.5158" y="209.7024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="166.0906" y="218.6686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="165.1" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="A" x="111.76" y="215.9" smashed="yes">
 <attribute name="VALUE" x="111.1758" y="209.7024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="112.7506" y="218.6686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="111.76" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="A" x="119.38" y="187.96" smashed="yes">
 <attribute name="VALUE" x="118.7958" y="181.7624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="120.3706" y="190.7286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="119.38" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="A" x="187.96" y="154.94" smashed="yes">
 <attribute name="VALUE" x="187.3758" y="148.7424" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="188.9506" y="157.7086" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="187.96" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="A" x="101.6" y="114.3"/>
+<instance part="R7" gate="A" x="101.6" y="114.3">
+<attribute name="MF" x="101.6" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R8" gate="A" x="86.36" y="114.3" smashed="yes">
 <attribute name="VALUE" x="85.7758" y="108.1024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="87.3506" y="117.0686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="86.36" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="A" x="55.88" y="114.3" smashed="yes">
 <attribute name="VALUE" x="55.2958" y="108.1024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="56.8706" y="117.0686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="55.88" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="A" x="45.72" y="96.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="51.9176" y="95.9358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="42.9514" y="97.5106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="45.72" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="A" x="63.5" y="99.06" smashed="yes">
 <attribute name="VALUE" x="62.9158" y="92.8624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="67.0306" y="101.8286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="63.5" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="A" x="109.22" y="99.06" smashed="yes">
 <attribute name="VALUE" x="108.6358" y="92.8624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="110.2106" y="101.8286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="109.22" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="RV1" gate="G$1" x="35.56" y="83.82" rot="R90"/>
+<instance part="RV1" gate="G$1" x="35.56" y="83.82" rot="R90">
+<attribute name="MF" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C1" gate="G$1" x="45.72" y="81.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.9872" y="78.1558" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="42.9514" y="80.3656" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="45.72" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="A" x="33.02" y="226.06" smashed="yes" rot="R90">
 <attribute name="VALUE" x="39.8272" y="225.4758" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="30.2514" y="225.1456" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="33.02" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="A" x="93.98" y="226.06" smashed="yes" rot="R90">
 <attribute name="VALUE" x="100.7872" y="225.4758" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="91.2114" y="225.1456" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="93.98" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="RV2" gate="G$1" x="91.44" y="157.48" rot="R90"/>
+<instance part="RV2" gate="G$1" x="91.44" y="157.48" rot="R90">
+<attribute name="MF" x="91.44" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C4" gate="G$1" x="101.6" y="154.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="105.8672" y="151.8158" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="98.8314" y="154.0256" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="101.6" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SGND" gate="G$1" x="101.6" y="147.32"/>
 <instance part="C5" gate="A" x="167.64" y="193.04" smashed="yes" rot="R90">
 <attribute name="VALUE" x="174.4472" y="192.4558" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="164.8714" y="192.1256" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="167.64" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="A" x="312.42" y="172.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="318.6176" y="172.1358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="309.6514" y="173.7106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="312.42" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="A" x="241.3" y="172.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="248.1072" y="172.1358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="238.5314" y="171.8056" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="241.3" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="A" x="172.72" y="121.92" smashed="yes" rot="R90">
 <attribute name="VALUE" x="179.5272" y="121.3358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="169.9514" y="121.0056" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="172.72" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R14" gate="A" x="101.6" y="50.8"/>
+<instance part="R14" gate="A" x="101.6" y="50.8">
+<attribute name="MF" x="101.6" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R15" gate="A" x="86.36" y="50.8" smashed="yes">
 <attribute name="VALUE" x="85.7758" y="44.6024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="87.3506" y="53.5686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="86.36" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="A" x="55.88" y="50.8" smashed="yes">
 <attribute name="VALUE" x="55.2958" y="44.6024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="56.8706" y="53.5686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="55.88" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="A" x="45.72" y="33.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="51.9176" y="32.4358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="42.9514" y="34.0106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="45.72" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="A" x="63.5" y="35.56" smashed="yes">
 <attribute name="VALUE" x="62.9158" y="29.3624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="67.0306" y="38.3286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="63.5" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="A" x="109.22" y="35.56" smashed="yes">
 <attribute name="VALUE" x="108.6358" y="29.3624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="110.2106" y="38.3286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="109.22" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="RV3" gate="G$1" x="35.56" y="20.32" rot="R90"/>
+<instance part="RV3" gate="G$1" x="35.56" y="20.32" rot="R90">
+<attribute name="MF" x="35.56" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C8" gate="G$1" x="45.72" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.9872" y="14.6558" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="42.9514" y="16.8656" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="45.72" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R20" gate="A" x="226.06" y="50.8"/>
+<instance part="R20" gate="A" x="226.06" y="50.8">
+<attribute name="MF" x="226.06" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R21" gate="A" x="210.82" y="50.8" smashed="yes">
 <attribute name="VALUE" x="210.2358" y="44.6024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="211.8106" y="53.5686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="210.82" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="A" x="180.34" y="50.8" smashed="yes">
 <attribute name="VALUE" x="179.7558" y="44.6024" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="181.3306" y="53.5686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="180.34" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="A" x="170.18" y="33.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="176.3776" y="32.4358" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="167.4114" y="34.0106" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="170.18" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="A" x="190.5" y="35.56" smashed="yes">
 <attribute name="VALUE" x="189.9158" y="29.3624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="194.0306" y="38.3286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="190.5" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="A" x="233.68" y="35.56" smashed="yes">
 <attribute name="VALUE" x="233.0958" y="29.3624" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="234.6706" y="38.3286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="233.68" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="RV4" gate="G$1" x="160.02" y="20.32" rot="R90"/>
+<instance part="RV4" gate="G$1" x="160.02" y="20.32" rot="R90">
+<attribute name="MF" x="160.02" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C9" gate="G$1" x="170.18" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="174.4472" y="14.6558" size="2.1844" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="167.4114" y="16.8656" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="MF" x="170.18" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="PE" x="91.44" y="147.32"/>
 <instance part="C10" gate="G$1" x="312.42" y="226.06" smashed="yes">
 <attribute name="VALUE" x="309.2958" y="221.7928" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="311.5056" y="228.8286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="312.42" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="PE" x="299.72" y="220.98"/>
 <instance part="R26" gate="A" x="307.34" y="243.84" smashed="yes">
 <attribute name="VALUE" x="309.2958" y="237.6424" size="2.1844" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="308.3306" y="246.6086" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="307.34" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SGND1" gate="G$1" x="297.18" y="238.76"/>
 <instance part="SUPPLY3" gate="PE" x="35.56" y="73.66"/>
@@ -2822,10 +2994,15 @@ at 28/03/2012 12:54:09</description>
 <instance part="SUPPLY20" gate="G$1" x="182.88" y="33.02"/>
 <instance part="SUPPLY21" gate="G$1" x="111.76" y="180.34"/>
 <instance part="SUPPLY22" gate="G$1" x="157.48" y="200.66"/>
-<instance part="U4" gate="A" x="266.7" y="157.48"/>
+<instance part="U4" gate="A" x="266.7" y="157.48">
+<attribute name="MF" x="266.7" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X2" gate="G$1" x="337.82" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="127" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="335.28" y="157.48" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="337.82" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="337.82" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="337.82" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
