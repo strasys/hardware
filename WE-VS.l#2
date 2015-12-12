@@ -569,7 +569,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC-VZ" prefix="RV" uservalue="yes">
+<deviceset name="MC-VZ" prefix="RV">
 <description>&lt;b&gt;SMD Varistor &lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;
@@ -592,10 +592,10 @@ Protection of Video and Audio Ports</description>
 <attribute name="SUPPLIER" value="" constant="no"/>
 </technology>
 <technology name="-MCVZ0805M180AGT">
-<attribute name="MPN" value="MCVZ0805M180AGT" constant="no"/>
-<attribute name="OC_FARNELL" value="1856938" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="MULTICOMP" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
 </technology>
 </technologies>
 </device>

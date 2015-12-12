@@ -569,7 +569,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC-VZ" prefix="RV" uservalue="yes">
+<deviceset name="MC-VZ" prefix="RV">
 <description>&lt;b&gt;SMD Varistor &lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;

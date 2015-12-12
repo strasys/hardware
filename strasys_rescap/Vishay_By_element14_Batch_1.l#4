@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -101417,30 +101417,6 @@ at 30/07/2012 16:36:08</description>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 <attribute name="VALUE" value="0.05 Ohm" constant="no"/>
 <attribute name="WATTAGE" value="0.25 W" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ERJ6ENF3242V" prefix="R">
-<description>RESISTOR, 0805</description>
-<gates>
-<gate name="A" symbol="RESH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC2013X65N">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="ERJ6ENF3242V" constant="no"/>
-<attribute name="OC_FARNELL" value="2303704" constant="no"/>
-<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
-<attribute name="TOLERANCE" value="+/- 1%" constant="no"/>
-<attribute name="VALUE" value="32.4kohms" constant="no"/>
-<attribute name="WATTAGE" value="0.125 W" constant="no"/>
 </technology>
 </technologies>
 </device>

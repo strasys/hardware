@@ -1524,8 +1524,6 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC3216X71N">
-<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
-<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
 <wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
 <wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
@@ -1538,6 +1536,8 @@ at 30/07/2012 16:36:08</description>
 <wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
 <wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
 <wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -1557,6 +1557,32 @@ at 30/07/2012 16:36:08</description>
 <text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
 <symbol name="RESH">
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="RESH@3">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="RESH@2">
 <pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
@@ -1621,10 +1647,10 @@ at 30/07/2012 16:36:08</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW080532K4FKEA" prefix="R">
+<deviceset name="ERJ6ENF3242V" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -1634,12 +1660,11 @@ at 30/07/2012 16:36:08</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CRCW080532K4FKEA" constant="no"/>
-<attribute name="OC_FARNELL" value="-" constant="no"/>
-<attribute name="OC_NEWARK" value="53K0154" constant="no"/>
-<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
-<attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="VALUE" value="32.4K Ohms" constant="no"/>
+<attribute name="MPN" value="ERJ6ENF3242V" constant="no"/>
+<attribute name="OC_FARNELL" value="2303704" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
+<attribute name="TOLERANCE" value="+/- 1%" constant="no"/>
+<attribute name="VALUE" value="32.4kohms" constant="no"/>
 <attribute name="WATTAGE" value="0.125 W" constant="no"/>
 </technology>
 </technologies>
@@ -1649,7 +1674,7 @@ at 30/07/2012 16:36:08</description>
 <deviceset name="CRCW08051K00FKEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@2" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -1765,96 +1790,6 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.6" y="-3.67" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.6" y="2.47" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="WESURGE_0402">
-<description>WESURGE SMD</description>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.127" layer="39"/>
-<wire x1="1.5" y1="0.5" x2="1.5" y2="-0.5" width="0.127" layer="39"/>
-<wire x1="1.5" y1="-0.5" x2="-1.5" y2="-0.5" width="0.127" layer="39"/>
-<wire x1="-1.5" y1="-0.5" x2="-1.5" y2="0.5" width="0.127" layer="39"/>
-<smd name="1" x="-0.7" y="0" dx="0.9" dy="0.65" layer="1"/>
-<smd name="2" x="0.7" y="0" dx="0.9" dy="0.65" layer="1"/>
-<text x="-2.35" y="-1.75" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.35" y="0.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WESURGE_0603">
-<description>WESURGE SMD</description>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.127" layer="39"/>
-<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.127" layer="39"/>
-<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.127" layer="39"/>
-<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.127" layer="39"/>
-<smd name="1" x="-1.175" y="0" dx="1.35" dy="1.4" layer="1"/>
-<smd name="2" x="1.175" y="0" dx="1.35" dy="1.4" layer="1"/>
-<text x="-3" y="-2.2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="1" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WESURGE_1206">
-<description>WESURGE SMD</description>
-<wire x1="-1.6" y1="-0.7" x2="1.6" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="0.7" x2="-1.6" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="39"/>
-<wire x1="3.5" y1="1.5" x2="3.5" y2="-1.5" width="0.127" layer="39"/>
-<wire x1="3.5" y1="-1.5" x2="-3.5" y2="-1.5" width="0.127" layer="39"/>
-<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.127" layer="39"/>
-<smd name="1" x="-2.2" y="0" dx="2.1" dy="2.2" layer="1"/>
-<smd name="2" x="2.2" y="0" dx="2.1" dy="2.2" layer="1"/>
-<text x="-3.2" y="-3.1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.2" y="1.8" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WESURGE_1210">
-<description>WESURGE SMD</description>
-<wire x1="1.65" y1="1.25" x2="1.65" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-1.55" y1="1.25" x2="-1.55" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-1.55" y1="-1.25" x2="1.65" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-1.55" y1="1.25" x2="1.65" y2="1.25" width="0.127" layer="51"/>
-<wire x1="-3.75" y1="2" x2="3.75" y2="2" width="0.127" layer="39"/>
-<wire x1="3.75" y1="2" x2="3.75" y2="-2" width="0.127" layer="39"/>
-<wire x1="3.75" y1="-2" x2="-3.75" y2="-2" width="0.127" layer="39"/>
-<wire x1="-3.75" y1="-2" x2="-3.75" y2="2" width="0.127" layer="39"/>
-<smd name="1" x="-2.275" y="0" dx="2.4" dy="3.3" layer="1"/>
-<smd name="2" x="2.275" y="0" dx="2.4" dy="3.3" layer="1"/>
-<text x="-3.4" y="-3.6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.4" y="2.3" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WESURGE_1812">
-<description>WESURGE SMD</description>
-<wire x1="-2.25" y1="-1.6" x2="2.25" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="1.6" x2="2.25" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="-4.5" y1="2.25" x2="4.5" y2="2.25" width="0.127" layer="39"/>
-<wire x1="4.5" y1="2.25" x2="4.5" y2="-2.25" width="0.127" layer="39"/>
-<wire x1="4.5" y1="-2.25" x2="-4.5" y2="-2.25" width="0.127" layer="39"/>
-<wire x1="-4.5" y1="-2.25" x2="-4.5" y2="2.25" width="0.127" layer="39"/>
-<smd name="1" x="-2.825" y="0" dx="2.65" dy="3.9" layer="1"/>
-<smd name="2" x="2.825" y="0" dx="2.65" dy="3.9" layer="1"/>
-<text x="-3.5" y="-3.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="2.25" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WESURGE_2220">
-<description>WESURGE SMD</description>
-<wire x1="-2.85" y1="2.5" x2="2.85" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.85" y1="-2.5" x2="2.85" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.9" y1="2.5" x2="2.9" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.9" y1="2.5" x2="-2.9" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-5.25" y1="3.25" x2="5.25" y2="3.25" width="0.127" layer="39"/>
-<wire x1="5.25" y1="3.25" x2="5.25" y2="-3.25" width="0.127" layer="39"/>
-<wire x1="5.25" y1="-3.25" x2="-5.25" y2="-3.25" width="0.127" layer="39"/>
-<wire x1="-5.25" y1="-3.25" x2="-5.25" y2="3.25" width="0.127" layer="39"/>
-<smd name="1" x="-3.375" y="0" dx="2.7" dy="5.7" layer="1"/>
-<smd name="2" x="3.375" y="0" dx="2.7" dy="5.7" layer="1"/>
-<text x="-3" y="-4.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="3.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="VARISTOR">
@@ -1886,115 +1821,16 @@ at 30/07/2012 16:36:08</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-VS" prefix="RV" uservalue="yes">
-<description>&lt;b&gt;WESURGE SMD Varistor WE-VS&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-
-- Fast response time&lt;br&gt;
-- Low leakage current&lt;br&gt;
-- Low clamping voltage&lt;br&gt;
-- Wide range of voltage avaible&lt;br&gt;
-- Almost no energy consumption in stand-by mode&lt;br&gt;
-- Excellent absorption at surge-impulses&lt;br&gt;
-- Nickel barrier for  leadfree soldering&lt;br&gt;
-- Operating temperature: -40°C to +85°C for size 0402 to 0805; 
-   -40°C to +1255°C for size 1206 to 2220&lt;br&gt;&lt;br&gt;
-
--- Protection of DC distribution&lt;br&gt;
--- Protection of power supply&lt;br&gt;
--- Protection of semiconductors&lt;br&gt;
--- Protection of bus systems and communication lines&lt;br&gt;
--- Limiting of over-voltage &lt;br&gt;
--- ESD protection in accordance with EN 61000-4-2 and Surge protection in accordance with EN 61000-4-5</description>
+<deviceset name="MC-VZ" prefix="RV" uservalue="yes">
+<description>&lt;b&gt;SMD Varistor &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+ESD Protection for components sensitive to IEC 61000-4-2, Provides Circuit Board Transient Voltage Protection for Transistors
+Protection of Video and Audio Ports</description>
 <gates>
 <gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_0402" package="WESURGE_0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-82537040">
-<attribute name="MPN" value="82537040" constant="no"/>
-<attribute name="OC_FARNELL" value="1636429 " constant="no"/>
-<attribute name="OC_NEWARK" value="08P3016 " constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82537070">
-<attribute name="MPN" value="82537070 " constant="no"/>
-<attribute name="OC_FARNELL" value="1636430 " constant="no"/>
-<attribute name="OC_NEWARK" value="08P3017 " constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82537110">
-<attribute name="MPN" value="82537110 " constant="no"/>
-<attribute name="OC_FARNELL" value="1636432 " constant="no"/>
-<attribute name="OC_NEWARK" value="08P3018 " constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0603" package="WESURGE_0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-82536040">
-<attribute name="MPN" value="82536040" constant="no"/>
-<attribute name="OC_FARNELL" value="1636434" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3011" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82536070">
-<attribute name="MPN" value="82536070" constant="no"/>
-<attribute name="OC_FARNELL" value="1636435" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3012" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82536110">
-<attribute name="MPN" value="82536110" constant="no"/>
-<attribute name="OC_FARNELL" value="1636436" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3013" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82536140">
-<attribute name="MPN" value="82536140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636437" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3014" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82556170">
-<attribute name="MPN" value="82556170" constant="no"/>
-<attribute name="OC_FARNELL" value="1636438" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3044" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_0805" package="WESURGE_0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -2004,251 +1840,14 @@ at 30/07/2012 16:36:08</description>
 <technology name="">
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
 <attribute name="PACKAGE" value="" constant="no"/>
 <attribute name="SUPPLIER" value="" constant="no"/>
 </technology>
-<technology name="-82550040">
-<attribute name="MPN" value="82550040" constant="no"/>
-<attribute name="OC_FARNELL" value="1636439" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3033" constant="no"/>
+<technology name="-MCVZ0805M180AGT">
+<attribute name="MPN" value="MCVZ0805M180AGT" constant="no"/>
+<attribute name="OC_FARNELL" value="1856938" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82550060">
-<attribute name="MPN" value="82550060" constant="no"/>
-<attribute name="OC_FARNELL" value="1636440" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3034" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82550110">
-<attribute name="MPN" value="82550110" constant="no"/>
-<attribute name="OC_FARNELL" value="1636441" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3035" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82550140">
-<attribute name="MPN" value="82550140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636442" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3036" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82550200">
-<attribute name="MPN" value="82550200" constant="no"/>
-<attribute name="OC_FARNELL" value="1636444" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3037" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82550250">
-<attribute name="MPN" value="82550250" constant="no"/>
-<attribute name="OC_FARNELL" value="1636445" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3038" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1206" package="WESURGE_1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-82531040">
-<attribute name="MPN" value="82531040" constant="no"/>
-<attribute name="OC_FARNELL" value="1636446" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3009" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82531400">
-<attribute name="MPN" value="82531400" constant="no"/>
-<attribute name="OC_FARNELL" value="1636453" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3010" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82541110">
-<attribute name="MPN" value="82541110" constant="no"/>
-<attribute name="OC_FARNELL" value="1636447" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3020" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82541140">
-<attribute name="MPN" value="82541140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636449" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3021" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82541250">
-<attribute name="MPN" value="82541250" constant="no"/>
-<attribute name="OC_FARNELL" value="1636451" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3022" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82541300">
-<attribute name="MPN" value="82541300" constant="no"/>
-<attribute name="OC_FARNELL" value="1636452" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3023" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82551140">
-<attribute name="MPN" value="82551140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636448" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3039" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82551200">
-<attribute name="MPN" value="82551200" constant="no"/>
-<attribute name="OC_FARNELL" value="1636450" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3040" constant="no"/>
-<attribute name="PACKAGE" value="1206" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1210" package="WESURGE_1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-82533300">
-<attribute name="MPN" value="82533300" constant="no"/>
-<attribute name="OC_FARNELL" value="1827552" constant="no"/>
-<attribute name="OC_NEWARK" value="81R3716" constant="no"/>
-<attribute name="PACKAGE" value="1210" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82543140">
-<attribute name="MPN" value="82543140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636456" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3028" constant="no"/>
-<attribute name="PACKAGE" value="1210" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82543200">
-<attribute name="MPN" value="82543200" constant="no"/>
-<attribute name="OC_FARNELL" value="1636457" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3029" constant="no"/>
-<attribute name="PACKAGE" value="1210" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82553040">
-<attribute name="MPN" value="82553040" constant="no"/>
-<attribute name="OC_FARNELL" value="1636454" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3041" constant="no"/>
-<attribute name="PACKAGE" value="1210" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82553400">
-<attribute name="MPN" value="82553400" constant="no"/>
-<attribute name="OC_FARNELL" value="1636459" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3042" constant="no"/>
-<attribute name="PACKAGE" value="1210" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1812" package="WESURGE_1812">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-82535250">
-<attribute name="MPN" value="82535250" constant="no"/>
-<attribute name="OC_FARNELL" value="1827553" constant="no"/>
-<attribute name="OC_NEWARK" value="81R3717" constant="no"/>
-<attribute name="PACKAGE" value="1812" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82535300">
-<attribute name="MPN" value="82535300" constant="no"/>
-<attribute name="OC_FARNELL" value="1827554" constant="no"/>
-<attribute name="OC_NEWARK" value="81R3718" constant="no"/>
-<attribute name="PACKAGE" value="1812" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82555140">
-<attribute name="MPN" value="82555140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636460" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3043" constant="no"/>
-<attribute name="PACKAGE" value="1812" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2220" package="WESURGE_2220">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-82532250">
-<attribute name="MPN" value="82532250" constant="no"/>
-<attribute name="OC_FARNELL" value="1827555" constant="no"/>
-<attribute name="OC_NEWARK" value="81R3714" constant="no"/>
-<attribute name="PACKAGE" value="2220" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82532300">
-<attribute name="MPN" value="82532300" constant="no"/>
-<attribute name="OC_FARNELL" value="1827556" constant="no"/>
-<attribute name="OC_NEWARK" value="81R3715" constant="no"/>
-<attribute name="PACKAGE" value="2220" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82542140">
-<attribute name="MPN" value="82542140" constant="no"/>
-<attribute name="OC_FARNELL" value="1636463" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3024" constant="no"/>
-<attribute name="PACKAGE" value="2220" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
-</technology>
-<technology name="-82542350">
-<attribute name="MPN" value="82542350" constant="no"/>
-<attribute name="OC_FARNELL" value="1636466" constant="no"/>
-<attribute name="OC_NEWARK" value="08P3027" constant="no"/>
-<attribute name="PACKAGE" value="2220" constant="no"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+<attribute name="SUPPLIER" value="MULTICOMP" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2294,15 +1893,15 @@ at 30/07/2012 16:36:08</description>
 <wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="-1.524" x2="0.635" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="AGND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2363,9 +1962,11 @@ at 30/07/2012 16:36:08</description>
 element14 CAD Library consolidation.ulp
 at 28/03/2012 12:54:09</description>
 <packages>
-<package name="CAPC2013X88N">
+<package name="CAPC2013X110N">
 <smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
 <smd name="2" x="0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <wire x1="-0.3556" y1="-0.7366" x2="-0.3556" y2="0.7366" width="0" layer="51"/>
 <wire x1="-0.3556" y1="0.7366" x2="-1.0922" y2="0.7366" width="0" layer="51"/>
 <wire x1="-1.0922" y1="-0.7366" x2="-0.3556" y2="-0.7366" width="0" layer="51"/>
@@ -2384,10 +1985,12 @@ at 28/03/2012 12:54:09</description>
 <symbol name="CAPH">
 <pin name="C2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="C1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
 <wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
 <wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
+<text x="-5.6642" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.9144" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
 <wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
 <text x="-5.6642" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
@@ -2395,25 +1998,25 @@ at 28/03/2012 12:54:09</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C0805F104K5RACAUTO" prefix="C">
+<deviceset name="C0805C104K5RACTU" prefix="C">
 <description>CAPACITOR, 0805</description>
 <gates>
 <gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="CAPC2013X88N">
+<device name="" package="CAPC2013X110N">
 <connects>
 <connect gate="A" pin="C1" pad="1"/>
 <connect gate="A" pin="C2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="C0805F104K5RACAUTO" constant="no"/>
-<attribute name="OC_FARNELL" value="1869054" constant="no"/>
-<attribute name="OC_NEWARK" value="32T6746" constant="no"/>
-<attribute name="SUPPLIER" value="KEMET" constant="no"/>
+<attribute name="MPN" value="C0805C104K5RACTU" constant="no"/>
+<attribute name="OC_FARNELL" value="1414664" constant="no"/>
+<attribute name="OC_NEWARK" value="65H7431" constant="no"/>
+<attribute name="SUPPLIER" value="Kemet" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
 <attribute name="VOLTAGERATING" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -2591,10 +2194,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R3" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R4" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R4" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R5" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2609,10 +2210,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R10" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2623,37 +2222,37 @@ at 28/03/2012 12:54:09</description>
 <part name="R12" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="RV1" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
-<attribute name="MF" value="WURTH ELEKTRONIK"/>
+<part name="RV1" library="WE-VS" deviceset="MC-VZ" device="_0805" technology="-MCVZ0805M180AGT">
+<attribute name="MF" value="MULTICOMP"/>
 </part>
 <part name="C1" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
 <attribute name="MF" value="KEMET"/>
 <attribute name="OC_FARNELL" value="1826304"/>
 </part>
-<part name="C2" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C2" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="C3" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C3" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="RV2" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
-<attribute name="MF" value="WURTH ELEKTRONIK"/>
+<part name="RV2" library="WE-VS" deviceset="MC-VZ" device="_0805" technology="-MCVZ0805M180AGT">
+<attribute name="MF" value="MULTICOMP"/>
 </part>
 <part name="C4" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
 <attribute name="MF" value="KEMET"/>
 <attribute name="OC_FARNELL" value="1826304"/>
 </part>
 <part name="SGND" library="strasys_standard" deviceset="GND2" device="" value="SGND"/>
-<part name="C5" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C5" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="R13" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K0JNEA" device="" value="10K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="C6" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C6" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="C7" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C7" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="R14" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM ">
@@ -2663,10 +2262,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R15" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R16" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R16" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R17" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2677,8 +2274,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R19" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="RV3" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
-<attribute name="MF" value="WURTH ELEKTRONIK"/>
+<part name="RV3" library="WE-VS" deviceset="MC-VZ" device="_0805" technology="-MCVZ0805M180AGT">
+<attribute name="MF" value="MULTICOMP"/>
 </part>
 <part name="C8" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
 <attribute name="MF" value="KEMET"/>
@@ -2691,10 +2288,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R21" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R22" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R22" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R23" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2705,8 +2300,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R25" library="Vishay_By_element14_Batch_1" deviceset="CRCW0805105KFKEA" device="" value="105K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="RV4" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
-<attribute name="MF" value="WURTH ELEKTRONIK"/>
+<part name="RV4" library="WE-VS" deviceset="MC-VZ" device="_0805" technology="-MCVZ0805M180AGT">
+<attribute name="MF" value="MULTICOMP"/>
 </part>
 <part name="C9" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
 <attribute name="MF" value="KEMET"/>

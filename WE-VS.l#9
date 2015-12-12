@@ -569,34 +569,16 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC-VZ" prefix="RV" uservalue="yes">
-<description>&lt;b&gt;SMD Varistor &lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;
-ESD Protection for components sensitive to IEC 61000-4-2, Provides Circuit Board Transient Voltage Protection for Transistors
+<deviceset name="MC-VZ" prefix="RV">
+<description>ESD Protection for components sensitive to IEC 61000-4-2, Provides Circuit Board Transient Voltage Protection for Transistors
 Protection of Video and Audio Ports</description>
 <gates>
 <gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_0805" package="WESURGE_0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
+<device name="">
 <technologies>
-<technology name="">
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="SUPPLIER" value="" constant="no"/>
-</technology>
-<technology name="-MCVZ0805M180AGT">
-<attribute name="MPN" value="MCVZ0805M180AGT" constant="no"/>
-<attribute name="OC_FARNELL" value="1856938" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="SUPPLIER" value="MULTICOMP" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

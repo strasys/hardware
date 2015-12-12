@@ -16,18 +16,18 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -41,8 +41,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -308,8 +308,6 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC3216X71N">
-<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
-<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
 <wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
 <wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
@@ -322,6 +320,8 @@ at 30/07/2012 16:36:08</description>
 <wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
 <wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
 <wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -373,9 +373,11 @@ at 30/07/2012 16:36:08</description>
 element14 CAD Library consolidation.ulp
 at 28/03/2012 12:54:09</description>
 <packages>
-<package name="CAPC2013X88N">
+<package name="CAPC2013X110N">
 <smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
 <smd name="2" x="0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <wire x1="-0.3556" y1="-0.7366" x2="-0.3556" y2="0.7366" width="0" layer="51"/>
 <wire x1="-0.3556" y1="0.7366" x2="-1.0922" y2="0.7366" width="0" layer="51"/>
 <wire x1="-1.0922" y1="-0.7366" x2="-0.3556" y2="-0.7366" width="0" layer="51"/>
@@ -739,16 +741,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="25.4606" y="65.73" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="28.915" y="68.905" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4K Ohms" x="34.35" y="64.97" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="53K0154" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CRCW080532K4FKEA" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R4" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4kohms" x="34.35" y="64.97" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="+/- 1%" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ6ENF3242V" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="2303704" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.2956" y="64.5" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="37.8044" y="68.145" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.35" y="64.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="32.4kohms" x="37.8044" y="68.145" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.35" y="64.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R5" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="1K Ohms" x="28.97" y="65.03" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="52K9723" x="-24.37" y="142.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -759,7 +760,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-24.37" y="142.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.3756" y="66.34" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="1K Ohms" x="32.4244" y="68.205" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="VISHAY DALE" x="28.97" y="65.03" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="28.97" y="65.03" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="105K Ohms" x="16.55" y="66.86" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="52K9813" x="-27.9" y="126.55" size="1.778" layer="27" rot="R180" display="off"/>
@@ -796,16 +797,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="25.5956" y="73.815" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="29.05" y="76.99" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R9" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4K Ohms" x="34.4" y="73.07" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="53K0154" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CRCW080532K4FKEA" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R9" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4kohms" x="34.4" y="73.07" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="+/- 1%" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ6ENF3242V" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="2303704" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.3456" y="72.6" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="37.8544" y="76.245" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.4" y="73.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="32.4kohms" x="37.8544" y="76.245" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.4" y="73.07" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="24.9K Ohms" x="34.45" y="77" smashed="yes">
 <attribute name="OC_NEWARK" value="53K0043" x="61.12" y="26.2" size="1.778" layer="27" display="off"/>
@@ -827,7 +827,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-37.07" y="150.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.9756" y="74.36" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="1K Ohms" x="32.4244" y="76.185" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="VISHAY DALE" x="28.97" y="73.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="28.97" y="73.01" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="105K Ohms" x="16.47" y="74.86" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="52K9813" x="-45.76" y="134.55" size="1.778" layer="27" rot="R180" display="off"/>
@@ -842,10 +842,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV1" library="WE-VS" package="WESURGE_0805" value="" x="42.13" y="73" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.73" y="74.43" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.53" y="75.47" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.13" y="73" size="1.778" layer="27" display="off"/>
@@ -860,34 +859,33 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="38.4856" y="73.063" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="KEMET" x="41.94" y="77" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="Kemet_By_element14_1" package="CAPC2013X88N" value="0.1uF" x="31.92" y="52.12" smashed="yes">
-<attribute name="OC_NEWARK" value="32T6746" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
+<element name="C2" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="31.92" y="52.12" smashed="yes">
+<attribute name="OC_NEWARK" value="65H7431" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C0805F104K5RACAUTO" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="KEMET" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0805C104K5RACTU" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1869054" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1414664" x="63.67" y="-34.24" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.8656" y="51.69" size="1" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="28.4656" y="48.945" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" value="100nF" x="28.4656" y="48.945" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="KEMET" x="31.92" y="52.12" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="Kemet_By_element14_1" package="CAPC2013X88N" value="0.1uF" x="31.92" y="59.74" smashed="yes">
-<attribute name="OC_NEWARK" value="32T6746" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
+<element name="C3" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="31.92" y="59.74" smashed="yes">
+<attribute name="OC_NEWARK" value="65H7431" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C0805F104K5RACAUTO" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="KEMET" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0805C104K5RACTU" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1869054" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1414664" x="73.83" y="-26.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.9656" y="59.31" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="28.4656" y="56.565" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" value="100nF" x="28.4656" y="56.565" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="KEMET" x="31.92" y="59.74" size="1.778" layer="27" display="off"/>
 </element>
 <element name="RV2" library="WE-VS" package="WESURGE_0805" value="" x="42.01" y="65.01" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.81" y="66.34" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.41" y="67.48" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.01" y="65.01" size="1.778" layer="27" display="off"/>
@@ -902,15 +900,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="38.5356" y="65.063" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="KEMET" x="41.99" y="69" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="Kemet_By_element14_1" package="CAPC2013X88N" value="0.1uF" x="4.24" y="74.02" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="32T6746" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C5" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="4.24" y="74.02" smashed="yes" rot="R90">
+<attribute name="OC_NEWARK" value="65H7431" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="C0805F104K5RACAUTO" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="KEMET" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C104K5RACTU" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1869054" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1414664" x="90.6" y="126.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="1.1656" y="73.43" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="7.415" y="70.5656" size="2.0828" layer="27" ratio="10" rot="SR90"/>
+<attribute name="VALUE" value="100nF" x="7.415" y="70.5656" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 <attribute name="MF" value="KEMET" x="4.24" y="74.02" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R13" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="10K Ohms" x="16" y="56.87" smashed="yes" rot="R90">
@@ -924,26 +922,26 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="19.175" y="53.4156" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16" y="56.87" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C6" library="Kemet_By_element14_1" package="CAPC2013X88N" value="0.1uF" x="4.23" y="60.08" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="32T6746" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C6" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="4.23" y="60.08" smashed="yes" rot="R90">
+<attribute name="OC_NEWARK" value="65H7431" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="C0805F104K5RACAUTO" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="KEMET" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C104K5RACTU" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1869054" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1414664" x="90.59" y="122.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="1.3256" y="59.64" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="7.405" y="56.6256" size="2.0828" layer="27" ratio="10" rot="SR90"/>
+<attribute name="VALUE" value="100nF" x="7.405" y="56.6256" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 <attribute name="MF" value="KEMET" x="4.23" y="60.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C7" library="Kemet_By_element14_1" package="CAPC2013X88N" value="0.1uF" x="4.15" y="90.17" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="32T6746" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C7" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="4.15" y="90.17" smashed="yes" rot="R90">
+<attribute name="OC_NEWARK" value="65H7431" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="C0805F104K5RACAUTO" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="KEMET" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C104K5RACTU" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1869054" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1414664" x="90.51" y="162.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="1.3156" y="89.32" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="7.325" y="86.7156" size="2.0828" layer="27" ratio="10" rot="SR90"/>
+<attribute name="VALUE" value="100nF" x="7.325" y="86.7156" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 <attribute name="MF" value="KEMET" x="4.15" y="90.17" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R14" library="Panasonic-Trimmer_Potentiometers" package="POT_EVM3W" value=" 10KOHM " x="22.95" y="82.89" smashed="yes" rot="R90">
@@ -970,16 +968,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="25.2956" y="81.905" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="28.75" y="85.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4K Ohms" x="34.42" y="81.07" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="53K0154" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CRCW080532K4FKEA" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R16" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4kohms" x="34.42" y="81.07" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="+/- 1%" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ6ENF3242V" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="2303704" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.4256" y="80.6" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="37.8744" y="84.245" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.42" y="81.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="32.4kohms" x="37.8744" y="84.245" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.42" y="81.07" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R17" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="24.9K Ohms" x="34.45" y="85.015" smashed="yes">
 <attribute name="OC_NEWARK" value="53K0043" x="99.22" y="34.215" size="1.778" layer="27" display="off"/>
@@ -1001,7 +998,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-49.87" y="158.59" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.6756" y="82.35" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="1K Ohms" x="32.3244" y="84.295" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="VISHAY DALE" x="28.87" y="81.12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="28.87" y="81.12" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="105K Ohms" x="16.39" y="83.06" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="52K9813" x="-63.62" y="142.75" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1016,10 +1013,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV3" library="WE-VS" package="WESURGE_0805" value="" x="42.04" y="80.99" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.74" y="82.42" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.44" y="83.46" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.04" y="80.99" size="1.778" layer="27" display="off"/>
@@ -1058,16 +1054,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="25.4956" y="89.625" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="28.95" y="92.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R22" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4K Ohms" x="34.47" y="88.97" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="53K0154" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CRCW080532K4FKEA" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R22" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="32.4kohms" x="34.47" y="88.97" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="+/- 1%" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ6ENF3242V" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="2303704" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.3756" y="88.5" size="1" layer="25" font="vector" rot="SR0"/>
-<attribute name="VALUE" x="37.9244" y="92.145" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.47" y="88.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="32.4kohms" x="37.9244" y="92.145" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.47" y="88.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R23" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="24.9K Ohms" x="34.45" y="92.8" smashed="yes">
 <attribute name="OC_NEWARK" value="53K0043" x="61.12" y="33.11" size="1.778" layer="27" display="off"/>
@@ -1089,7 +1084,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="7.18" y="175.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.7056" y="90.17" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="1K Ohms" x="32.2244" y="92.075" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="VISHAY DALE" x="28.77" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="28.77" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R25" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="105K Ohms" x="16.31" y="90.96" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="52K9813" x="-10.36" y="159.54" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1104,10 +1099,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV4" library="WE-VS" package="WESURGE_0805" value="" x="42.092496875" y="88.98816875" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.792496875" y="90.41816875" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.492496875" y="91.45816875" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.092496875" y="88.98816875" size="1.778" layer="27" display="off"/>

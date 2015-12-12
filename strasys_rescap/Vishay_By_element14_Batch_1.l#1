@@ -101422,17 +101422,13 @@ at 30/07/2012 16:36:08</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ERJ6ENF3242V" prefix="R">
+<deviceset name="ERJ6ENF3242V">
 <description>RESISTOR, 0805</description>
 <gates>
 <gate name="A" symbol="RESH" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
 <technologies>
 <technology name="">
 <attribute name="MPN" value="ERJ6ENF3242V" constant="no"/>
