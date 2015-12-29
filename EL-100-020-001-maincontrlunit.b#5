@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -65,10 +65,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="68" y2="0" width="0" layer="20"/>
+<wire x1="68" y1="0" x2="68" y2="86" width="0" layer="20"/>
+<wire x1="68" y1="86" x2="0" y2="86" width="0" layer="20"/>
+<wire x1="0" y1="86" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Microchip_By_element14_Batch_1">
@@ -343,6 +343,64 @@ ABS10</description>
 <text x="7.86" y="-3.14" size="1.27" layer="21">3</text>
 <text x="8.5" y="-0.6" size="1.27" layer="21">4</text>
 </package>
+<package name="2,54_STIFTLEIST_2X23">
+<pad name="P2" x="0" y="-2.54" drill="1"/>
+<pad name="P1" x="0" y="0" drill="1" shape="square"/>
+<pad name="P4" x="2.54" y="-2.54" drill="1"/>
+<pad name="P3" x="2.54" y="0" drill="1"/>
+<pad name="P5" x="5.08" y="0" drill="1"/>
+<pad name="P6" x="5.08" y="-2.54" drill="1"/>
+<pad name="P8" x="7.62" y="-2.54" drill="1"/>
+<pad name="P7" x="7.62" y="0" drill="1"/>
+<pad name="P9" x="10.16" y="0" drill="1"/>
+<pad name="P10" x="10.16" y="-2.54" drill="1"/>
+<pad name="P12" x="12.7" y="-2.54" drill="1"/>
+<pad name="P11" x="12.7" y="0" drill="1"/>
+<pad name="P13" x="15.24" y="0" drill="1"/>
+<pad name="P14" x="15.24" y="-2.54" drill="1"/>
+<pad name="P16" x="17.78" y="-2.54" drill="1"/>
+<pad name="P15" x="17.78" y="0" drill="1"/>
+<pad name="P17" x="20.32" y="0" drill="1"/>
+<pad name="P18" x="20.32" y="-2.54" drill="1"/>
+<pad name="P20" x="22.86" y="-2.54" drill="1"/>
+<pad name="P19" x="22.86" y="0" drill="1"/>
+<pad name="P21" x="25.4" y="0" drill="1"/>
+<pad name="P22" x="25.4" y="-2.54" drill="1"/>
+<pad name="P24" x="27.94" y="-2.54" drill="1"/>
+<pad name="P23" x="27.94" y="0" drill="1"/>
+<pad name="P25" x="30.48" y="0" drill="1"/>
+<pad name="P26" x="30.48" y="-2.54" drill="1"/>
+<pad name="P28" x="33.02" y="-2.54" drill="1"/>
+<pad name="P27" x="33.02" y="0" drill="1"/>
+<pad name="P29" x="35.56" y="0" drill="1"/>
+<pad name="P30" x="35.56" y="-2.54" drill="1"/>
+<pad name="P32" x="38.1" y="-2.54" drill="1"/>
+<pad name="P31" x="38.1" y="0" drill="1"/>
+<pad name="P33" x="40.64" y="0" drill="1"/>
+<pad name="P34" x="40.64" y="-2.54" drill="1"/>
+<pad name="P36" x="43.18" y="-2.54" drill="1"/>
+<pad name="P35" x="43.18" y="0" drill="1"/>
+<pad name="P38" x="45.72" y="-2.54" drill="1"/>
+<pad name="P37" x="45.72" y="0" drill="1"/>
+<pad name="P39" x="48.26" y="0" drill="1"/>
+<pad name="P40" x="48.26" y="-2.54" drill="1"/>
+<pad name="P42" x="50.8" y="-2.54" drill="1"/>
+<pad name="P41" x="50.8" y="0" drill="1"/>
+<pad name="P44" x="53.34" y="-2.54" drill="1"/>
+<pad name="P43" x="53.34" y="0" drill="1"/>
+<pad name="P45" x="55.88" y="0" drill="1"/>
+<pad name="P46" x="55.88" y="-2.54" drill="1"/>
+<wire x1="-1.27" y1="-3.77" x2="57.15" y2="-3.77" width="0.127" layer="51"/>
+<wire x1="57.15" y1="-3.77" x2="57.15" y2="1.23" width="0.127" layer="51"/>
+<wire x1="57.15" y1="1.23" x2="-1.27" y2="1.23" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.23" x2="-1.27" y2="-3.77" width="0.127" layer="51"/>
+<text x="0.1" y="1.71" size="1.27" layer="21">1</text>
+<text x="-0.2" y="-5.66" size="1.27" layer="21">2</text>
+<text x="55.16" y="1.81" size="1.27" layer="21">45</text>
+<text x="55.19" y="-5.73" size="1.27" layer="21">46</text>
+<text x="3.81" y="2.54" size="1.778" layer="25">&gt;NAME</text>
+<text x="3.81" y="-6.35" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="Microchip-MCP7940N-I_SN">
@@ -608,13 +666,13 @@ Covered vias can be set in Masks (Limit).
 </pass>
 </autorouter>
 <elements>
-<element name="U16" library="Microchip_By_element14_Batch_1" package="SOIC127P600X175-8N" value="24AA256-I/SN" x="33.02" y="-26.67">
-<attribute name="PACKAGE" value="SOIC-8" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="92C6874" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="24AA256-I/SN" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="MICROCHIP" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MICROCHIP" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1331295" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
+<element name="U16" library="Microchip_By_element14_Batch_1" package="SOIC127P600X175-8N" value="24AA256-I/SN" x="29.02" y="38.33">
+<attribute name="PACKAGE" value="SOIC-8" x="2.35" y="58.65" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="92C6874" x="2.35" y="58.65" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="24AA256-I/SN" x="2.35" y="58.65" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MICROCHIP" x="2.35" y="58.65" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MICROCHIP" x="2.35" y="58.65" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1331295" x="2.35" y="58.65" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R82" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="4.7K Ohms" x="26.67" y="-36.83">
 <attribute name="OC_NEWARK" value="52K8494" x="5.08" y="-16.51" size="1.778" layer="27" display="off"/>
@@ -643,11 +701,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="KEMET" x="5.08" y="-34.29" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1288255" x="5.08" y="-34.29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U17" library="strasys_standard" package="DS-03" value="SW-DIL-3" x="27.94" y="-7.62">
-<attribute name="MPN" value="MCEI-03" x="-5.08" y="-30.48" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="Multicomp" x="-5.08" y="-30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-5.08" y="-30.48" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1523985" x="-5.08" y="-30.48" size="1.778" layer="27" display="off"/>
+<element name="U17" library="strasys_standard" package="DS-03" value="SW-DIL-3" x="56.94" y="57.38">
+<attribute name="MPN" value="MCEI-03" x="23.92" y="34.52" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Multicomp" x="23.92" y="34.52" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="23.92" y="34.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1523985" x="23.92" y="34.52" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R84" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="4.7K Ohms" x="5.08" y="-48.26">
 <attribute name="OC_NEWARK" value="52K8494" x="-5.08" y="-43.18" size="1.778" layer="27" display="off"/>
@@ -667,13 +725,13 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="1469807" x="-5.08" y="-52.07" size="1.778" layer="27" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-5.08" y="-52.07" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U8" library="Microchip-MCP7940N-I_SN" package="SOIC127P600X175-8N" value="MCP7940N-I/SN" x="6.35" y="-26.67">
-<attribute name="PACKAGE" value="SOIC-8" x="-3.81" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="26T2748 " x="-3.81" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MCP7940N-I/SN" x="-3.81" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="MICROCHIP" x="-3.81" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MICROCHIP" x="-3.81" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="2361122" x="-3.81" y="-63.5" size="1.778" layer="27" display="off"/>
+<element name="U8" library="Microchip-MCP7940N-I_SN" package="SOIC127P600X175-8N" value="MCP7940N-I/SN" x="22.35" y="57.33">
+<attribute name="PACKAGE" value="SOIC-8" x="12.19" y="20.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="26T2748 " x="12.19" y="20.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCP7940N-I/SN" x="12.19" y="20.5" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MICROCHIP" x="12.19" y="20.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MICROCHIP" x="12.19" y="20.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="2361122" x="12.19" y="20.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U9" library="strasys_standard" package="SOT95P280X145-5N" value="PMEG2005ET" x="5.08" y="-38.1">
 <attribute name="PACKAGE" value="SOT-23-3" x="-5.08" y="-74.93" size="1.778" layer="27" display="off"/>
@@ -724,12 +782,12 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="KEMET" x="-5.08" y="-114.3" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1414601" x="-5.08" y="-114.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BAT1" library="strasys_standard" package="BAT_HOLDER_16MM" value="BATTERY_COIN_CLIP" x="11.43" y="-10.16">
-<attribute name="PACKAGE" value="16mm" x="1.27" y="-128.27" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="3013" x="1.27" y="-128.27" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="Keystone" x="1.27" y="-128.27" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="KEYSTONE" x="1.27" y="-128.27" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1650698" x="1.27" y="-128.27" size="1.778" layer="27" display="off"/>
+<element name="BAT1" library="strasys_standard" package="BAT_HOLDER_16MM" value="BATTERY_COIN_CLIP" x="57.43" y="79.84">
+<attribute name="PACKAGE" value="16mm" x="47.27" y="-38.27" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3013" x="47.27" y="-38.27" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Keystone" x="47.27" y="-38.27" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="KEYSTONE" x="47.27" y="-38.27" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1650698" x="47.27" y="-38.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R87" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="1K Ohms" x="22.86" y="-57.15">
 <attribute name="OC_NEWARK" value="52K8015" x="-5.08" y="-143.51" size="1.778" layer="27" display="off"/>
@@ -749,11 +807,23 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="KEMET" x="-5.08" y="-152.4" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1414603" x="-5.08" y="-152.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="T1" library="strasys_standard" package="WS-TST-90°" value="WS-TST-90°" x="3.81" y="-74.93">
-<attribute name="MPN" value="431256038726" x="3.81" y="-74.93" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="Wuerth Electronic" x="3.81" y="-74.93" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="WURTH ELEKTRONIK" x="3.81" y="-74.93" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="2065135" x="3.81" y="-74.93" size="1.778" layer="27" display="off"/>
+<element name="T1" library="strasys_standard" package="WS-TST-90°" value="WS-TST-90°" x="55.81" y="6.07">
+<attribute name="MPN" value="431256038726" x="55.81" y="6.07" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Wuerth Electronic" x="55.81" y="6.07" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="WURTH ELEKTRONIK" x="55.81" y="6.07" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="2065135" x="55.81" y="6.07" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X1" library="strasys_standard" package="2,54_STIFTLEIST_2X23" value="944-12-46-00" x="8.9" y="14.54" rot="R90">
+<attribute name="MPN" value="" x="8.9" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="W+P" x="8.9" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="8.9" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="8.9" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="X2" library="strasys_standard" package="2,54_STIFTLEIST_2X23" value="944-12-46-00" x="44.6" y="14.54" rot="R90">
+<attribute name="MPN" value="" x="44.6" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="W+P" x="44.6" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="44.6" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="44.6" y="14.54" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -767,14 +837,18 @@ Covered vias can be set in Masks (Limit).
 <contactref element="U8" pad="8"/>
 <contactref element="R55" pad="2"/>
 <contactref element="C49" pad="2"/>
+<contactref element="X2" pad="P3"/>
+<contactref element="X2" pad="P4"/>
+<wire x1="44.6" y1="17.08" x2="47.14" y2="17.08" width="0" layer="19" extent="1-1"/>
+<wire x1="5.7912" y1="-66.04" x2="44.6" y2="17.08" width="0" layer="19" extent="1-1"/>
 <wire x1="4.2418" y1="-57.15" x2="5.7912" y2="-66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="4.2418" y1="-48.26" x2="4.2418" y2="-57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="15.9512" y1="-66.04" x2="5.7912" y2="-66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="22.0218" y1="-48.26" x2="4.2418" y2="-48.26" width="0" layer="19" extent="1-1"/>
 <wire x1="25.8318" y1="-36.83" x2="22.0218" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="35.3822" y1="-24.765" x2="25.8318" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="31.3822" y1="40.235" x2="25.8318" y2="-36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="41.4782" y1="-48.26" x2="25.8318" y2="-36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="8.8138" y1="-24.765" x2="25.8318" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="24.8138" y1="59.235" x2="25.8318" y2="-36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DGND">
 <contactref element="C48" pad="1"/>
@@ -789,54 +863,74 @@ Covered vias can be set in Masks (Limit).
 <contactref element="U8" pad="4"/>
 <contactref element="C49" pad="1"/>
 <contactref element="T1" pad="3"/>
-<wire x1="14.5288" y1="-66.04" x2="9.56" y2="-77.43" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="P1"/>
+<contactref element="X1" pad="P2"/>
+<contactref element="X2" pad="P2"/>
+<contactref element="X2" pad="P1"/>
+<contactref element="X2" pad="P43"/>
+<contactref element="X2" pad="P45"/>
+<contactref element="X2" pad="P44"/>
+<contactref element="X2" pad="P46"/>
+<wire x1="44.6" y1="14.54" x2="47.14" y2="14.54" width="0" layer="19" extent="1-1"/>
+<wire x1="11.44" y1="14.54" x2="44.6" y2="14.54" width="0" layer="19" extent="1-1"/>
+<wire x1="8.9" y1="14.54" x2="11.44" y2="14.54" width="0" layer="19" extent="1-1"/>
+<wire x1="61.56" y1="3.57" x2="8.9" y2="14.54" width="0" layer="19" extent="1-1"/>
+<wire x1="14.5288" y1="-66.04" x2="61.56" y2="3.57" width="0" layer="19" extent="1-1"/>
 <wire x1="4.3688" y1="-66.04" x2="14.5288" y2="-66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="24.6888" y1="-66.04" x2="14.5288" y2="-66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="34.8488" y1="-66.04" x2="24.6888" y2="-66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="37.3888" y1="-57.15" x2="34.8488" y2="-66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="30.6578" y1="-28.575" x2="37.3888" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="-3.81" x2="30.6578" y2="-28.575" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="-3.81" x2="30.48" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="-3.81" x2="27.94" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="-10.16" x2="25.4" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8862" y1="-28.575" x2="11.43" y2="-10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6578" y1="36.425" x2="37.3888" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="59.48" y1="61.19" x2="26.6578" y2="36.425" width="0" layer="19" extent="1-1"/>
+<wire x1="56.94" y1="61.19" x2="59.48" y2="61.19" width="0" layer="19" extent="1-1"/>
+<wire x1="54.4" y1="61.19" x2="56.94" y2="61.19" width="0" layer="19" extent="1-1"/>
+<wire x1="57.43" y1="79.84" x2="54.4" y2="61.19" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8862" y1="55.425" x2="57.43" y2="79.84" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="67.88" x2="34.8488" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="47.14" y1="67.88" x2="44.6" y2="67.88" width="0" layer="19" extent="1-1"/>
+<wire x1="47.14" y1="70.42" x2="47.14" y2="67.88" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="70.42" x2="44.6" y2="67.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R82" pad="2"/>
 <contactref element="U16" pad="3"/>
-<wire x1="30.6578" y1="-27.305" x2="27.5082" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6578" y1="37.695" x2="27.5082" y2="-36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24AA_A1">
 <contactref element="R84" pad="2"/>
 <contactref element="U16" pad="2"/>
 <contactref element="U17" pad="2"/>
-<wire x1="30.6578" y1="-26.035" x2="5.9182" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="-11.43" x2="30.6578" y2="-26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6578" y1="38.965" x2="5.9182" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="56.94" y1="53.57" x2="26.6578" y2="38.965" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24AA_A0">
 <contactref element="R85" pad="2"/>
 <contactref element="U16" pad="1"/>
 <contactref element="U17" pad="3"/>
-<wire x1="30.6578" y1="-24.765" x2="23.6982" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="-11.43" x2="30.6578" y2="-24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6578" y1="40.235" x2="23.6982" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="59.48" y1="53.57" x2="26.6578" y2="40.235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24AA_WP">
 <contactref element="R83" pad="2"/>
 <contactref element="U16" pad="7"/>
 <contactref element="U17" pad="1"/>
-<wire x1="35.3822" y1="-26.035" x2="5.9182" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="-11.43" x2="35.3822" y2="-26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="31.3822" y1="38.965" x2="5.9182" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="54.4" y1="53.57" x2="31.3822" y2="38.965" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SCL">
 <contactref element="U16" pad="6"/>
+<contactref element="X2" pad="P19"/>
+<wire x1="31.3822" y1="37.695" x2="44.6" y2="37.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SDA">
 <contactref element="U16" pad="5"/>
+<contactref element="X2" pad="P20"/>
+<wire x1="31.3822" y1="36.425" x2="47.14" y2="37.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="BAT1" pad="P2(+)"/>
 <contactref element="U9" pad="1"/>
-<wire x1="19.93" y1="-10.16" x2="3.9878" y2="-37.1602" width="0" layer="19" extent="1-1"/>
+<wire x1="65.93" y1="79.84" x2="3.9878" y2="-37.1602" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="U9" pad="3"/>
@@ -848,40 +942,172 @@ Covered vias can be set in Masks (Limit).
 <contactref element="C52" pad="2"/>
 <contactref element="U8" pad="3"/>
 <wire x1="38.8112" y1="-57.15" x2="22.0218" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8862" y1="-27.305" x2="22.0218" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8862" y1="56.695" x2="22.0218" y2="-57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="C50" pad="2"/>
 <contactref element="U19" pad="P$2"/>
 <contactref element="U8" pad="2"/>
 <wire x1="45.155" y1="-62.23" x2="26.1112" y2="-66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8862" y1="-26.035" x2="26.1112" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8862" y1="57.965" x2="26.1112" y2="-66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="C51" pad="2"/>
 <contactref element="U19" pad="P$1"/>
 <contactref element="U8" pad="1"/>
 <wire x1="41.205" y1="-62.23" x2="36.2712" y2="-66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8862" y1="-24.765" x2="36.2712" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8862" y1="59.235" x2="36.2712" y2="-66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P8_19">
 <contactref element="U8" pad="7"/>
 <contactref element="R55" pad="1"/>
-<wire x1="39.8018" y1="-48.26" x2="8.8138" y2="-26.035" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="P19"/>
+<wire x1="39.8018" y1="-48.26" x2="8.9" y2="37.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.8138" y1="57.965" x2="39.8018" y2="-48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C1_SDA">
 <contactref element="U8" pad="5"/>
+<contactref element="X2" pad="P18"/>
+<wire x1="24.8138" y1="55.425" x2="47.14" y2="34.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C1_SCL">
 <contactref element="U8" pad="6"/>
+<contactref element="X2" pad="P17"/>
+<wire x1="24.8138" y1="56.695" x2="44.6" y2="34.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYS_RESET">
 <contactref element="T1" pad="2"/>
+<contactref element="X2" pad="P10"/>
+<wire x1="57.06" y1="3.57" x2="47.14" y2="24.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE">
 <contactref element="T1" pad="1"/>
 <contactref element="T1" pad="4"/>
-<wire x1="10.81" y1="-74.93" x2="3.81" y2="-74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="62.81" y1="6.07" x2="55.81" y2="6.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P8_07">
+<contactref element="X1" pad="P7"/>
+</signal>
+<signal name="P8_08">
+<contactref element="X1" pad="P8"/>
+</signal>
+<signal name="P8_09">
+<contactref element="X1" pad="P9"/>
+</signal>
+<signal name="P8_10">
+<contactref element="X1" pad="P10"/>
+</signal>
+<signal name="P8_11">
+<contactref element="X1" pad="P11"/>
+</signal>
+<signal name="P8_12">
+<contactref element="X1" pad="P12"/>
+</signal>
+<signal name="P8_13">
+<contactref element="X1" pad="P13"/>
+</signal>
+<signal name="P8_14">
+<contactref element="X1" pad="P14"/>
+</signal>
+<signal name="P8_15">
+<contactref element="X1" pad="P15"/>
+</signal>
+<signal name="P8_16">
+<contactref element="X1" pad="P16"/>
+</signal>
+<signal name="P8_17">
+<contactref element="X1" pad="P17"/>
+</signal>
+<signal name="P8_18">
+<contactref element="X1" pad="P18"/>
+</signal>
+<signal name="P8_26">
+<contactref element="X1" pad="P26"/>
+</signal>
+<signal name="VDD5V">
+<contactref element="X2" pad="P6"/>
+<contactref element="X2" pad="P5"/>
+<wire x1="44.6" y1="19.62" x2="47.14" y2="19.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SYS5V">
+<contactref element="X2" pad="P7"/>
+<contactref element="X2" pad="P8"/>
+<wire x1="44.6" y1="22.16" x2="47.14" y2="22.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PWR_BUT">
+<contactref element="X2" pad="P9"/>
+</signal>
+<signal name="UART4_RXD">
+<contactref element="X2" pad="P11"/>
+</signal>
+<signal name="P9_12">
+<contactref element="X2" pad="P12"/>
+</signal>
+<signal name="UART4_TXD">
+<contactref element="X2" pad="P13"/>
+</signal>
+<signal name="P9_14">
+<contactref element="X2" pad="P14"/>
+</signal>
+<signal name="P9_15">
+<contactref element="X2" pad="P15"/>
+</signal>
+<signal name="P9_16">
+<contactref element="X2" pad="P16"/>
+</signal>
+<signal name="UART2_TXD">
+<contactref element="X2" pad="P21"/>
+</signal>
+<signal name="UART2_RXD">
+<contactref element="X2" pad="P22"/>
+</signal>
+<signal name="P9_23">
+<contactref element="X2" pad="P23"/>
+</signal>
+<signal name="UART1_TXD">
+<contactref element="X2" pad="P24"/>
+</signal>
+<signal name="UART1_RXD">
+<contactref element="X2" pad="P26"/>
+</signal>
+<signal name="P9_27">
+<contactref element="X2" pad="P27"/>
+</signal>
+<signal name="P9_30">
+<contactref element="X2" pad="P30"/>
+</signal>
+<signal name="VADC_1.8V">
+<contactref element="X2" pad="P32"/>
+</signal>
+<signal name="AIN4">
+<contactref element="X2" pad="P33"/>
+</signal>
+<signal name="AIN6">
+<contactref element="X2" pad="P35"/>
+</signal>
+<signal name="AIN0">
+<contactref element="X2" pad="P39"/>
+</signal>
+<signal name="P9_41">
+<contactref element="X2" pad="P41"/>
+</signal>
+<signal name="AIN5">
+<contactref element="X2" pad="P36"/>
+</signal>
+<signal name="AIN3">
+<contactref element="X2" pad="P38"/>
+</signal>
+<signal name="AIN1">
+<contactref element="X2" pad="P40"/>
+</signal>
+<signal name="P9_42">
+<contactref element="X2" pad="P42"/>
+</signal>
+<signal name="AIN2">
+<contactref element="X2" pad="P37"/>
+</signal>
+<signal name="AGND">
+<contactref element="X2" pad="P34"/>
 </signal>
 </signals>
 </board>

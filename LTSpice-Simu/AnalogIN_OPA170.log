@@ -8,16 +8,19 @@ Gmin = 1.07374
 Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-Gmin = 1.76685e-007
-Gmin = 1.89714e-008
-Gmin = 2.03704e-009
-Gmin = 2.18725e-010
-Gmin = 2.34854e-011
-Gmin = 2.52173e-012
-Gmin = 2.70769e-013
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
@@ -33,24 +36,102 @@ Changing Tseed to 0.0001
 Changing Tseed to 1e-014
 Changing Tseed to 0.001
 Changing Tseed to 1e-015
-Heightened Def Con from 3.90625e-018 to 1.625e-009
+Heightened Def Con from 3.90625e-018 to 1.30859e-010
+Heightened Def Con from 6.92357e-010 to 9.69236e-009
+Heightened Def Con from 9.18509e-007 to 9.21509e-007
+Heightened Def Con from 2.28974e-006 to 2.29474e-006
+Heightened Def Con from 2.30431e-006 to 2.30931e-006
+Heightened Def Con from 2.31842e-006 to 2.32342e-006
+Heightened Def Con from 2.32806e-006 to 2.33406e-006
+Heightened Def Con from 2.3422e-006 to 2.3472e-006
+Heightened Def Con from 2.35209e-006 to 2.3531e-006
+Heightened Def Con from 2.35649e-006 to 2.36249e-006
+Heightened Def Con from 2.37028e-006 to 2.37428e-006
+Heightened Def Con from 2.37869e-006 to 2.38469e-006
+Heightened Def Con from 2.39177e-006 to 2.39777e-006
+Heightened Def Con from 2.40209e-006 to 2.40709e-006
+Heightened Def Con from 2.41147e-006 to 2.41647e-006
+Heightened Def Con from 2.42284e-006 to 2.42884e-006
+Heightened Def Con from 2.43323e-006 to 2.43923e-006
+Heightened Def Con from 2.44592e-006 to 2.45092e-006
+Heightened Def Con from 2.45765e-006 to 2.46365e-006
+Heightened Def Con from 2.47012e-006 to 2.47612e-006
+Heightened Def Con from 2.48049e-006 to 2.48549e-006
+Heightened Def Con from 2.49009e-006 to 2.49609e-006
+Heightened Def Con from 2.50167e-006 to 2.50867e-006
+Heightened Def Con from 2.51418e-006 to 2.52018e-006
+Heightened Def Con from 2.52598e-006 to 2.53098e-006
+Heightened Def Con from 2.53677e-006 to 2.54177e-006
+Heightened Def Con from 2.54761e-006 to 2.55261e-006
+Heightened Def Con from 2.55874e-006 to 2.56374e-006
+Heightened Def Con from 2.56986e-006 to 2.57486e-006
+Heightened Def Con from 2.58064e-006 to 2.58564e-006
+Heightened Def Con from 2.59177e-006 to 2.59677e-006
+Heightened Def Con from 2.60108e-006 to 2.60708e-006
+Heightened Def Con from 2.61322e-006 to 2.61822e-006
+Heightened Def Con from 2.62435e-006 to 2.63035e-006
+Heightened Def Con from 2.63653e-006 to 2.64253e-006
+Heightened Def Con from 2.64833e-006 to 2.65433e-006
+Heightened Def Con from 2.65985e-006 to 2.66585e-006
+Heightened Def Con from 2.67079e-006 to 2.67679e-006
+Heightened Def Con from 2.68174e-006 to 2.68674e-006
+Heightened Def Con from 2.69106e-006 to 2.69706e-006
+Heightened Def Con from 2.70252e-006 to 2.70852e-006
+Heightened Def Con from 2.71408e-006 to 2.72008e-006
+Heightened Def Con from 2.72562e-006 to 2.73062e-006
+Heightened Def Con from 2.73615e-006 to 2.74115e-006
+Heightened Def Con from 2.74668e-006 to 2.75168e-006
+Heightened Def Con from 2.75719e-006 to 2.76319e-006
+Heightened Def Con from 2.76846e-006 to 2.77446e-006
+Heightened Def Con from 2.77998e-006 to 2.78498e-006
+Heightened Def Con from 2.79022e-006 to 2.79522e-006
+Heightened Def Con from 2.79954e-006 to 2.80554e-006
+Heightened Def Con from 2.81107e-006 to 2.81707e-006
+Heightened Def Con from 2.8226e-006 to 2.8286e-006
+Heightened Def Con from 2.83451e-006 to 2.84051e-006
+Heightened Def Con from 2.84666e-006 to 2.85266e-006
+Heightened Def Con from 2.85877e-006 to 2.86377e-006
+Heightened Def Con from 2.87024e-006 to 2.87624e-006
+Heightened Def Con from 2.88266e-006 to 2.88766e-006
+Heightened Def Con from 2.89438e-006 to 2.89938e-006
+Heightened Def Con from 2.90636e-006 to 2.91136e-006
+Heightened Def Con from 2.91815e-006 to 2.92415e-006
+Heightened Def Con from 2.93094e-006 to 2.93594e-006
+Heightened Def Con from 2.94265e-006 to 2.94765e-006
+Heightened Def Con from 2.95202e-006 to 2.95802e-006
+Heightened Def Con from 2.96413e-006 to 2.97013e-006
+Heightened Def Con from 2.97564e-006 to 2.98164e-006
+Heightened Def Con from 2.98605e-006 to 2.99005e-006
+Heightened Def Con from 2.99441e-006 to 2.99941e-006
+Heightened Def Con from 3.00466e-006 to 3.00591e-006
+Heightened Def Con from 3.01027e-006 to 3.01527e-006
+Heightened Def Con from 3.02053e-006 to 3.02553e-006
+Heightened Def Con from 3.02984e-006 to 3.03584e-006
+Heightened Def Con from 3.04107e-006 to 3.04707e-006
+Heightened Def Con from 3.05204e-006 to 3.05804e-006
+Heightened Def Con from 3.06382e-006 to 3.06882e-006
+Heightened Def Con from 3.07319e-006 to 3.07819e-006
+Heightened Def Con from 3.08433e-006 to 3.09033e-006
+Heightened Def Con from 3.09673e-006 to 3.10273e-006
+Heightened Def Con from 3.10853e-006 to 3.11353e-006
+Heightened Def Con from 3.11966e-006 to 3.11966e-006
 
-Date: Fri Dec 18 22:52:22 2015
-Total elapsed time: 1.841 seconds.
+Date: Tue Dec 22 15:37:00 2015
+Total elapsed time: 35.550 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 56231
-traniter = 55714
-tranpoints = 19860
-accept = 13047
-rejected = 6802
-matrix size = 183
-fillins = 507
+totiter = 1363219
+traniter = 1361672
+tranpoints = 272385
+accept = 189305
+rejected = 83147
+matrix size = 182
+fillins = 481
 solver = Normal
-Thread vector: 55.1/15.2[2] 4.0/3.4[2] 5.7/4.1[2] 2.9/2.0[2]  2592/500
-Matrix Compiler1: 41,4 KB object code size  9.9/6.5/[3.8]
-Matrix Compiler2: 22,7 KB object code size  4.6/5.9/[4.5]
+Thread vector: 32.5/15.1[2] 3.3/3.4[1] 4.5/3.5[2] 2.1/2.1[1]  2592/500
+Matrix Compiler1: 36,4 KB object code size  9.6/6.4/[3.6]
+Matrix Compiler2: 22,3 KB object code size  3.8/6.2/[2.4]
 
 
