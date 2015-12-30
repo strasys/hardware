@@ -847,7 +847,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="1856938" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.73" y="74.43" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.53" y="75.47" size="1.27" layer="27"/>
-<attribute name="MF" value="WURTH ELEKTRONIK" x="42.13" y="73" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="42.13" y="73" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="supply2" package="CAPC3216X88N" value="1000pF" x="41.94" y="77" smashed="yes">
 <attribute name="TOLERANCE" value="+/- 10%" x="102.9" y="45.25" size="1.778" layer="27" display="off"/>
@@ -888,7 +888,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="1856938" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.81" y="66.34" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.41" y="67.48" size="1.27" layer="27"/>
-<attribute name="MF" value="WURTH ELEKTRONIK" x="42.01" y="65.01" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="42.01" y="65.01" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="supply2" package="CAPC3216X88N" value="1000pF" x="41.99" y="69" smashed="yes">
 <attribute name="TOLERANCE" value="+/- 10%" x="115.65" y="37.25" size="1.778" layer="27" display="off"/>
@@ -1018,7 +1018,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="1856938" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.74" y="82.42" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.44" y="83.46" size="1.27" layer="27"/>
-<attribute name="MF" value="WURTH ELEKTRONIK" x="42.04" y="80.99" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="42.04" y="80.99" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="supply2" package="CAPC3216X88N" value="1000pF" x="41.99" y="85" smashed="yes">
 <attribute name="TOLERANCE" value="+/- 10%" x="128.35" y="53.25" size="1.778" layer="27" display="off"/>
@@ -1104,7 +1104,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="1856938" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.792496875" y="90.41816875" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.492496875" y="91.45816875" size="1.27" layer="27"/>
-<attribute name="MF" value="WURTH ELEKTRONIK" x="42.092496875" y="88.98816875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="42.092496875" y="88.98816875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="supply2" package="CAPC3216X88N" value="1000pF" x="42.135453125" y="92.933625" smashed="yes">
 <attribute name="TOLERANCE" value="+/- 10%" x="62.455453125" y="51.023625" size="1.778" layer="27" display="off"/>

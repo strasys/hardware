@@ -308,8 +308,6 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC3216X71N">
-<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
-<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
 <wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
 <wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
@@ -322,6 +320,8 @@ at 30/07/2012 16:36:08</description>
 <wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
 <wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
 <wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -749,7 +749,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-24.07" y="105.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.2956" y="64.5" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="32.4kohms" x="37.8044" y="68.145" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.35" y="64.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.35" y="64.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R5" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="1K Ohms" x="28.97" y="65.03" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="52K9723" x="-24.37" y="142.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -805,7 +805,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-43.07" y="113.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.3456" y="72.6" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="32.4kohms" x="37.8544" y="76.245" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.4" y="73.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.4" y="73.07" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="24.9K Ohms" x="34.45" y="77" smashed="yes">
 <attribute name="OC_NEWARK" value="53K0043" x="61.12" y="26.2" size="1.778" layer="27" display="off"/>
@@ -842,10 +842,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV1" library="WE-VS" package="WESURGE_0805" value="" x="42.13" y="73" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.73" y="74.43" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.53" y="75.47" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.13" y="73" size="1.778" layer="27" display="off"/>
@@ -884,10 +883,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV2" library="WE-VS" package="WESURGE_0805" value="" x="42.01" y="65.01" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.81" y="66.34" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.41" y="67.48" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.01" y="65.01" size="1.778" layer="27" display="off"/>
@@ -978,7 +976,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-11.3" y="131.87" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.4256" y="80.6" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="32.4kohms" x="37.8744" y="84.245" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.42" y="81.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.42" y="81.07" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R17" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="24.9K Ohms" x="34.45" y="85.015" smashed="yes">
 <attribute name="OC_NEWARK" value="53K0043" x="99.22" y="34.215" size="1.778" layer="27" display="off"/>
@@ -1015,10 +1013,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV3" library="WE-VS" package="WESURGE_0805" value="" x="42.04" y="80.99" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.74" y="82.42" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.44" y="83.46" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.04" y="80.99" size="1.778" layer="27" display="off"/>
@@ -1065,7 +1062,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="WATTAGE" value="0.125 W" x="-49.35" y="139.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.3756" y="88.5" size="1" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" value="32.4kohms" x="37.9244" y="92.145" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="MF" value="" x="34.47" y="88.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="34.47" y="88.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R23" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="24.9K Ohms" x="34.45" y="92.8" smashed="yes">
 <attribute name="OC_NEWARK" value="53K0043" x="61.12" y="33.11" size="1.778" layer="27" display="off"/>
@@ -1102,10 +1099,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV4" library="WE-VS" package="WESURGE_0805" value="" x="42.092496875" y="88.98816875" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.792496875" y="90.41816875" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.492496875" y="91.45816875" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.092496875" y="88.98816875" size="1.778" layer="27" display="off"/>
