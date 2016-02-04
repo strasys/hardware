@@ -2916,20 +2916,6 @@ at 28/03/2012 12:54:09</description>
 </net>
 <net name="REF2.0V" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="OUT"/>
-<wire x1="86.36" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
-<label x="104.14" y="233.68" size="1.778" layer="95"/>
-<wire x1="93.98" y1="233.68" x2="101.6" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="233.68" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="R2" gate="A" pin="1"/>
-<wire x1="101.6" y1="210.82" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="R4" gate="A" pin="2"/>
-<wire x1="111.76" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<junction x="101.6" y="215.9"/>
-<pinref part="C3" gate="A" pin="C2"/>
-<junction x="93.98" y="233.68"/>
-</segment>
-<segment>
 <wire x1="45.72" y1="119.38" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="109.22" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R9" gate="A" pin="2"/>
@@ -3247,6 +3233,22 @@ at 28/03/2012 12:54:09</description>
 <pinref part="U1" gate="A" pin="-IN_B"/>
 <wire x1="175.26" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
 <label x="165.1" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="REF2.5V" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="OUT"/>
+<wire x1="86.36" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+<label x="104.14" y="233.68" size="1.778" layer="95"/>
+<wire x1="93.98" y1="233.68" x2="101.6" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="233.68" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R2" gate="A" pin="1"/>
+<wire x1="101.6" y1="210.82" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R4" gate="A" pin="2"/>
+<wire x1="111.76" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
+<junction x="101.6" y="215.9"/>
+<pinref part="C3" gate="A" pin="C2"/>
+<junction x="93.98" y="233.68"/>
 </segment>
 </net>
 </nets>

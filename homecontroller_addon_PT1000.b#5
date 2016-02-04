@@ -308,8 +308,6 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC3216X71N">
-<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
-<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
 <wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
 <wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
@@ -322,6 +320,8 @@ at 30/07/2012 16:36:08</description>
 <wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
 <wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
 <wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -842,10 +842,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV1" library="WE-VS" package="WESURGE_0805" value="" x="42.13" y="73" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="122.14" y="-13.36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.73" y="74.43" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.53" y="75.47" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.13" y="73" size="1.778" layer="27" display="off"/>
@@ -884,10 +883,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV2" library="WE-VS" package="WESURGE_0805" value="" x="42.01" y="65.01" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="129.64" y="-21.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.81" y="66.34" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.41" y="67.48" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.01" y="65.01" size="1.778" layer="27" display="off"/>
@@ -1015,10 +1013,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV3" library="WE-VS" package="WESURGE_0805" value="" x="42.04" y="80.99" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="58.55" y="-14.26" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.74" y="82.42" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.44" y="83.46" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.04" y="80.99" size="1.778" layer="27" display="off"/>
@@ -1102,10 +1099,9 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="RV4" library="WE-VS" package="WESURGE_0805" value="" x="42.092496875" y="88.98816875" smashed="yes">
 <attribute name="PACKAGE" value="0805" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08P3036" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="82550140" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1636442" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCVZ0805M180AGT" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MULTICOMP" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1856938" x="66.222496875" y="-6.26183125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.792496875" y="90.41816875" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.492496875" y="91.45816875" size="1.27" layer="27"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="42.092496875" y="88.98816875" size="1.778" layer="27" display="off"/>
