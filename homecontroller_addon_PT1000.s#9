@@ -1569,6 +1569,19 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
+<symbol name="RESH@2">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CRCW080524K9FKEA" prefix="R">
@@ -1621,10 +1634,10 @@ at 30/07/2012 16:36:08</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW080532K4FKEA" prefix="R">
+<deviceset name="ERJ6ENF3242V" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -1634,12 +1647,11 @@ at 30/07/2012 16:36:08</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CRCW080532K4FKEA" constant="no"/>
-<attribute name="OC_FARNELL" value="-" constant="no"/>
-<attribute name="OC_NEWARK" value="53K0154" constant="no"/>
-<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
-<attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="VALUE" value="32.4K Ohms" constant="no"/>
+<attribute name="MPN" value="ERJ6ENF3242V" constant="no"/>
+<attribute name="OC_FARNELL" value="2303704" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
+<attribute name="TOLERANCE" value="+/- 1%" constant="no"/>
+<attribute name="VALUE" value="32.4kohms" constant="no"/>
 <attribute name="WATTAGE" value="0.125 W" constant="no"/>
 </technology>
 </technologies>
@@ -1649,7 +1661,7 @@ at 30/07/2012 16:36:08</description>
 <deviceset name="CRCW08051K00FKEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@2" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -2294,15 +2306,15 @@ at 30/07/2012 16:36:08</description>
 <wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="-1.524" x2="0.635" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="AGND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2363,9 +2375,11 @@ at 30/07/2012 16:36:08</description>
 element14 CAD Library consolidation.ulp
 at 28/03/2012 12:54:09</description>
 <packages>
-<package name="CAPC2013X88N">
+<package name="CAPC2013X110N">
 <smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
 <smd name="2" x="0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <wire x1="-0.3556" y1="-0.7366" x2="-0.3556" y2="0.7366" width="0" layer="51"/>
 <wire x1="-0.3556" y1="0.7366" x2="-1.0922" y2="0.7366" width="0" layer="51"/>
 <wire x1="-1.0922" y1="-0.7366" x2="-0.3556" y2="-0.7366" width="0" layer="51"/>
@@ -2384,10 +2398,12 @@ at 28/03/2012 12:54:09</description>
 <symbol name="CAPH">
 <pin name="C2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="C1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
 <wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
 <wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
+<text x="-5.6642" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.9144" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
 <wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
 <text x="-5.6642" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
@@ -2395,25 +2411,25 @@ at 28/03/2012 12:54:09</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C0805F104K5RACAUTO" prefix="C">
+<deviceset name="C0805C104K5RACTU" prefix="C">
 <description>CAPACITOR, 0805</description>
 <gates>
 <gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="CAPC2013X88N">
+<device name="" package="CAPC2013X110N">
 <connects>
 <connect gate="A" pin="C1" pad="1"/>
 <connect gate="A" pin="C2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="C0805F104K5RACAUTO" constant="no"/>
-<attribute name="OC_FARNELL" value="1869054" constant="no"/>
-<attribute name="OC_NEWARK" value="32T6746" constant="no"/>
-<attribute name="SUPPLIER" value="KEMET" constant="no"/>
+<attribute name="MPN" value="C0805C104K5RACTU" constant="no"/>
+<attribute name="OC_FARNELL" value="1414664" constant="no"/>
+<attribute name="OC_NEWARK" value="65H7431" constant="no"/>
+<attribute name="SUPPLIER" value="Kemet" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
 <attribute name="VOLTAGERATING" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -2591,10 +2607,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R3" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R4" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R4" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R5" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2609,10 +2623,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R9" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R10" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2630,10 +2642,10 @@ at 28/03/2012 12:54:09</description>
 <attribute name="MF" value="KEMET"/>
 <attribute name="OC_FARNELL" value="1826304"/>
 </part>
-<part name="C2" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C2" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="C3" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C3" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="RV2" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550140">
@@ -2644,16 +2656,16 @@ at 28/03/2012 12:54:09</description>
 <attribute name="OC_FARNELL" value="1826304"/>
 </part>
 <part name="SGND" library="strasys_standard" deviceset="GND2" device="" value="SGND"/>
-<part name="C5" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C5" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="R13" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K0JNEA" device="" value="10K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="C6" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C6" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="C7" library="Kemet_By_element14_1" deviceset="C0805F104K5RACAUTO" device="" value="0.1uF">
+<part name="C7" library="Kemet_By_element14_1" deviceset="C0805C104K5RACTU" device="" value="100nF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="R14" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-3W" technology="3YSX50B14" value=" 10KOHM ">
@@ -2663,10 +2675,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R15" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R16" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R16" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R17" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
@@ -2691,10 +2701,8 @@ at 28/03/2012 12:54:09</description>
 <part name="R21" library="Vishay_By_element14_Batch_1" deviceset="CRCW080530K0FKEA" device="" value="30K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R22" library="Vishay_By_element14_Batch_1" deviceset="CRCW080532K4FKEA" device="" value="32.4K Ohms">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="R22" library="Vishay_By_element14_Batch_1" deviceset="ERJ6ENF3242V" device="" value="32.4kohms">
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 </part>
 <part name="R23" library="Vishay_By_element14_Batch_1" deviceset="CRCW080524K9FKEA" device="" value="24.9K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
