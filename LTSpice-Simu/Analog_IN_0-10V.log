@@ -25,6 +25,10 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 Changing Tseed to 1e-008
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
 Changing Tseed to 1e-010
 Changing Tseed to 1e-007
 Changing Tseed to 1e-011
@@ -36,6 +40,7 @@ Changing Tseed to 0.0001
 Changing Tseed to 1e-014
 Changing Tseed to 0.001
 Changing Tseed to 1e-015
+<<<<<<< HEAD
 Heightened Def Con from 3.90625e-018 to 1.625e-009
 Heightened Def Con from 1.98266e-007 to 2.00266e-007
 Heightened Def Con from 3.22548e-007 to 3.25548e-007
@@ -100,20 +105,62 @@ Heightened Def Con from 2.77311e-006 to 2.77311e-006
 
 Date: Fri Feb 12 21:14:58 2016
 Total elapsed time: 49.860 seconds.
+=======
+Heightened Def Con from 3.90625e-018 ++++++++++++++++++to 1.8272e-016
+
+Date: Fri Feb 05 21:56:08 2016
+Total elapsed time: 0.765 seconds.
+=======
+Heightened Def Con from 1.45692e-007 to 1.49692e-007
+Heightened Def Con from 1.62656e-007 to 1.66656e-007
+Heightened Def Con from 1.68283e-007 to 1.70283e-007
+
+Date: Thu Feb 11 13:44:57 2016
+Total elapsed time: 1.815 seconds.
+>>>>>>> origin/master
+>>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
 
 tnom = 27
 temp = 27
 method = modified trap
+<<<<<<< HEAD
 totiter = 1486877
 traniter = 1485329
 tranpoints = 297837
 accept = 211149
 rejected = 86737
+=======
+<<<<<<< HEAD
+totiter = 7516
+traniter = 5611
+tranpoints = 1607
+accept = 1354
+rejected = 260
+matrix size = 181
+fillins = 606
+solver = Normal
+Thread vector: 37.2/20.9[2] 4.0/3.1[2] 3.4/2.4[2] 1.6/6.2[1]  2592/500
+Matrix Compiler1: 47,9 KB object code size  10.8/7.6/[4.4]
+Matrix Compiler2: 24,3 KB object code size  4.6/6.8/[3.7]
+=======
+totiter = 34689
+traniter = 32800
+tranpoints = 6969
+accept = 5262
+rejected = 1709
+>>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
 matrix size = 183
 fillins = 488
 solver = Normal
+<<<<<<< HEAD
 Thread vector: 20.6/16.6[2] 5.4/4.5[2] 4.9/3.7[2] 2.4/2.6[1]  2592/500
 Matrix Compiler1: 36.82 KB object code size  14.1/10.8/[4.0]
 Matrix Compiler2: 22.59 KB object code size  5.3/6.9/[2.6]
+=======
+Thread vector: 19.5/14.8[2] 5.9/4.5[2] 4.7/3.7[2] 2.1/2.5[1]  2592/500
+Matrix Compiler1: 46.83 KB object code size  16.4/12.6/[5.0]
+Matrix Compiler2: 23.48 KB object code size  5.5/7.1/[2.5]
+>>>>>>> origin/master
+>>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
 
 
