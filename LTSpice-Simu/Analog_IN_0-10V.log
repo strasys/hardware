@@ -1,5 +1,8 @@
-Circuit: * Z:\home\johannes\eagle\homecontroller\LTSpice-Simu\Analog_IN_0-10V.asc
+Circuit: * C:\users\johannes\Meine Dokumente\eagle\homecontroller\LTSpice-Simu\Analog_IN_0-10V.asc
 
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by R:U2:.
 u1:vccvs1_in: Missing value, assumed 0V @ DC
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -24,143 +27,22 @@ vernier = 0.000488281
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Changing Tseed to 1e-008
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
-Changing Tseed to 1e-010
-Changing Tseed to 1e-007
-Changing Tseed to 1e-011
-Changing Tseed to 1e-006
-Changing Tseed to 1e-012
-Changing Tseed to 1e-005
-Changing Tseed to 1e-013
-Changing Tseed to 0.0001
-Changing Tseed to 1e-014
-Changing Tseed to 0.001
-Changing Tseed to 1e-015
-<<<<<<< HEAD
-Heightened Def Con from 3.90625e-018 to 1.625e-009
-Heightened Def Con from 1.98266e-007 to 2.00266e-007
-Heightened Def Con from 3.22548e-007 to 3.25548e-007
-Heightened Def Con from 1.77227e-006 to 1.77727e-006
-Heightened Def Con from 1.78408e-006 to 1.78808e-006
-Heightened Def Con from 1.79592e-006 to 1.79992e-006
-Heightened Def Con from 1.80705e-006 to 1.81205e-006
-Heightened Def Con from 2.11469e-006 to 2.12069e-006
-Heightened Def Con from 2.12823e-006 to 2.13423e-006
-Heightened Def Con from 2.14125e-006 to 2.14625e-006
-Heightened Def Con from 2.15319e-006 to 2.15919e-006
-Heightened Def Con from 2.16647e-006 to 2.17147e-006
-Heightened Def Con from 2.17846e-006 to 2.18346e-006
-Heightened Def Con from 2.18979e-006 to 2.19579e-006
-Heightened Def Con from 2.20278e-006 to 2.20778e-006
-Heightened Def Con from 2.21479e-006 to 2.21979e-006
-Heightened Def Con from 2.22677e-006 to 2.23277e-006
-Heightened Def Con from 2.23973e-006 to 2.24473e-006
-Heightened Def Con from 2.25062e-006 to 2.25562e-006
-Heightened Def Con from 2.26261e-006 to 2.26861e-006
-Heightened Def Con from 2.27588e-006 to 2.28188e-006
-Heightened Def Con from 2.28947e-006 to 2.29547e-006
-Heightened Def Con from 2.30307e-006 to 2.30907e-006
-Heightened Def Con from 2.3166e-006 to 2.3186e-006
-Heightened Def Con from 2.32472e-006 to 2.33072e-006
-Heightened Def Con from 2.33679e-006 to 2.34179e-006
-Heightened Def Con from 2.34794e-006 to 2.35394e-006
-Heightened Def Con from 2.36114e-006 to 2.36714e-006
-Heightened Def Con from 2.37409e-006 to 2.38009e-006
-Heightened Def Con from 2.38709e-006 to 2.39309e-006
-Heightened Def Con from 2.39983e-006 to 2.40583e-006
-Heightened Def Con from 2.41253e-006 to 2.41853e-006
-Heightened Def Con from 2.4247e-006 to 2.4297e-006
-Heightened Def Con from 2.43582e-006 to 2.44182e-006
-Heightened Def Con from 2.44886e-006 to 2.45186e-006
-Heightened Def Con from 2.45854e-006 to 2.46354e-006
-Heightened Def Con from 2.46966e-006 to 2.47566e-006
-Heightened Def Con from 2.48268e-006 to 2.48868e-006
-Heightened Def Con from 2.49568e-006 to 2.50168e-006
-Heightened Def Con from 2.50868e-006 to 2.51468e-006
-Heightened Def Con from 2.52102e-006 to 2.52702e-006
-Heightened Def Con from 2.53435e-006 to 2.54035e-006
-Heightened Def Con from 2.54789e-006 to 2.55389e-006
-Heightened Def Con from 2.56116e-006 to 2.56616e-006
-Heightened Def Con from 2.57367e-006 to 2.57967e-006
-Heightened Def Con from 2.58723e-006 to 2.59223e-006
-Heightened Def Con from 2.59976e-006 to 2.60476e-006
-Heightened Def Con from 2.61089e-006 to 2.61589e-006
-Heightened Def Con from 2.62369e-006 to 2.62869e-006
-Heightened Def Con from 2.63485e-006 to 2.64085e-006
-Heightened Def Con from 2.64865e-006 to 2.65465e-006
-Heightened Def Con from 2.66163e-006 to 2.66763e-006
-Heightened Def Con from 2.6749e-006 to 2.6799e-006
-Heightened Def Con from 2.68745e-006 to 2.69345e-006
-Heightened Def Con from 2.69957e-006 to 2.70457e-006
-Heightened Def Con from 2.71129e-006 to 2.71629e-006
-Heightened Def Con from 2.72326e-006 to 2.72826e-006
-Heightened Def Con from 2.73443e-006 to 2.74043e-006
-Heightened Def Con from 2.74774e-006 to 2.75274e-006
-Heightened Def Con from 2.76005e-006 to 2.76605e-006
-Heightened Def Con from 2.77311e-006 to 2.77311e-006
 
-Date: Fri Feb 12 21:14:58 2016
-Total elapsed time: 49.860 seconds.
-=======
-Heightened Def Con from 3.90625e-018 ++++++++++++++++++to 1.8272e-016
-
-Date: Fri Feb 05 21:56:08 2016
-Total elapsed time: 0.765 seconds.
-=======
-Heightened Def Con from 1.45692e-007 to 1.49692e-007
-Heightened Def Con from 1.62656e-007 to 1.66656e-007
-Heightened Def Con from 1.68283e-007 to 1.70283e-007
-
-Date: Thu Feb 11 13:44:57 2016
-Total elapsed time: 1.815 seconds.
->>>>>>> origin/master
->>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
+Date: Sun Mar 20 21:36:10 2016
+Total elapsed time: 0.469 seconds.
 
 tnom = 27
 temp = 27
-method = modified trap
-<<<<<<< HEAD
-totiter = 1486877
-traniter = 1485329
-tranpoints = 297837
-accept = 211149
-rejected = 86737
-=======
-<<<<<<< HEAD
-totiter = 7516
-traniter = 5611
-tranpoints = 1607
-accept = 1354
-rejected = 260
-matrix size = 181
-fillins = 606
+method = trap
+totiter = 1548
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 187
+fillins = 328
 solver = Normal
-Thread vector: 37.2/20.9[2] 4.0/3.1[2] 3.4/2.4[2] 1.6/6.2[1]  2592/500
-Matrix Compiler1: 47,9 KB object code size  10.8/7.6/[4.4]
-Matrix Compiler2: 24,3 KB object code size  4.6/6.8/[3.7]
-=======
-totiter = 34689
-traniter = 32800
-tranpoints = 6969
-accept = 5262
-rejected = 1709
->>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
-matrix size = 183
-fillins = 488
-solver = Normal
-<<<<<<< HEAD
-Thread vector: 20.6/16.6[2] 5.4/4.5[2] 4.9/3.7[2] 2.4/2.6[1]  2592/500
-Matrix Compiler1: 36.82 KB object code size  14.1/10.8/[4.0]
-Matrix Compiler2: 22.59 KB object code size  5.3/6.9/[2.6]
-=======
-Thread vector: 19.5/14.8[2] 5.9/4.5[2] 4.7/3.7[2] 2.1/2.5[1]  2592/500
-Matrix Compiler1: 46.83 KB object code size  16.4/12.6/[5.0]
-Matrix Compiler2: 23.48 KB object code size  5.5/7.1/[2.5]
->>>>>>> origin/master
->>>>>>> c024d22770237aba7a82f38ffc89d49c6a18281e
+Matrix Compiler1:    1409 opcodes
+Matrix Compiler2: 20.05 KB object code size  5.1/6.8/[2.5]
 
 

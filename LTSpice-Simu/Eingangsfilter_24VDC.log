@@ -1,0 +1,21 @@
+Circuit: * C:\users\johannes\Meine Dokumente\eagle\homecontroller\LTSpice-Simu\Eingangsfilter_24VDC.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Mar 20 19:16:46 2016
+Total elapsed time: 0.074 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 3
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1:      13 opcodes
+Matrix Compiler2: 355 bytes object code size
+
