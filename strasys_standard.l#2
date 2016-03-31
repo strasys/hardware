@@ -1495,6 +1495,38 @@ Fa. Aurel</description>
 <text x="0" y="-6.35" size="1.778" layer="25">&gt;NAME</text>
 <text x="0" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="2,54_2X8">
+<wire x1="-4.1" y1="-4.2" x2="11.7" y2="-4.2" width="0.127" layer="51"/>
+<wire x1="11.7" y1="-4.2" x2="11.7" y2="1.7" width="0.127" layer="51"/>
+<wire x1="11.7" y1="1.7" x2="-4.1" y2="1.7" width="0.127" layer="51"/>
+<pad name="P1" x="0" y="0" drill="1" shape="square"/>
+<pad name="P2" x="0" y="-2.54" drill="1"/>
+<pad name="P3" x="2.54" y="0" drill="1"/>
+<pad name="P4" x="2.54" y="-2.54" drill="1"/>
+<pad name="P5" x="5.08" y="0" drill="1"/>
+<pad name="P6" x="5.08" y="-2.54" drill="1"/>
+<pad name="P7" x="7.62" y="0" drill="1"/>
+<pad name="P8" x="7.62" y="-2.54" drill="1"/>
+<text x="-2.6" y="-0.29" size="1.27" layer="21">1</text>
+<text x="-2.6" y="-3.16" size="1.27" layer="21">2</text>
+<text x="9.74" y="-0.19" size="1.27" layer="21">7</text>
+<text x="9.77" y="-3.43" size="1.27" layer="21">8</text>
+<text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<wire x1="-4.1" y1="1.7" x2="-4.1" y2="-4.2" width="0.127" layer="51"/>
+</package>
+<package name="2,54_2X1">
+<wire x1="-1.27" y1="-3.77" x2="1.27" y2="-3.77" width="0.127" layer="51"/>
+<wire x1="1.27" y1="-3.77" x2="1.27" y2="1.23" width="0.127" layer="51"/>
+<wire x1="1.27" y1="1.23" x2="-1.27" y2="1.23" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.23" x2="-1.27" y2="-3.77" width="0.127" layer="51"/>
+<pad name="P1" x="0" y="0" drill="1" shape="square"/>
+<pad name="P2" x="0" y="-2.54" drill="1"/>
+<text x="0.1" y="1.71" size="1.27" layer="21">1</text>
+<text x="-0.2" y="-5.66" size="1.27" layer="21">2</text>
+<text x="-5.08" y="3.81" size="1.778" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1V2">
@@ -2213,16 +2245,22 @@ SGND_TTL</description>
 <text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="DOUBLE-MALE-8">
-<pin name="P$1" x="-7.62" y="2.54" visible="off" length="middle"/>
-<pin name="P$2" x="-7.62" y="0" visible="off" length="middle"/>
-<pin name="P$3" x="-7.62" y="-2.54" visible="off" length="middle"/>
-<pin name="P$4" x="-7.62" y="-5.08" visible="off" length="middle"/>
-<pin name="P$5" x="7.62" y="2.54" visible="off" length="middle" rot="R180"/>
-<pin name="P$6" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="P$7" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
-<pin name="P$8" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="1" x="-10.16" y="2.54" visible="pin" length="middle"/>
+<pin name="3" x="-10.16" y="0" visible="pin" length="middle"/>
+<pin name="5" x="-10.16" y="-2.54" visible="pin" length="middle"/>
+<pin name="7" x="-10.16" y="-5.08" visible="pin" length="middle"/>
+<pin name="2" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="4" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="8" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="DOUBLE-MALE-2">
+<pin name="1" x="-10.16" y="0" visible="pin" length="middle"/>
+<pin name="2" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5567,9 +5605,61 @@ bidirectional</description>
 <gate name="G$1" symbol="DOUBLE-MALE-8" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="S2L-90G-8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SUPPLIER" value="Weidmüller" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="140-08-FLACHBAND1.27" prefix="X">
+<description>&lt;b&gt;IDC Leiterplattenverbinder RM 2,54&lt;/b&gt;&lt;br&gt;
+Flachbandkabel 1,27 mm</description>
+<gates>
+<gate name="G$1" symbol="DOUBLE-MALE-8" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="2,54_2X8">
+<connects>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+<connect gate="G$1" pin="3" pad="P3"/>
+<connect gate="G$1" pin="4" pad="P4"/>
+<connect gate="G$1" pin="5" pad="P5"/>
+<connect gate="G$1" pin="6" pad="P6"/>
+<connect gate="G$1" pin="7" pad="P7"/>
+<connect gate="G$1" pin="8" pad="P8"/>
+</connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="944-12-2-00">
+<description>&lt;b&gt;Stiftleiste RM 2,54mm gerade 2 x 1&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOUBLE-MALE-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MPN" value="944-14-2-xx" constant="no"/>
+<attribute name="SUPPLIER" value="W+P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
