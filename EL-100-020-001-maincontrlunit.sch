@@ -9683,8 +9683,8 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <wire x1="73.66" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="119.38" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="104.14" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <junction x="81.28" y="119.38"/>
+<wire x1="73.66" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="134.62" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <junction x="81.28" y="134.62"/>
@@ -9731,6 +9731,8 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <junction x="302.26" y="246.38"/>
 <pinref part="C1" gate="A" pin="C2"/>
 <pinref part="D1" gate="D$1" pin="2"/>
+<pinref part="OC2" gate="OC$1" pin="14"/>
+<junction x="73.66" y="119.38"/>
 </segment>
 </net>
 <net name="OUT_3" class="0">
@@ -10159,22 +10161,25 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <junction x="142.24" y="210.82"/>
 <pinref part="U3" gate="A" pin="TAB"/>
 <wire x1="152.4" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="220.98" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="205.74" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="220.98" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
+<label x="142.24" y="246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
 <junction x="86.36" y="220.98"/>
-<wire x1="86.36" y1="236.22" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="OC4" gate="OC$1" pin="14"/>
+<wire x1="78.74" y1="220.98" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="OC4" gate="OC$1" pin="16"/>
 <wire x1="78.74" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
 <junction x="86.36" y="236.22"/>
 <wire x1="86.36" y1="246.38" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="OC4" gate="OC$1" pin="16"/>
-<pinref part="OC4" gate="OC$1" pin="10"/>
+<wire x1="86.36" y1="236.22" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="220.98" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="OC4" gate="OC$1" pin="12"/>
 <wire x1="78.74" y1="205.74" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
 <junction x="86.36" y="205.74"/>
+<wire x1="86.36" y1="205.74" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="OC4" gate="OC$1" pin="10"/>
 <label x="86.36" y="246.38" size="1.778" layer="95"/>
-<label x="142.24" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12556,6 +12561,45 @@ Multicomp: MCVZ0805M140AGT
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,3,170.18,182.88,U8,MFP,,,,"/>
+<approved hash="206,4,180.34,190.5,OUT_1,,,,,"/>
+<approved hash="206,4,180.34,185.42,OUT_1,,,,,"/>
+<approved hash="206,4,180.34,187.96,OUT_1,,,,,"/>
+<approved hash="206,4,180.34,198.12,OUT_2,,,,,"/>
+<approved hash="206,4,180.34,193.04,OUT_2,,,,,"/>
+<approved hash="206,4,180.34,195.58,OUT_2,,,,,"/>
+<approved hash="206,4,180.34,205.74,OUT_3,,,,,"/>
+<approved hash="206,4,180.34,200.66,OUT_3,,,,,"/>
+<approved hash="206,4,180.34,203.2,OUT_3,,,,,"/>
+<approved hash="206,4,180.34,213.36,OUT_4,,,,,"/>
+<approved hash="206,4,180.34,208.28,OUT_4,,,,,"/>
+<approved hash="206,4,180.34,210.82,OUT_4,,,,,"/>
+<approved hash="206,4,182.88,86.36,OUT_5,,,,,"/>
+<approved hash="206,4,182.88,81.28,OUT_5,,,,,"/>
+<approved hash="206,4,182.88,83.82,OUT_5,,,,,"/>
+<approved hash="206,4,182.88,93.98,OUT_6,,,,,"/>
+<approved hash="206,4,182.88,88.9,OUT_6,,,,,"/>
+<approved hash="206,4,182.88,91.44,OUT_6,,,,,"/>
+<approved hash="206,4,182.88,101.6,OUT_7,,,,,"/>
+<approved hash="206,4,182.88,96.52,OUT_7,,,,,"/>
+<approved hash="206,4,182.88,99.06,OUT_7,,,,,"/>
+<approved hash="206,4,182.88,109.22,OUT_8,,,,,"/>
+<approved hash="206,4,182.88,104.14,OUT_8,,,,,"/>
+<approved hash="206,4,182.88,106.68,OUT_8,,,,,"/>
+<approved hash="206,5,187.96,187.96,OUT_9,,,,,"/>
+<approved hash="206,5,187.96,182.88,OUT_9,,,,,"/>
+<approved hash="206,5,187.96,185.42,OUT_9,,,,,"/>
+<approved hash="206,5,187.96,195.58,OUT_10,,,,,"/>
+<approved hash="206,5,187.96,190.5,OUT_10,,,,,"/>
+<approved hash="206,5,187.96,193.04,OUT_10,,,,,"/>
+<approved hash="206,5,187.96,203.2,OUT_11,,,,,"/>
+<approved hash="206,5,187.96,198.12,OUT_11,,,,,"/>
+<approved hash="206,5,187.96,200.66,OUT_11,,,,,"/>
+<approved hash="206,5,187.96,210.82,OUT_12,,,,,"/>
+<approved hash="206,5,187.96,205.74,OUT_12,,,,,"/>
+<approved hash="206,5,187.96,208.28,OUT_12,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

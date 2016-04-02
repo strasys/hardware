@@ -4449,9 +4449,27 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="RESC3216X71N">
+<wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="0.8636" x2="-1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="-0.8636" x2="-0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="-0.8636" x2="1.6764" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="0.8636" x2="0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="-0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
-<symbol name="RESH">
+<symbol name="RESH@1">
 <pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
@@ -4464,12 +4482,25 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
+<symbol name="RESH">
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CRCW08051K00FKEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -4494,7 +4525,7 @@ at 30/07/2012 16:36:08</description>
 <deviceset name="CRCW080510K0JNEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -4519,7 +4550,7 @@ at 30/07/2012 16:36:08</description>
 <deviceset name="CRCW08051K00JNEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -4544,7 +4575,7 @@ at 30/07/2012 16:36:08</description>
 <deviceset name="CRCW080547K0JNEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -4569,7 +4600,7 @@ at 30/07/2012 16:36:08</description>
 <deviceset name="CRCW08054K70JNEB" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="RESH@1" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="RESC2013X65N">
@@ -4586,6 +4617,31 @@ at 30/07/2012 16:36:08</description>
 <attribute name="TOLERANCE" value="±5%" constant="no"/>
 <attribute name="VALUE" value="4.7K Ohms" constant="no"/>
 <attribute name="WATTAGE" value="0.125W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW12060000Z0EA" prefix="R">
+<description>RESISTOR, 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW12060000Z0EA" constant="no"/>
+<attribute name="OC_FARNELL" value="1469963" constant="no"/>
+<attribute name="OC_NEWARK" value="53K1778" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="-" constant="no"/>
+<attribute name="VALUE" value="0 Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.25W" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7551,7 +7607,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <part name="SUPPLY16" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="0V" device=""/>
-<part name="SUPPLY27" library="supply2" deviceset="PE" device=""/>
+<part name="PE" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="PE" device=""/>
@@ -7931,6 +7987,9 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 </part>
 <part name="X13" library="strasys_standard" deviceset="140-08-FLACHBAND1.27" device=""/>
 <part name="X14" library="strasys_standard" deviceset="944-12-2-00" device=""/>
+<part name="R66" library="Vishay_By_element14_Batch_1" deviceset="CRCW12060000Z0EA" device="" value="0 Ohms"/>
+<part name="SUPPLY105" library="supply2" deviceset="AGND" device=""/>
+<part name="SUPPLY107" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10407,7 +10466,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <instance part="SUPPLY16" gate="0V" x="129.54" y="200.66"/>
 <instance part="SUPPLY22" gate="0V" x="129.54" y="180.34"/>
 <instance part="SUPPLY23" gate="0V" x="129.54" y="160.02"/>
-<instance part="SUPPLY27" gate="PE" x="185.42" y="220.98"/>
+<instance part="PE" gate="PE" x="185.42" y="220.98"/>
 <instance part="SUPPLY28" gate="PE" x="185.42" y="203.2"/>
 <instance part="SUPPLY29" gate="PE" x="185.42" y="182.88"/>
 <instance part="SUPPLY30" gate="PE" x="185.42" y="162.56"/>
@@ -10582,7 +10641,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="C1"/>
-<pinref part="SUPPLY27" gate="PE" pin="PE"/>
+<pinref part="PE" gate="PE" pin="PE"/>
 <wire x1="185.42" y1="223.52" x2="185.42" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -11563,6 +11622,12 @@ Multicomp: MCVZ0805M140AGT
 </instance>
 <instance part="SUPPLY98" gate="PE" x="325.12" y="38.1" rot="MR0"/>
 <instance part="SUPPLY99" gate="G$1" x="312.42" y="38.1" rot="MR0"/>
+<instance part="R66" gate="A" x="254" y="241.3" smashed="yes">
+<attribute name="VALUE" x="255.9558" y="235.1024" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="254.9906" y="244.0686" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="SUPPLY105" gate="G$1" x="246.38" y="233.68" rot="MR0"/>
+<instance part="SUPPLY107" gate="G$1" x="274.32" y="233.68"/>
 </instances>
 <busses>
 </busses>
@@ -11772,6 +11837,12 @@ Multicomp: MCVZ0805M140AGT
 <wire x1="264.16" y1="96.52" x2="269.24" y2="96.52" width="0.1524" layer="91"/>
 <label x="269.24" y="96.52" size="1.778" layer="95"/>
 <pinref part="X8" gate="G$1" pin="B4"/>
+</segment>
+<segment>
+<wire x1="254" y1="241.3" x2="246.38" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="241.3" x2="246.38" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R66" gate="A" pin="2"/>
+<pinref part="SUPPLY105" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="ANA_1.1" class="0">
@@ -12238,6 +12309,14 @@ Multicomp: MCVZ0805M140AGT
 <pinref part="X5" gate="G$1" pin="A10"/>
 <wire x1="139.7" y1="180.34" x2="132.08" y2="180.34" width="0.1524" layer="91"/>
 <label x="119.38" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DGND" class="0">
+<segment>
+<pinref part="SUPPLY107" gate="G$1" pin="DGND"/>
+<wire x1="274.32" y1="236.22" x2="274.32" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="R66" gate="A" pin="1"/>
+<wire x1="266.7" y1="241.3" x2="274.32" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
