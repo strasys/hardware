@@ -28,7 +28,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -1668,7 +1668,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="VISHAY DRALORIC" x="202.5" y="194" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1514867" x="202.5" y="194" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="202.5" y="194" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="117.5" y="29.2" size="1.016" layer="25" rot="SR0"/>
+<attribute name="NAME" x="116.8" y="29.2" size="1.016" layer="25" rot="SR0"/>
 <attribute name="VALUE" x="122.1544" y="31.175" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="C3" library="Kemet_By_element14_1" package="CAPC2013X88N" value="10nF" x="115.3" y="11.3" smashed="yes">
@@ -2681,36 +2681,36 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="84.25" y="81.85" size="1.778" layer="25" rot="R180"/>
 <attribute name="VALUE" x="84.1" y="83.79" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="C41" library="strasys_standard" package="CAPAE660X610N" value=" 47UF" x="6.1" y="26.1" smashed="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-D" x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="23T0848" x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK1C470P" x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="16V" x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1850100  " x="6.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.2306" y="27.1736" size="1.016" layer="25" rot="SR270"/>
-<attribute name="VALUE" x="0.4358" y="31.688" size="2.0828" layer="27" ratio="10" rot="SR270"/>
+<element name="C41" library="strasys_standard" package="CAPAE660X610N" value=" 47UF" x="7" y="27.9" smashed="yes">
+<attribute name="PACKAGE" value="CASE-D" x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="23T0848" x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±20 %" x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EEE-FK1C470P" x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="PANASONIC" x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGERATING" value="16V" x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1850100  " x="7" y="27.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0.8264" y="29.5306" size="1.016" layer="25" rot="SR0"/>
+<attribute name="VALUE" x="1.412" y="22.2358" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="L1" library="WE-CBF" package="1206" value="" x="7.7" y="32.5" smashed="yes" rot="R180">
-<attribute name="PACKAGE" value="IND-1206" x="7.7" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="08P2403" x="7.7" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="74279218" x="7.7" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="Wuerth Elektronik" x="7.7" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1635758" x="7.7" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="9.29" y="34.2475" size="0.6096" layer="27" rot="R180"/>
-<attribute name="NAME" x="8.99" y="34.6875" size="1.016" layer="25" rot="R180"/>
+<element name="L1" library="WE-CBF" package="1206" value="" x="7.4" y="22.4" smashed="yes" rot="R180">
+<attribute name="PACKAGE" value="IND-1206" x="7.4" y="22.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="08P2403" x="7.4" y="22.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="74279218" x="7.4" y="22.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" x="7.4" y="22.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1635758" x="7.4" y="22.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="8.99" y="24.1475" size="0.6096" layer="27" rot="R180"/>
+<attribute name="NAME" x="3.89" y="22.8875" size="1.016" layer="25" rot="R180"/>
 </element>
-<element name="C42" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="7.5" y="35.8" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="65H7431" x="7.5" y="35.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="7.5" y="35.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="C0805C104K5RACTU" x="7.5" y="35.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="Kemet" x="7.5" y="35.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGERATING" value="50V" x="7.5" y="35.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1414664" x="7.5" y="35.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="10.9544" y="38.975" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="9.8456" y="35.67" size="1.016" layer="25" rot="SR0"/>
-<attribute name="VALUE" x="10.9544" y="38.975" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<element name="C42" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="8.7" y="33" smashed="yes" rot="R180">
+<attribute name="OC_NEWARK" value="65H7431" x="8.7" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="8.7" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C104K5RACTU" x="8.7" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="8.7" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGERATING" value="50V" x="8.7" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1414664" x="8.7" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="12.1544" y="36.175" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="4.1456" y="32.57" size="1.016" layer="25" rot="SR0"/>
+<attribute name="VALUE" x="12.1544" y="36.175" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="RV1" library="WE-VS" package="WESURGE_0805" value="" x="71.5" y="20.4" smashed="yes" rot="R270">
 <attribute name="PACKAGE" value="0805" x="71.5" y="20.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2788,14 +2788,14 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="82.895" y="14.1456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="80.163" y="18.5544" size="2.0828" layer="27" ratio="10" rot="SR270"/>
 </element>
-<element name="RV5" library="WE-VS" package="WESURGE_0805" value="" x="98.1" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="64.3" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="64.3" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="64.3" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="64.3" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="64.3" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="96.97" y="64.7" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="95.63" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV5" library="WE-VS" package="WESURGE_0805" value="" x="98.1" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="64.3" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="64.3" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="64.3" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="64.3" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="64.3" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="96.77" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="95.63" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C47" library="supply2" package="CAPC3216X88N" value="1000pF" x="99.6" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="99.6" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2804,17 +2804,17 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VOLTAGE_RATING" value="1000V" x="99.6" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="KEMET" x="99.6" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1826304" x="99.6" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="98.395" y="69.5456" size="1.016" layer="25" rot="SR90"/>
+<attribute name="NAME" x="98.395" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="103.537" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="RV6" library="WE-VS" package="WESURGE_0805" value="" x="94.5" y="65.7" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="60.7" y="49.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="60.7" y="49.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="60.7" y="49.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="60.7" y="49.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="60.7" y="49.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="93.47" y="64.6" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.03" y="62.1" size="1.27" layer="27" rot="R90"/>
+<element name="RV6" library="WE-VS" package="WESURGE_0805" value="" x="94.5" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="60.7" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="60.7" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="60.7" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="60.7" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="60.7" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="93.17" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="92.03" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C53" library="supply2" package="CAPC3216X88N" value="1000pF" x="96.1" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="96.1" y="54.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2826,14 +2826,14 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="94.795" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="100.037" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="RV7" library="WE-VS" package="WESURGE_0805" value="" x="90.9" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="66.5" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="66.5" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="66.5" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="66.5" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="66.5" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="89.67" y="64.3" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="88.43" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV7" library="WE-VS" package="WESURGE_0805" value="" x="90.9" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="66.5" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="66.5" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="66.5" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="66.5" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="66.5" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="89.47" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.43" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C54" library="supply2" package="CAPC3216X88N" value="1000pF" x="92.6" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="92.6" y="46.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2845,14 +2845,14 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="91.395" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="96.537" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="RV8" library="WE-VS" package="WESURGE_0805" value="" x="87.1" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="72.1" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="72.1" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="72.1" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="72.1" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="72.1" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="85.87" y="64.3" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="84.63" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV8" library="WE-VS" package="WESURGE_0805" value="" x="87" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="72" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="72" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="72" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="72" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="72" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="85.37" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.53" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C55" library="supply2" package="CAPC3216X88N" value="1000pF" x="89.1" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="89.1" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2861,7 +2861,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VOLTAGE_RATING" value="1000V" x="89.1" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="KEMET" x="89.1" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1826304" x="89.1" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="87.595" y="69.5456" size="1.016" layer="25" rot="SR90"/>
+<attribute name="NAME" x="87.595" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="93.037" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="RV9" library="WE-VS" package="WESURGE_0805" value="" x="87.3" y="20.4" smashed="yes" rot="R270">
@@ -2940,14 +2940,14 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="98.395" y="13.9456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="95.663" y="18.6544" size="2.0828" layer="27" ratio="10" rot="SR270"/>
 </element>
-<element name="RV13" library="WE-VS" package="WESURGE_0805" value="" x="82.5" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="48.8" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="48.8" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="48.8" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="48.8" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="48.8" y="37.2" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="81.47" y="64.2" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="80.03" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV13" library="WE-VS" package="WESURGE_0805" value="" x="82.7" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="49" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="49" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="49" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="49" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="49" y="37.1" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="81.47" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="80.23" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C60" library="supply2" package="CAPC3216X88N" value="1000pF" x="84.1" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="84.1" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2956,17 +2956,17 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VOLTAGE_RATING" value="1000V" x="84.1" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="KEMET" x="84.1" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1826304" x="84.1" y="62.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="82.895" y="69.4456" size="1.016" layer="25" rot="SR90"/>
+<attribute name="NAME" x="82.895" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="88.037" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="RV14" library="WE-VS" package="WESURGE_0805" value="" x="79.2" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="45.4" y="49.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="45.4" y="49.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="45.4" y="49.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="45.4" y="49.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="45.4" y="49.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="77.97" y="64.2" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="76.73" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV14" library="WE-VS" package="WESURGE_0805" value="" x="79.2" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="45.4" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="45.4" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="45.4" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="45.4" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="45.4" y="49.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="77.87" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="76.73" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C61" library="supply2" package="CAPC3216X88N" value="1000pF" x="80.6" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="80.6" y="54.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2975,17 +2975,17 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VOLTAGE_RATING" value="1000V" x="80.6" y="54.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="KEMET" x="80.6" y="54.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1826304" x="80.6" y="54.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="79.195" y="69.7456" size="1.016" layer="25" rot="SR90"/>
+<attribute name="NAME" x="79.295" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="84.537" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="RV15" library="WE-VS" package="WESURGE_0805" value="" x="75.5" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="51.1" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="51.1" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="51.1" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="51.1" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="51.1" y="34.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="74.27" y="64.2" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="73.03" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV15" library="WE-VS" package="WESURGE_0805" value="" x="75.5" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="51.1" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="51.1" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="51.1" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="51.1" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="51.1" y="34.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="74.17" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="73.03" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C62" library="supply2" package="CAPC3216X88N" value="1000pF" x="77.1" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="77.1" y="46.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -2994,17 +2994,17 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VOLTAGE_RATING" value="1000V" x="77.1" y="46.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="KEMET" x="77.1" y="46.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1826304" x="77.1" y="46.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="75.795" y="69.4456" size="1.016" layer="25" rot="SR90"/>
+<attribute name="NAME" x="75.795" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="81.037" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="RV16" library="WE-VS" package="WESURGE_0805" value="" x="71.7" y="65.6" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0805" x="56.7" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08P3035" x="56.7" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="82550110" x="56.7" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="56.7" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1636441" x="56.7" y="19.6" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="69.23" y="67.8" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.23" y="62" size="1.27" layer="27" rot="R90"/>
+<element name="RV16" library="WE-VS" package="WESURGE_0805" value="" x="71.8" y="65.5" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0805" x="56.8" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="08P3035" x="56.8" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="82550110" x="56.8" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" x="56.8" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1636441" x="56.8" y="19.5" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="70.37" y="64" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="69.33" y="61.9" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C63" library="supply2" package="CAPC3216X88N" value="1000pF" x="73.5" y="70.7" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="+/- 10%" x="73.5" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
@@ -3013,7 +3013,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VOLTAGE_RATING" value="1000V" x="73.5" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="KEMET" x="73.5" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1826304" x="73.5" y="38.7" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="71.695" y="69.5456" size="1.016" layer="25" rot="SR90"/>
+<attribute name="NAME" x="71.895" y="69.3456" size="1.016" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="77.437" y="67.2456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="OC7" library="strasys_standard" package="SOP-16" value="TCMT4106" x="26.5" y="38" smashed="yes" rot="R180">
@@ -3089,9 +3089,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="31.6456" y="36.07" size="1.016" layer="25" rot="SR0"/>
 <attribute name="VALUE" x="29.5456" y="31.825" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="X13" library="strasys_standard" package="2,54_2X8" value="140-08-FLACHBAND1.27" x="5.5" y="42" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.42" y="43.63" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="14.39" y="40.73" size="1.778" layer="27" rot="R90"/>
+<element name="X13" library="strasys_standard" package="2,54_2X8" value="140-08-FLACHBAND1.27" x="5.5" y="40.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.93" y="53.18" size="1.016" layer="25"/>
+<attribute name="VALUE" x="14.39" y="39.23" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="X14" library="strasys_standard" package="2,54_2X1" value="944-12-2-00" x="7.1" y="65.5" smashed="yes">
 <attribute name="NAME" x="3.69" y="63.12" size="1.016" layer="25" rot="R90"/>
@@ -3104,6 +3104,42 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="66" y="80.5" size="1.016" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1469963" x="66" y="80.5" size="1.016" layer="27" display="off"/>
 <attribute name="WATTAGE" value="0.25W" x="66" y="80.5" size="1.016" layer="27" display="off"/>
+</element>
+<element name="R68" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="10K Ohms" x="-11.5" y="-22.9">
+<attribute name="OC_NEWARK" value="52K9797" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW080510K0JNEA" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469857" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="-11.5" y="-22.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R67" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="10K Ohms" x="-11.5" y="-30.9">
+<attribute name="OC_NEWARK" value="52K9797" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW080510K0JNEA" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469857" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="-11.5" y="-30.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R69" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="10K Ohms" x="-11.5" y="-38.9">
+<attribute name="OC_NEWARK" value="52K9797" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW080510K0JNEA" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469857" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="-11.5" y="-38.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R70" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="10K Ohms" x="-11.5" y="-46.9">
+<attribute name="OC_NEWARK" value="52K9797" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW080510K0JNEA" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="VISHAY DRALORIC" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469857" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="-11.5" y="-46.9" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3298,13 +3334,21 @@ Covered vias can be set in Masks (Limit).
 <via x="31.4" y="53.9" extent="1-16" drill="0.3"/>
 <wire x1="31.4" y1="53.9" x2="31.4" y2="52.2" width="0.2" layer="1"/>
 <wire x1="31.4" y1="52.2" x2="31.405" y2="52.1378" width="0.2" layer="1"/>
+<via x="10.6" y="33" extent="1-16" drill="0.3"/>
+<wire x1="9.5128" y1="33" x2="10.6" y2="33" width="0.2" layer="1"/>
+<polygon width="0.2" layer="1" orphans="yes" thermals="no">
+<vertex x="7.7" y="27.5"/>
+<vertex x="11.2" y="27.5"/>
+<vertex x="11.2" y="29.6"/>
+<vertex x="7.7" y="29.6"/>
+</polygon>
+<via x="8.5" y="29" extent="1-16" drill="0.3"/>
+<via x="10.2" y="29" extent="1-16" drill="0.3"/>
 <wire x1="47" y1="77.5" x2="64.5268" y2="80.5" width="0" layer="19" extent="1-1"/>
 <wire x1="46.99" y1="77.47" x2="47" y2="77.5" width="0" layer="19" extent="1-1"/>
-<wire x1="8.3128" y1="35.8" x2="5.5" y2="42" width="0" layer="19" extent="1-1"/>
 <wire x1="29.700690625" y1="42.46665" x2="28.4" y2="50.5" width="0" layer="19" extent="1-1"/>
 <wire x1="29.700690625" y1="39.92665" x2="29.700690625" y2="42.46665" width="0" layer="19" extent="1-1"/>
 <wire x1="29.700690625" y1="37.38665" x2="29.700690625" y2="39.92665" width="0" layer="19" extent="1-1"/>
-<wire x1="6.1" y1="23.687" x2="14.0716" y2="19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYS_RESET">
 <contactref element="T1" pad="2"/>
@@ -3340,6 +3384,22 @@ Covered vias can be set in Masks (Limit).
 <via x="15.367" y="14.605" extent="1-16" drill="3.2"/>
 <via x="18.542" y="80.645" extent="1-16" drill="3.2"/>
 <via x="60.452" y="80.645" extent="1-16" drill="3.2"/>
+<contactref element="C43" pad="1"/>
+<contactref element="C44" pad="1"/>
+<contactref element="C45" pad="1"/>
+<contactref element="C46" pad="1"/>
+<contactref element="C47" pad="1"/>
+<contactref element="C53" pad="1"/>
+<contactref element="C54" pad="1"/>
+<contactref element="C55" pad="1"/>
+<contactref element="C63" pad="1"/>
+<contactref element="C62" pad="1"/>
+<contactref element="C61" pad="1"/>
+<contactref element="C60" pad="1"/>
+<contactref element="C59" pad="1"/>
+<contactref element="C58" pad="1"/>
+<contactref element="C57" pad="1"/>
+<contactref element="C56" pad="1"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="X1" pad="P3"/>
@@ -3376,12 +3436,12 @@ Covered vias can be set in Masks (Limit).
 <vertex x="55.5" y="60.5"/>
 <vertex x="21" y="60.5"/>
 <vertex x="21" y="43"/>
-<vertex x="2" y="43.2"/>
-<vertex x="2" y="20"/>
-<vertex x="19" y="20"/>
-<vertex x="19" y="24"/>
-<vertex x="6" y="24"/>
-<vertex x="6" y="38.9"/>
+<vertex x="1.2" y="43.3"/>
+<vertex x="1.2" y="21.1"/>
+<vertex x="19" y="21"/>
+<vertex x="19" y="23.365"/>
+<vertex x="3.9" y="23.565"/>
+<vertex x="3.9" y="39.1"/>
 <vertex x="115" y="38.9"/>
 <vertex x="115" y="45.5"/>
 <vertex x="152" y="45.5"/>
@@ -3415,22 +3475,23 @@ Covered vias can be set in Masks (Limit).
 <via x="40.3" y="57.3" extent="1-16" drill="0.3"/>
 <wire x1="40.3" y1="57.3" x2="41" y2="57.3" width="0.2" layer="1"/>
 <wire x1="41" y1="57.3" x2="41.275" y2="57.0738" width="0.2" layer="1"/>
-<wire x1="149" y1="46" x2="149" y2="47.1602" width="0" layer="19" extent="1-1"/>
-<wire x1="125.9" y1="47.0602" x2="125.9" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="122.5" y1="47.0602" x2="122.5" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="119.3" y1="47.0602" x2="119.3" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="116" y1="47.0602" x2="116" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="112.7" y1="47.0602" x2="112.7" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="129.24" y1="47.0902" x2="129.2" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="102.235" y1="39.19" x2="101.1" y2="39.3" width="0" layer="19" extent="1-1"/>
+<wire x1="112.7" y1="47.0602" x2="112.7" y2="46" width="0.2" layer="1"/>
+<wire x1="116" y1="47.0602" x2="116" y2="46" width="0.2" layer="1"/>
+<wire x1="119.3" y1="47.0602" x2="119.3" y2="46" width="0.2" layer="1"/>
+<wire x1="122.5" y1="47.0602" x2="122.5" y2="46" width="0.2" layer="1"/>
+<wire x1="125.9" y1="47.0602" x2="125.9" y2="46" width="0.2" layer="1"/>
+<wire x1="129.24" y1="47.0902" x2="129.2" y2="47.0902" width="0.2" layer="1"/>
+<wire x1="129.2" y1="47.0902" x2="129.2" y2="46" width="0.2" layer="1"/>
+<wire x1="132.6" y1="47.1602" x2="132.6" y2="46" width="0.2" layer="1"/>
+<wire x1="135.8" y1="47.1602" x2="135.8" y2="46" width="0.2" layer="1"/>
+<wire x1="139.2" y1="47.1602" x2="139.2" y2="46" width="0.2" layer="1"/>
+<wire x1="142.5" y1="46" x2="142.5" y2="47.1602" width="0.2" layer="1"/>
+<wire x1="145.7" y1="46" x2="145.7" y2="47.1602" width="0.2" layer="1"/>
+<wire x1="149" y1="46" x2="149" y2="47.1602" width="0.2" layer="1"/>
+<wire x1="101.1" y1="39.3" x2="102.235" y2="39.19" width="0" layer="19" extent="1-1"/>
 <wire x1="91.235" y1="39.19" x2="90.1" y2="39.3" width="0" layer="19" extent="1-1"/>
 <wire x1="80.235" y1="39.19" x2="79.1" y2="39.3" width="0" layer="19" extent="1-1"/>
 <wire x1="69.235" y1="39.19" x2="68.1" y2="39.2" width="0" layer="19" extent="1-1"/>
-<wire x1="145.7" y1="47.1602" x2="145.7" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="142.5" y1="47.1602" x2="142.5" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="139.2" y1="47.1602" x2="139.2" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="135.8" y1="47.1602" x2="135.8" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="132.6" y1="47.1602" x2="132.6" y2="46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SCL">
 <contactref element="X1" pad="P19"/>
@@ -3493,8 +3554,12 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X1" pad="P7"/>
 <contactref element="X1" pad="P8"/>
 <contactref element="L1" pad="1"/>
-<wire x1="14.0716" y1="27.305" x2="16.6116" y2="27.305" width="0" layer="19" extent="1-1"/>
-<wire x1="9.375" y1="32.5" x2="14.0716" y2="27.305" width="0" layer="19" extent="1-1"/>
+<wire x1="16.6116" y1="27.305" x2="14.105" y2="27.305" width="1" layer="1"/>
+<wire x1="14.105" y1="27.305" x2="11.9" y2="25.1" width="1" layer="1"/>
+<wire x1="11.9" y1="25.1" x2="11.9" y2="23.8" width="1" layer="1"/>
+<wire x1="11.9" y1="23.8" x2="10.6" y2="22.4" width="1" layer="1"/>
+<wire x1="10.6" y1="22.4" x2="9.075" y2="22.4" width="1" layer="1"/>
+<wire x1="14.105" y1="27.305" x2="14.0716" y2="27.305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR_BUT">
 <contactref element="X1" pad="P9"/>
@@ -3647,14 +3712,14 @@ Covered vias can be set in Masks (Limit).
 <via x="97.9" y="37.9" extent="1-16" drill="0.3"/>
 <via x="108.9" y="39.3" extent="1-16" drill="0.3"/>
 <via x="108.9" y="37.9" extent="1-16" drill="0.3"/>
-<wire x1="94.5" y1="64.225" x2="98.1" y2="64.125" width="0" layer="19" extent="1-1"/>
-<wire x1="90.9" y1="64.125" x2="94.5" y2="64.225" width="0" layer="19" extent="1-1"/>
-<wire x1="87.1" y1="64.125" x2="90.9" y2="64.125" width="0" layer="19" extent="1-1"/>
-<wire x1="82.5" y1="64.125" x2="87.1" y2="64.125" width="0" layer="19" extent="1-1"/>
-<wire x1="79.2" y1="64.125" x2="82.5" y2="64.125" width="0" layer="19" extent="1-1"/>
-<wire x1="75.5" y1="64.125" x2="79.2" y2="64.125" width="0" layer="19" extent="1-1"/>
-<wire x1="71.7" y1="64.125" x2="75.5" y2="64.125" width="0" layer="19" extent="1-1"/>
-<wire x1="96.1" y1="77.4" x2="94.5" y2="64.225" width="0" layer="19" extent="1-1"/>
+<wire x1="94.5" y1="64.025" x2="98.1" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="90.9" y1="64.025" x2="94.5" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="87" y1="64.025" x2="90.9" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="82.7" y1="64.025" x2="87" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="79.2" y1="64.025" x2="82.7" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="75.5" y1="64.025" x2="79.2" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="71.8" y1="64.025" x2="75.5" y2="64.025" width="0" layer="19" extent="1-1"/>
+<wire x1="99.6" y1="77.4" x2="98.1" y2="64.025" width="0" layer="19" extent="1-1"/>
 <wire x1="107.74" y1="39.19" x2="108.9" y2="39.3" width="0" layer="19" extent="1-1"/>
 <wire x1="107.74" y1="37.92" x2="108.9" y2="37.9" width="0" layer="19" extent="1-1"/>
 <wire x1="96.74" y1="39.19" x2="97.9" y2="39.3" width="0" layer="19" extent="1-1"/>
@@ -3922,22 +3987,6 @@ Covered vias can be set in Masks (Limit).
 <vertex x="102.1" y="54.94"/>
 </polygon>
 <contactref element="D1" pad="1"/>
-<contactref element="C43" pad="1"/>
-<contactref element="C44" pad="1"/>
-<contactref element="C45" pad="1"/>
-<contactref element="C46" pad="1"/>
-<contactref element="C47" pad="1"/>
-<contactref element="C53" pad="1"/>
-<contactref element="C54" pad="1"/>
-<contactref element="C55" pad="1"/>
-<contactref element="C56" pad="1"/>
-<contactref element="C57" pad="1"/>
-<contactref element="C58" pad="1"/>
-<contactref element="C59" pad="1"/>
-<contactref element="C60" pad="1"/>
-<contactref element="C61" pad="1"/>
-<contactref element="C62" pad="1"/>
-<contactref element="C63" pad="1"/>
 <contactref element="R62" pad="2"/>
 <contactref element="C64" pad="1"/>
 <contactref element="OC7" pad="2"/>
@@ -4184,23 +4233,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="117.8" y1="28" x2="117.7602" y2="28" width="0.2" layer="1"/>
 <wire x1="152.9128" y1="24.1" x2="151.9398" y2="27.5" width="0" layer="19" extent="1-1"/>
 <wire x1="150.9" y1="18.4" x2="152.9128" y2="24.1" width="0" layer="19" extent="1-1"/>
-<wire x1="99.6" y1="16.597" x2="103.9872" y2="11.3" width="0" layer="19" extent="1-1"/>
-<wire x1="96.1" y1="16.597" x2="99.6" y2="16.597" width="0" layer="19" extent="1-1"/>
-<wire x1="92.6" y1="16.597" x2="96.1" y2="16.597" width="0" layer="19" extent="1-1"/>
-<wire x1="89.1" y1="16.597" x2="92.6" y2="16.597" width="0" layer="19" extent="1-1"/>
-<wire x1="84.1" y1="16.497" x2="89.1" y2="16.597" width="0" layer="19" extent="1-1"/>
-<wire x1="80.6" y1="16.497" x2="84.1" y2="16.497" width="0" layer="19" extent="1-1"/>
-<wire x1="77.1" y1="16.597" x2="80.6" y2="16.497" width="0" layer="19" extent="1-1"/>
-<wire x1="73.6" y1="16.597" x2="77.1" y2="16.597" width="0" layer="19" extent="1-1"/>
-<wire x1="99.6" y1="69.303" x2="105.5602" y2="64.6" width="0" layer="19" extent="1-1"/>
-<wire x1="96.1" y1="69.303" x2="99.6" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="92.6" y1="69.303" x2="96.1" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="89.1" y1="69.303" x2="92.6" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="84.1" y1="69.303" x2="89.1" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="80.6" y1="69.303" x2="84.1" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="77.1" y1="69.303" x2="80.6" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="73.5" y1="69.303" x2="77.1" y2="69.303" width="0" layer="19" extent="1-1"/>
-<wire x1="29.700690625" y1="34.84665" x2="73.6" y2="16.597" width="0" layer="19" extent="1-1"/>
+<wire x1="29.700690625" y1="34.84665" x2="104.8" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="U1" pad="2"/>
@@ -5487,164 +5520,179 @@ Covered vias can be set in Masks (Limit).
 <via x="79.1" y="37.9" extent="1-16" drill="0.3"/>
 <via x="90.1" y="37.9" extent="1-16" drill="0.3"/>
 <via x="101.1" y="37.9" extent="1-16" drill="0.3"/>
+<wire x1="5.725" y1="22.4" x2="4.4" y2="22.4" width="1" layer="1"/>
+<wire x1="4.4" y1="22.4" x2="3.7" y2="23" width="1" layer="1"/>
+<wire x1="3.7" y1="23" x2="3.7" y2="27.6" width="1" layer="1"/>
+<wire x1="3.7" y1="27.6" x2="3.8" y2="27.7" width="1" layer="1"/>
+<polygon width="0.2" layer="1" orphans="yes" thermals="no">
+<vertex x="3" y="27.4"/>
+<vertex x="3" y="30.9"/>
+<vertex x="6.5" y="34"/>
+<vertex x="6.5" y="38.5"/>
+<vertex x="8.7" y="38.5"/>
+<vertex x="8.7" y="31.6"/>
+<vertex x="6.5" y="31.6"/>
+<vertex x="6.5" y="27.4"/>
+</polygon>
+<via x="8.1" y="37.9" extent="1-16" drill="0.3"/>
+<via x="8.1" y="36.5" extent="1-16" drill="0.3"/>
+<via x="8.1" y="35.3" extent="1-16" drill="0.3"/>
 <wire x1="101.1" y1="37.9" x2="102.235" y2="37.92" width="0" layer="19" extent="1-1"/>
 <wire x1="91.235" y1="37.92" x2="90.1" y2="37.9" width="0" layer="19" extent="1-1"/>
 <wire x1="80.235" y1="37.92" x2="79.1" y2="37.9" width="0" layer="19" extent="1-1"/>
 <wire x1="69.235" y1="37.92" x2="68.1" y2="37.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33.9398" y1="35" x2="68.1" y2="37.9" width="0" layer="19" extent="1-1"/>
-<wire x1="32.0602" y1="35" x2="33.9398" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="29.700690625" y1="36.11665" x2="32.0602" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="23.330690625" y1="36.11665" x2="29.700690625" y2="36.11665" width="0" layer="19" extent="1-1"/>
-<wire x1="23.330690625" y1="38.65665" x2="23.330690625" y2="36.11665" width="0" layer="19" extent="1-1"/>
+<wire x1="23.330690625" y1="38.65665" x2="8.1" y2="37.9" width="0" layer="19" extent="1-1"/>
 <wire x1="23.330690625" y1="41.19665" x2="23.330690625" y2="38.65665" width="0" layer="19" extent="1-1"/>
+<wire x1="23.330690625" y1="36.11665" x2="23.330690625" y2="38.65665" width="0" layer="19" extent="1-1"/>
 <wire x1="23.330690625" y1="33.57665" x2="23.330690625" y2="36.11665" width="0" layer="19" extent="1-1"/>
-<wire x1="6.6872" y1="35.8" x2="23.330690625" y2="36.11665" width="0" layer="19" extent="1-1"/>
-<wire x1="6.025" y1="32.5" x2="6.6872" y2="35.8" width="0" layer="19" extent="1-1"/>
-<wire x1="6.1" y1="28.513" x2="6.025" y2="32.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.700690625" y1="36.11665" x2="23.330690625" y2="36.11665" width="0" layer="19" extent="1-1"/>
+<wire x1="32.0602" y1="35" x2="29.700690625" y2="36.11665" width="0" layer="19" extent="1-1"/>
+<wire x1="33.9398" y1="35" x2="32.0602" y2="35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_1.4">
 <contactref element="C46" pad="2"/>
 <contactref element="RV4" pad="2"/>
 <contactref element="X5" pad="B2"/>
 <contactref element="X9" pad="7"/>
+<wire x1="84.1" y1="11.2" x2="84.1" y2="13.703" width="0.75" layer="1"/>
 <wire x1="82.5" y1="18.825" x2="74.74" y2="36.65" width="0" layer="19" extent="1-1"/>
 <wire x1="84.1" y1="13.703" x2="82.5" y2="18.825" width="0" layer="19" extent="1-1"/>
-<wire x1="84.1" y1="11.2" x2="84.1" y2="13.703" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_1.1">
 <contactref element="C43" pad="2"/>
 <contactref element="RV1" pad="2"/>
 <contactref element="X5" pad="A1"/>
 <contactref element="X9" pad="1"/>
+<wire x1="73.6" y1="11.2" x2="73.6" y2="13.803" width="0.75" layer="1"/>
 <wire x1="71.5" y1="18.925" x2="69.235" y2="35.38" width="0" layer="19" extent="1-1"/>
 <wire x1="73.6" y1="13.803" x2="71.5" y2="18.925" width="0" layer="19" extent="1-1"/>
-<wire x1="73.6" y1="11.2" x2="73.6" y2="13.803" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_1.2">
 <contactref element="C44" pad="2"/>
 <contactref element="RV2" pad="2"/>
 <contactref element="X5" pad="B1"/>
 <contactref element="X9" pad="3"/>
+<wire x1="77.1" y1="11.2" x2="77.1" y2="13.803" width="0.75" layer="1"/>
 <wire x1="75.1" y1="18.825" x2="74.74" y2="35.38" width="0" layer="19" extent="1-1"/>
 <wire x1="77.1" y1="13.803" x2="75.1" y2="18.825" width="0" layer="19" extent="1-1"/>
-<wire x1="77.1" y1="11.2" x2="77.1" y2="13.803" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_1.3">
 <contactref element="C45" pad="2"/>
 <contactref element="RV3" pad="2"/>
 <contactref element="X5" pad="A2"/>
 <contactref element="X9" pad="5"/>
+<wire x1="80.6" y1="11.2" x2="80.6" y2="13.703" width="0.75" layer="1"/>
 <wire x1="78.8" y1="18.825" x2="69.235" y2="36.65" width="0" layer="19" extent="1-1"/>
 <wire x1="80.6" y1="13.703" x2="78.8" y2="18.825" width="0" layer="19" extent="1-1"/>
-<wire x1="80.6" y1="11.2" x2="80.6" y2="13.703" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_2.1">
 <contactref element="C56" pad="2"/>
 <contactref element="RV9" pad="2"/>
 <contactref element="X6" pad="A1"/>
 <contactref element="X10" pad="1"/>
+<wire x1="89.1" y1="11.2" x2="89.1" y2="13.803" width="0.75" layer="1"/>
 <wire x1="87.3" y1="18.925" x2="80.235" y2="35.38" width="0" layer="19" extent="1-1"/>
 <wire x1="89.1" y1="13.803" x2="87.3" y2="18.925" width="0" layer="19" extent="1-1"/>
-<wire x1="89.1" y1="11.2" x2="89.1" y2="13.803" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_2.2">
 <contactref element="C57" pad="2"/>
 <contactref element="RV10" pad="2"/>
 <contactref element="X6" pad="B1"/>
 <contactref element="X10" pad="3"/>
+<wire x1="92.6" y1="11.2" x2="92.6" y2="13.803" width="0.75" layer="1"/>
 <wire x1="90.9" y1="18.925" x2="85.74" y2="35.38" width="0" layer="19" extent="1-1"/>
 <wire x1="92.6" y1="13.803" x2="90.9" y2="18.925" width="0" layer="19" extent="1-1"/>
-<wire x1="92.6" y1="11.2" x2="92.6" y2="13.803" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_2.3">
 <contactref element="C58" pad="2"/>
 <contactref element="RV11" pad="2"/>
 <contactref element="X6" pad="A2"/>
 <contactref element="X10" pad="5"/>
+<wire x1="96.1" y1="11.2" x2="96.1" y2="13.803" width="0.75" layer="1"/>
 <wire x1="94.5" y1="18.925" x2="80.235" y2="36.65" width="0" layer="19" extent="1-1"/>
 <wire x1="96.1" y1="13.803" x2="94.5" y2="18.925" width="0" layer="19" extent="1-1"/>
-<wire x1="96.1" y1="11.2" x2="96.1" y2="13.803" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_2.4">
 <contactref element="C59" pad="2"/>
 <contactref element="RV12" pad="2"/>
 <contactref element="X6" pad="B2"/>
 <contactref element="X10" pad="7"/>
+<wire x1="99.6" y1="11.2" x2="99.6" y2="13.803" width="0.75" layer="1"/>
 <wire x1="97.7" y1="18.925" x2="85.74" y2="36.65" width="0" layer="19" extent="1-1"/>
 <wire x1="99.6" y1="13.803" x2="97.7" y2="18.925" width="0" layer="19" extent="1-1"/>
-<wire x1="99.6" y1="11.2" x2="99.6" y2="13.803" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_3.1">
 <contactref element="C47" pad="2"/>
 <contactref element="RV5" pad="2"/>
 <contactref element="X7" pad="A1"/>
 <contactref element="X11" pad="1"/>
-<wire x1="99.6" y1="72.097" x2="99.6" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="98.1" y1="67.075" x2="99.6" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="91.235" y1="35.38" x2="98.1" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="99.6" y1="74.9" x2="99.6" y2="72.097" width="0.75" layer="1"/>
+<wire x1="98.1" y1="66.975" x2="99.6" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="91.235" y1="35.38" x2="98.1" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_3.2">
 <contactref element="C53" pad="2"/>
 <contactref element="RV6" pad="2"/>
 <contactref element="X7" pad="B1"/>
 <contactref element="X11" pad="3"/>
-<wire x1="96.1" y1="72.097" x2="96.1" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="94.5" y1="67.175" x2="96.1" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="96.74" y1="35.38" x2="94.5" y2="67.175" width="0" layer="19" extent="1-1"/>
+<wire x1="96.1" y1="74.9" x2="96.1" y2="72.097" width="0.75" layer="1"/>
+<wire x1="94.5" y1="66.975" x2="96.1" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="96.74" y1="35.38" x2="94.5" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_3.3">
 <contactref element="C54" pad="2"/>
 <contactref element="RV7" pad="2"/>
 <contactref element="X7" pad="A2"/>
 <contactref element="X11" pad="5"/>
-<wire x1="92.6" y1="72.097" x2="92.6" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="90.9" y1="67.075" x2="92.6" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="91.235" y1="36.65" x2="90.9" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="92.6" y1="74.9" x2="92.6" y2="72.097" width="0.75" layer="1"/>
+<wire x1="90.9" y1="66.975" x2="92.6" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="91.235" y1="36.65" x2="90.9" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_3.4">
 <contactref element="C55" pad="2"/>
 <contactref element="RV8" pad="2"/>
 <contactref element="X7" pad="B2"/>
 <contactref element="X11" pad="7"/>
-<wire x1="89.1" y1="72.097" x2="89.1" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="87.1" y1="67.075" x2="89.1" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="96.74" y1="36.65" x2="87.1" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="89.1" y1="74.9" x2="89.1" y2="72.097" width="0.75" layer="1"/>
+<wire x1="87" y1="66.975" x2="89.1" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="96.74" y1="36.65" x2="87" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_4.1">
 <contactref element="C60" pad="2"/>
 <contactref element="RV13" pad="2"/>
 <contactref element="X8" pad="A1"/>
 <contactref element="X12" pad="1"/>
-<wire x1="84.1" y1="72.097" x2="84.1" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="82.5" y1="67.075" x2="84.1" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="102.235" y1="35.38" x2="82.5" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="84.1" y1="74.9" x2="84.1" y2="72.097" width="0.75" layer="1"/>
+<wire x1="82.7" y1="66.975" x2="84.1" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="102.235" y1="35.38" x2="82.7" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_4.2">
 <contactref element="C61" pad="2"/>
 <contactref element="RV14" pad="2"/>
 <contactref element="X8" pad="B1"/>
 <contactref element="X12" pad="3"/>
-<wire x1="80.6" y1="72.097" x2="80.6" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="79.2" y1="67.075" x2="80.6" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="107.74" y1="35.38" x2="79.2" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="80.6" y1="74.9" x2="80.6" y2="72.097" width="0.75" layer="1"/>
+<wire x1="79.2" y1="66.975" x2="80.6" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="107.74" y1="35.38" x2="79.2" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_4.3">
 <contactref element="C62" pad="2"/>
 <contactref element="RV15" pad="2"/>
 <contactref element="X8" pad="A2"/>
 <contactref element="X12" pad="5"/>
-<wire x1="77.1" y1="72.097" x2="77.1" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="75.5" y1="67.075" x2="77.1" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="102.235" y1="36.65" x2="75.5" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="77.1" y1="74.9" x2="77.1" y2="72.097" width="0.75" layer="1"/>
+<wire x1="75.5" y1="66.975" x2="77.1" y2="72.097" width="0" layer="19" extent="1-1"/>
+<wire x1="102.235" y1="36.65" x2="75.5" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANA_4.4">
 <contactref element="C63" pad="2"/>
 <contactref element="RV16" pad="2"/>
 <contactref element="X8" pad="B2"/>
 <contactref element="X12" pad="7"/>
-<wire x1="73.5" y1="72.097" x2="73.6" y2="74.9" width="0" layer="19" extent="1-1"/>
-<wire x1="71.7" y1="67.075" x2="73.5" y2="72.097" width="0" layer="19" extent="1-1"/>
-<wire x1="107.74" y1="36.65" x2="71.7" y2="67.075" width="0" layer="19" extent="1-1"/>
+<wire x1="73.6" y1="74.9" x2="73.5" y2="74.9" width="0.75" layer="1"/>
+<wire x1="73.5" y1="74.9" x2="73.5" y2="72.097" width="0.75" layer="1"/>
+<wire x1="71.8" y1="66.975" x2="107.74" y2="36.65" width="0" layer="19" extent="1-1"/>
+<wire x1="73.5" y1="72.097" x2="71.8" y2="66.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="R61" pad="2"/>
@@ -5668,17 +5716,17 @@ Covered vias can be set in Masks (Limit).
 <signal name="+24V_ON">
 <contactref element="X13" pad="P2"/>
 <contactref element="OC7" pad="15"/>
-<wire x1="8.04" y1="42" x2="23.330690625" y2="34.84665" width="0" layer="19" extent="1-1"/>
+<wire x1="8.04" y1="40.5" x2="23.330690625" y2="34.84665" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYS5V_ON">
 <contactref element="X13" pad="P3"/>
 <contactref element="OC7" pad="13"/>
-<wire x1="5.5" y1="44.54" x2="23.330690625" y2="37.38665" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5" y1="43.04" x2="23.330690625" y2="37.38665" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ERROR">
 <contactref element="X13" pad="P5"/>
 <contactref element="OC7" pad="9"/>
-<wire x1="5.5" y1="47.08" x2="23.330690625" y2="42.46665" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5" y1="45.58" x2="23.330690625" y2="42.46665" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="X13" pad="P7"/>
@@ -5686,13 +5734,16 @@ Covered vias can be set in Masks (Limit).
 <signal name="HEARTBEAT">
 <contactref element="X13" pad="P4"/>
 <contactref element="OC7" pad="11"/>
-<wire x1="8.04" y1="44.54" x2="23.330690625" y2="39.92665" width="0" layer="19" extent="1-1"/>
+<wire x1="8.04" y1="43.04" x2="23.330690625" y2="39.92665" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$54">
 <contactref element="X13" pad="P6"/>
 </signal>
 <signal name="N$55">
 <contactref element="X13" pad="P8"/>
+</signal>
+<signal name="N$1">
+<wire x1="0" y1="0" x2="-0.1" y2="0" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <errors>
