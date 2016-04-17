@@ -7845,7 +7845,6 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <attribute name="MF" value="KEMET"/>
 <attribute name="OC_FARNELL" value="1826304"/>
 </part>
-<part name="SUPPLY57" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY58" library="supply2" deviceset="AGND" device=""/>
 <part name="RV2" library="WE-VS" deviceset="WE-VS" device="_0805" technology="-82550110"/>
 <part name="C44" library="supply2" deviceset="C1206C102KDRACTU" device="" value="1000pF">
@@ -7990,6 +7989,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <part name="SUPPLY105" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY107" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY57" library="supply2" deviceset="PE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9683,8 +9683,8 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <wire x1="73.66" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="119.38" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="104.14" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <junction x="81.28" y="119.38"/>
+<wire x1="73.66" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="134.62" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <junction x="81.28" y="134.62"/>
@@ -9731,6 +9731,8 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <junction x="302.26" y="246.38"/>
 <pinref part="C1" gate="A" pin="C2"/>
 <pinref part="D1" gate="D$1" pin="2"/>
+<pinref part="OC2" gate="OC$1" pin="14"/>
+<junction x="73.66" y="119.38"/>
 </segment>
 </net>
 <net name="OUT_3" class="0">
@@ -11507,7 +11509,6 @@ Multicomp: MCVZ0805M140AGT
 <attribute name="NAME" x="53.1114" y="214.9856" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="55.88" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY57" gate="PE" x="55.88" y="210.82"/>
 <instance part="SUPPLY58" gate="G$1" x="68.58" y="210.82"/>
 <instance part="RV2" gate="G$1" x="68.58" y="195.58" rot="R90"/>
 <instance part="C44" gate="G$1" x="55.88" y="193.04" smashed="yes" rot="R90">
@@ -11635,16 +11636,12 @@ Multicomp: MCVZ0805M140AGT
 </instance>
 <instance part="SUPPLY105" gate="G$1" x="246.38" y="233.68" rot="MR0"/>
 <instance part="SUPPLY107" gate="G$1" x="274.32" y="233.68"/>
+<instance part="SUPPLY57" gate="PE" x="55.88" y="210.82"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="0V" class="0">
-<segment>
-<pinref part="C43" gate="G$1" pin="C1"/>
-<pinref part="SUPPLY57" gate="PE" pin="PE"/>
-<wire x1="55.88" y1="213.36" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="C44" gate="G$1" pin="C1"/>
 <pinref part="SUPPLY59" gate="PE" pin="PE"/>
@@ -12324,6 +12321,13 @@ Multicomp: MCVZ0805M140AGT
 <wire x1="274.32" y1="236.22" x2="274.32" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="R66" gate="A" pin="1"/>
 <wire x1="266.7" y1="241.3" x2="274.32" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PE" class="0">
+<segment>
+<pinref part="SUPPLY57" gate="PE" pin="PE"/>
+<wire x1="55.88" y1="213.36" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="C1"/>
 </segment>
 </net>
 </nets>
