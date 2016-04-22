@@ -9073,8 +9073,8 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <instance part="U8" gate="A" x="185.42" y="185.42">
 <attribute name="MF" x="185.42" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U9" gate="A" x="111.76" y="167.64">
-<attribute name="MF" x="111.76" y="167.64" size="1.778" layer="96" display="off"/>
+<instance part="U9" gate="A" x="109.22" y="167.64">
+<attribute name="MF" x="109.22" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U19" gate="G$1" x="137.16" y="195.58" rot="R90">
 <attribute name="MF" x="137.16" y="195.58" size="1.778" layer="96" display="off"/>
@@ -9234,13 +9234,14 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <segment>
 <pinref part="BAT1" gate="G$1" pin="+"/>
 <pinref part="U9" gate="A" pin="ANODE"/>
-<wire x1="66.04" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="CATHODE"/>
 <pinref part="R87" gate="A" pin="2"/>
+<wire x1="139.7" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -12423,7 +12424,7 @@ Multicomp: MCVZ0805M140AGT
 </instance>
 <instance part="R62" gate="A" x="238.76" y="190.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="242.4176" y="192.4558" size="1.778" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="235.9914" y="191.4906" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="235.9914" y="194.0306" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="238.76" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C64" gate="A" x="228.6" y="195.58" smashed="yes" rot="R90">

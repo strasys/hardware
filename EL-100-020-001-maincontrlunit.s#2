@@ -12423,7 +12423,7 @@ Multicomp: MCVZ0805M140AGT
 </instance>
 <instance part="R62" gate="A" x="238.76" y="190.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="242.4176" y="192.4558" size="1.778" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="235.9914" y="191.4906" size="2.0828" layer="95" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="235.9914" y="194.0306" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="238.76" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C64" gate="A" x="228.6" y="195.58" smashed="yes" rot="R90">
@@ -12443,10 +12443,10 @@ Multicomp: MCVZ0805M140AGT
 <attribute name="MF" x="220.98" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY106" gate="G$1" x="213.36" y="139.7"/>
-<instance part="R65" gate="A" x="248.92" y="182.88" smashed="yes">
-<attribute name="VALUE" x="250.8758" y="179.2224" size="1.778" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="249.9106" y="185.6486" size="2.0828" layer="95" ratio="10" rot="SR0"/>
-<attribute name="MF" x="248.92" y="182.88" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R65" gate="A" x="243.84" y="182.88" smashed="yes">
+<attribute name="VALUE" x="245.7958" y="179.2224" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="244.8306" y="185.6486" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="243.84" y="182.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="X13" gate="G$1" x="66.04" y="180.34" smashed="yes">
 <attribute name="NAME" x="60.96" y="185.42" size="1.778" layer="95"/>
@@ -12526,6 +12526,7 @@ Multicomp: MCVZ0805M140AGT
 <pinref part="OC7" gate="OC$1" pin="4"/>
 <wire x1="205.74" y1="177.8" x2="213.36" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="177.8" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
+<junction x="213.36" y="162.56"/>
 </segment>
 <segment>
 <pinref part="X13" gate="G$1" pin="1"/>
@@ -12545,7 +12546,7 @@ Multicomp: MCVZ0805M140AGT
 <pinref part="OC7" gate="OC$1" pin="3"/>
 <wire x1="205.74" y1="187.96" x2="218.44" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="187.96" x2="218.44" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="182.88" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R65" gate="A" pin="2"/>
 </segment>
 <segment>
@@ -12568,7 +12569,7 @@ Multicomp: MCVZ0805M140AGT
 </segment>
 <segment>
 <pinref part="R65" gate="A" pin="1"/>
-<wire x1="261.62" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
 <label x="274.32" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
