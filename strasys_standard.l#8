@@ -1499,7 +1499,6 @@ Fa. Aurel</description>
 <wire x1="-4.1" y1="-4.2" x2="11.7" y2="-4.2" width="0.127" layer="51"/>
 <wire x1="11.7" y1="-4.2" x2="11.7" y2="1.7" width="0.127" layer="51"/>
 <wire x1="11.7" y1="1.7" x2="-4.1" y2="1.7" width="0.127" layer="51"/>
-<wire x1="-4.1" y1="1.7" x2="-4.1" y2="-4.2" width="0.127" layer="51" curve="2.773535"/>
 <pad name="P1" x="0" y="0" drill="1" shape="square"/>
 <pad name="P2" x="0" y="-2.54" drill="1"/>
 <pad name="P3" x="2.54" y="0" drill="1"/>
@@ -1508,12 +1507,13 @@ Fa. Aurel</description>
 <pad name="P6" x="5.08" y="-2.54" drill="1"/>
 <pad name="P7" x="7.62" y="0" drill="1"/>
 <pad name="P8" x="7.62" y="-2.54" drill="1"/>
-<text x="0.1" y="1.71" size="1.27" layer="21">1</text>
-<text x="-0.2" y="-5.66" size="1.27" layer="21">2</text>
-<text x="9.44" y="1.81" size="1.27" layer="21">7</text>
-<text x="9.47" y="-5.73" size="1.27" layer="21">8</text>
+<text x="-2.6" y="-0.29" size="1.27" layer="21">1</text>
+<text x="-2.6" y="-3.16" size="1.27" layer="21">2</text>
+<text x="9.74" y="-0.19" size="1.27" layer="21">7</text>
+<text x="9.77" y="-3.43" size="1.27" layer="21">8</text>
 <text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<wire x1="-4.1" y1="1.7" x2="-4.1" y2="-4.2" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>

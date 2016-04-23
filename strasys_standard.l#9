@@ -1496,10 +1496,10 @@ Fa. Aurel</description>
 <text x="0" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 </package>
 <package name="2,54_2X8">
-<wire x1="0" y1="-2.5" x2="7.6" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="7.6" y1="-2.5" x2="7.6" y2="0" width="0.127" layer="51"/>
-<wire x1="7.6" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="-2.5" width="0.127" layer="51" curve="2.773535"/>
+<wire x1="-4.1" y1="-4.2" x2="11.7" y2="-4.2" width="0.127" layer="51"/>
+<wire x1="11.7" y1="-4.2" x2="11.7" y2="1.7" width="0.127" layer="51"/>
+<wire x1="11.7" y1="1.7" x2="-4.1" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-4.1" y1="1.7" x2="-4.1" y2="-4.2" width="0.127" layer="51" curve="2.773535"/>
 <pad name="P1" x="0" y="0" drill="1" shape="square"/>
 <pad name="P2" x="0" y="-2.54" drill="1"/>
 <pad name="P3" x="2.54" y="0" drill="1"/>

@@ -1278,6 +1278,10 @@ Covered vias can be set in Masks (Limit).
 <wire x1="34.9" y1="53.6" x2="16" y2="53.6" width="1" layer="15"/>
 <via x="16" y="53.6" extent="1-16" drill="0.3"/>
 <wire x1="16" y1="53.6" x2="16" y2="55.9302" width="0.15" layer="1"/>
+<contactref element="R28" pad="1"/>
+<contactref element="R27" pad="1"/>
+<wire x1="-7.9398" y1="-13.2" x2="-7.9398" y2="-21.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2" y1="2.6" x2="-7.9398" y2="-13.2" width="0" layer="19" extent="1-15"/>
 </signal>
 <signal name="P9_14">
 <contactref element="R13" pad="2"/>
@@ -1888,12 +1892,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="33.4602" y1="73.07" x2="33.5" y2="73.1098" width="0" layer="19" extent="1-1"/>
 <wire x1="32.7328" y1="59.74" x2="32.6" y2="59.8728" width="0" layer="19" extent="1-1"/>
 <wire x1="33.4102" y1="64.97" x2="33.4102" y2="66.7898" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="R27" pad="1"/>
-</signal>
-<signal name="N$16">
-<contactref element="R28" pad="1"/>
 </signal>
 </signals>
 </board>

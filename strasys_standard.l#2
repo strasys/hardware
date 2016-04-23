@@ -5654,12 +5654,13 @@ Flachbandkabel 1,27 mm</description>
 <gate name="G$1" symbol="DOUBLE-MALE-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="2,54_2X1">
+<connects>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+</connects>
 <technologies>
-<technology name="">
-<attribute name="MPN" value="944-14-2-xx" constant="no"/>
-<attribute name="SUPPLIER" value="W+P" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

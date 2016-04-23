@@ -1524,8 +1524,8 @@ Fa. Aurel</description>
 <pad name="P2" x="0" y="-2.54" drill="1"/>
 <text x="0.1" y="1.71" size="1.27" layer="21">1</text>
 <text x="-0.2" y="-5.66" size="1.27" layer="21">2</text>
-<text x="-2.54" y="3.81" size="1.778" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-5.08" y="3.81" size="1.778" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

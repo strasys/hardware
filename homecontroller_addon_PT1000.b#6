@@ -308,6 +308,8 @@ at 30/07/2012 16:36:08</description>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC3216X71N">
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
 <wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
 <wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
@@ -320,8 +322,6 @@ at 30/07/2012 16:36:08</description>
 <wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
 <wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
 <wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
-<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
-<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
 <text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -1156,6 +1156,22 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="21.1" y="5.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="21.1" y="5.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="R27" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="4.7K Ohms" x="-7" y="-13.2">
+<attribute name="OC_NEWARK" value="53K0215" x="-7" y="-13.2" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-7" y="-13.2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW08054K70FKEA" x="-7" y="-13.2" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="-7" y="-13.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469923" x="-7" y="-13.2" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="-7" y="-13.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R28" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="4.7K Ohms" x="-7" y="-21.2">
+<attribute name="OC_NEWARK" value="53K0215" x="-7" y="-21.2" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-7" y="-21.2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW08054K70FKEA" x="-7" y="-21.2" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="-7" y="-21.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469923" x="-7" y="-21.2" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="-7" y="-21.2" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="AGND">
@@ -1288,6 +1304,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="17.1" y1="50.5" x2="9.4" y2="58.2" width="0.15" layer="1"/>
 <wire x1="9.4" y1="58.2" x2="8.225" y2="58.2" width="0.15" layer="1"/>
 <wire x1="8.225" y1="58.2" x2="8.2156" y2="58.2094" width="0.15" layer="1"/>
+<contactref element="R28" pad="2"/>
+<wire x1="17.1" y1="5.4" x2="-6.0602" y2="-21.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD5V_F">
 <contactref element="U3" pad="1"/>
@@ -1607,6 +1625,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="10.1" y1="56.8" x2="7.7" y2="56.8" width="0.15" layer="1"/>
 <wire x1="7.7" y1="56.8" x2="7.2" y2="57.2" width="0.15" layer="1"/>
 <wire x1="7.2" y1="57.2" x2="7.2" y2="58.5" width="0.15" layer="1"/>
+<contactref element="R27" pad="2"/>
+<wire x1="-6.0602" y1="-13.2" x2="15.1" y2="5.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R7" pad="1"/>
@@ -1868,6 +1888,12 @@ Covered vias can be set in Masks (Limit).
 <wire x1="33.4602" y1="73.07" x2="33.5" y2="73.1098" width="0" layer="19" extent="1-1"/>
 <wire x1="32.7328" y1="59.74" x2="32.6" y2="59.8728" width="0" layer="19" extent="1-1"/>
 <wire x1="33.4102" y1="64.97" x2="33.4102" y2="66.7898" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="R27" pad="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="R28" pad="1"/>
 </signal>
 </signals>
 </board>

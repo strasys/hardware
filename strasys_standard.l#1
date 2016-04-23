@@ -5648,7 +5648,7 @@ Flachbandkabel 1,27 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="944-12-2-00">
+<deviceset name="944-12-2-00" prefix="X">
 <description>&lt;b&gt;Stiftleiste RM 2,54mm gerade 2 x 1&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DOUBLE-MALE-2" x="0" y="0"/>

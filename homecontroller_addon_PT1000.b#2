@@ -1156,25 +1156,25 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="21.1" y="5.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="21.1" y="5.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R27" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="4.7K Ohms" x="14.1" y="2.4" smashed="yes">
-<attribute name="OC_NEWARK" value="53K0215" x="14.1" y="2.4" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="14.1" y="2.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW08054K70FKEA" x="14.1" y="2.4" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="Vishay" x="14.1" y="2.4" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1469923" x="14.1" y="2.4" size="1.778" layer="27" display="off"/>
-<attribute name="WATTAGE" value="0.125 W" x="14.1" y="2.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.7456" y="1.97" size="1" layer="25" rot="SR0"/>
-<attribute name="VALUE" x="10.6456" y="-0.775" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<element name="R27" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="4.7K Ohms" x="12.8" y="2.4" smashed="yes">
+<attribute name="OC_NEWARK" value="53K0215" x="12.8" y="2.4" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="12.8" y="2.4" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW08054K70FKEA" x="12.8" y="2.4" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="12.8" y="2.4" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469923" x="12.8" y="2.4" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="12.8" y="2.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7.6456" y="1.97" size="1" layer="25" rot="SR0"/>
+<attribute name="VALUE" x="9.3456" y="-0.775" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="R28" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="4.7K Ohms" x="18.1" y="2.4" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="53K0215" x="18.1" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="18.1" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CRCW08054K70FKEA" x="18.1" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="Vishay" x="18.1" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1469923" x="18.1" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="WATTAGE" value="0.125 W" x="18.1" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.3456" y="2.07" size="1" layer="25" rot="SR0"/>
-<attribute name="VALUE" x="21.5544" y="5.575" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<element name="R28" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="4.7K Ohms" x="18.6" y="2.4" smashed="yes" rot="R180">
+<attribute name="OC_NEWARK" value="53K0215" x="18.6" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="18.6" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CRCW08054K70FKEA" x="18.6" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="18.6" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1469923" x="18.6" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="WATTAGE" value="0.125 W" x="18.6" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="21.0456" y="2.07" size="1" layer="25" rot="SR0"/>
+<attribute name="VALUE" x="22.0544" y="5.575" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 </elements>
 <signals>
@@ -1284,8 +1284,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="16" y1="53.6" x2="16" y2="55.9302" width="0.15" layer="1"/>
 <contactref element="R28" pad="1"/>
 <contactref element="R27" pad="1"/>
-<wire x1="13.1602" y1="2.4" x2="19.0398" y2="2.4" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2" y1="2.6" x2="13.1602" y2="2.4" width="0" layer="19" extent="1-15"/>
+<wire x1="11.8602" y1="2.4" x2="19.5398" y2="2.4" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2" y1="2.6" x2="11.8602" y2="2.4" width="0" layer="19" extent="1-15"/>
 </signal>
 <signal name="P9_14">
 <contactref element="R13" pad="2"/>
@@ -1313,7 +1313,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="9.4" y1="58.2" x2="8.225" y2="58.2" width="0.15" layer="1"/>
 <wire x1="8.225" y1="58.2" x2="8.2156" y2="58.2094" width="0.15" layer="1"/>
 <contactref element="R28" pad="2"/>
-<wire x1="17.1" y1="5.4" x2="17.1602" y2="2.4" width="0" layer="19" extent="1-1"/>
+<wire x1="17.6602" y1="2.4" x2="17.1" y2="5.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD5V_F">
 <contactref element="U3" pad="1"/>
@@ -1634,7 +1634,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="7.7" y1="56.8" x2="7.2" y2="57.2" width="0.15" layer="1"/>
 <wire x1="7.2" y1="57.2" x2="7.2" y2="58.5" width="0.15" layer="1"/>
 <contactref element="R27" pad="2"/>
-<wire x1="15.0398" y1="2.4" x2="15.1" y2="5.4" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1" y1="5.4" x2="13.7398" y2="4.0398" width="0" layer="19" extent="1-16"/>
+<wire x1="13.7398" y1="4.0398" x2="13.7398" y2="2.4" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="R7" pad="1"/>

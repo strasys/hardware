@@ -929,10 +929,10 @@ ABS10</description>
 <pad name="P6" x="5.08" y="-2.54" drill="1"/>
 <pad name="P7" x="7.62" y="0" drill="1"/>
 <pad name="P8" x="7.62" y="-2.54" drill="1"/>
-<text x="-2.6" y="-0.29" size="1.27" layer="21">1</text>
-<text x="-2.6" y="-3.16" size="1.27" layer="21">2</text>
-<text x="9.74" y="-0.19" size="1.27" layer="21">7</text>
-<text x="9.77" y="-3.43" size="1.27" layer="21">8</text>
+<text x="-0.06" y="2.25" size="1.27" layer="21">1</text>
+<text x="-0.06" y="-5.7" size="1.27" layer="21">2</text>
+<text x="7.2" y="2.35" size="1.27" layer="21">7</text>
+<text x="7.23" y="-5.97" size="1.27" layer="21">8</text>
 <text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 <wire x1="-4.1" y1="1.7" x2="-4.1" y2="-4.2" width="0.127" layer="51"/>
@@ -4271,15 +4271,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="PE">
 <wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="-1.524" x2="0.635" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="+3.3V">
 <description>&lt;b&gt;Supply&lt;/b&gt;</description>
@@ -4293,20 +4293,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="+24V">
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
 <text x="-2.54" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="0V">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
-<pin name="0V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-1.143" y="-2.032" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="0V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="CAPH">
 <wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
@@ -8605,7 +8605,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <wire x1="347.98" y1="193.04" x2="317.5" y2="193.04" width="0.1524" layer="91"/>
 <label x="350.52" y="193.04" size="1.778" layer="95"/>
 <pinref part="R69" gate="A" pin="2"/>
-<wire x1="317.5" y1="193.04" x2="271.78" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="193.04" x2="254" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="205.74" x2="317.5" y2="193.04" width="0.1524" layer="91"/>
 <junction x="317.5" y="193.04"/>
 </segment>
@@ -8617,9 +8617,9 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <pinref part="X1" gate="G$1" pin="20"/>
 </segment>
 <segment>
-<wire x1="271.78" y1="190.5" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
 <label x="350.52" y="190.5" size="1.778" layer="95"/>
 <pinref part="R70" gate="A" pin="2"/>
+<wire x1="246.38" y1="190.5" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="190.5" x2="347.98" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="205.74" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
 <junction x="327.66" y="190.5"/>
@@ -8639,9 +8639,9 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <pinref part="X1" gate="G$1" pin="18"/>
 </segment>
 <segment>
-<wire x1="271.78" y1="195.58" x2="304.8" y2="195.58" width="0.1524" layer="91"/>
 <label x="350.52" y="195.58" size="1.778" layer="95"/>
 <pinref part="R68" gate="A" pin="2"/>
+<wire x1="264.16" y1="195.58" x2="304.8" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="195.58" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="205.74" x2="304.8" y2="195.58" width="0.1524" layer="91"/>
 <junction x="304.8" y="195.58"/>
@@ -12409,6 +12409,13 @@ Multicomp: MCVZ0805M140AGT
 <pinref part="SUPPLY79" gate="PE" pin="PE"/>
 </segment>
 </net>
+<net name="VADC_1.8V" class="0">
+<segment>
+<pinref part="X5" gate="G$1" pin="B10"/>
+<wire x1="157.48" y1="180.34" x2="165.1" y2="180.34" width="0.1524" layer="91"/>
+<label x="165.1" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12444,10 +12451,10 @@ Multicomp: MCVZ0805M140AGT
 <attribute name="MF" x="220.98" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY106" gate="G$1" x="213.36" y="139.7"/>
-<instance part="R65" gate="A" x="243.84" y="182.88" smashed="yes">
-<attribute name="VALUE" x="245.7958" y="179.2224" size="1.778" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="244.8306" y="185.6486" size="2.0828" layer="95" ratio="10" rot="SR0"/>
-<attribute name="MF" x="243.84" y="182.88" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R65" gate="A" x="251.46" y="182.88" smashed="yes">
+<attribute name="VALUE" x="253.4158" y="179.2224" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="252.4506" y="185.6486" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="MF" x="251.46" y="182.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="X13" gate="G$1" x="66.04" y="180.34" smashed="yes">
 <attribute name="NAME" x="60.96" y="185.42" size="1.778" layer="95"/>
@@ -12547,7 +12554,7 @@ Multicomp: MCVZ0805M140AGT
 <pinref part="OC7" gate="OC$1" pin="3"/>
 <wire x1="205.74" y1="187.96" x2="218.44" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="187.96" x2="218.44" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="182.88" x2="251.46" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R65" gate="A" pin="2"/>
 </segment>
 <segment>
@@ -12570,7 +12577,7 @@ Multicomp: MCVZ0805M140AGT
 </segment>
 <segment>
 <pinref part="R65" gate="A" pin="1"/>
-<wire x1="256.54" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
 <label x="274.32" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
