@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -92,6 +92,8 @@ at 28/03/2012 12:54:09</description>
 <wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0" layer="51"/>
 <text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-0.1" y1="0.5" x2="0.1" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.5" x2="0.1" y2="-0.5" width="0.127" layer="21"/>
 </package>
 <package name="CAPC2013X88N">
 <smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
@@ -2290,8 +2292,8 @@ at 28/03/2012 12:54:09</description>
 <technologies>
 <technology name="">
 <attribute name="MPN" value="C0603C104K5RAC-TU" constant="no"/>
-<attribute name="OC_FARNELL" value="1692286" constant="no"/>
-<attribute name="OC_NEWARK" value="97H5226" constant="no"/>
+<attribute name="OC_FARNELL" value="1288255" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
 <attribute name="SUPPLIER" value="Kemet" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
