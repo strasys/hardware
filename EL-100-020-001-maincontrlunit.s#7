@@ -8690,10 +8690,10 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <part name="R70" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K0JNEA" device="" value="10K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="TP1" library="testpad" deviceset="TP" device="PAD1-13"/>
-<part name="TP2" library="testpad" deviceset="TP" device="PAD1-13"/>
-<part name="TP3" library="testpad" deviceset="TP" device="PAD1-13"/>
-<part name="TP4" library="testpad" deviceset="TP" device="PAD1-13"/>
+<part name="TP1" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
+<part name="TP2" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
+<part name="TP3" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
+<part name="TP4" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
 </parts>
 <sheets>
 <sheet>

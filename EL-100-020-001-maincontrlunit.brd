@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.15" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
@@ -16,7 +16,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -26,7 +26,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -41,8 +41,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -1345,7 +1345,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X1" library="strasys_standard" package="2,54_STIFTLEIST_2X23" value="944-12-46-00" x="14.0716" y="19.685" locked="yes" smashed="yes" rot="R90">
 <attribute name="MPN" value="944-12-46-00" x="14.0716" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="W+P" x="14.0716" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.8316" y="15.195" size="1.778" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="21.2316" y="22.795" size="1.778" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="20.4216" y="23.495" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="X2" library="strasys_standard" package="2,54_STIFTLEIST_2X23" value="944-12-46-00" x="62.3316" y="19.685" locked="yes" rot="R90">
@@ -1783,7 +1783,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X3" library="strasys_standard" package="90G-14" value="90G-14" x="150.13" y="8.29" locked="yes" smashed="yes">
 <attribute name="MPN" value="SL 3.50/14/90G" x="150.13" y="8.29" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="Weidmüller" x="150.13" y="8.29" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="153.21" y="8.37" size="1.778" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="124.93" y="2.81" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.89" y="3.44" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="OC1" library="strasys_standard" package="SOP-16" value="TCMT4106" x="116" y="35" smashed="yes" rot="R270">
@@ -2026,7 +2026,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X4" library="strasys_standard" package="90G-14" value="90G-14" x="104.64" y="77.74" locked="yes" smashed="yes" rot="R180">
 <attribute name="MPN" value="SL 3.50/14/90G" x="104.64" y="77.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Weidmüller" x="104.64" y="77.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="151.8" y="74.04" size="1.778" layer="25" font="vector"/>
+<attribute name="NAME" x="129.3" y="81.84" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="140.88" y="82.59" size="1.778" layer="27"/>
 </element>
 <element name="U3" library="strasys_standard" package="SOP80P1030X247-25N" value="VNI4140K-32" x="138.5" y="20" smashed="yes" rot="R270">
@@ -2692,20 +2692,22 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="X9" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="73.6" y="11.2" locked="yes" smashed="yes">
 <attribute name="SUPPLIER" value="Weidmüller" x="73.6" y="11.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="77.2" y="3.65" size="1.778" layer="25" font="vector"/>
+<attribute name="NAME" x="76.4" y="2.85" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="73.6" y="2.31" size="1.778" layer="27"/>
 </element>
-<element name="X10" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="89.1" y="11.2" locked="yes">
+<element name="X10" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="89.1" y="11.2" locked="yes" smashed="yes">
 <attribute name="SUPPLIER" value="Weidmüller" x="89.1" y="11.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="92.4" y="3.15" size="1.778" layer="25"/>
+<attribute name="VALUE" x="89.1" y="2.31" size="1.778" layer="27"/>
 </element>
 <element name="X11" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="99.6" y="74.9" locked="yes" smashed="yes" rot="R180">
 <attribute name="SUPPLIER" value="Weidmüller" x="99.6" y="74.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="100.2" y="81.7" size="1.778" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="98" y="83.1" size="1.778" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="99.6" y="83.79" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="X12" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="84.1" y="74.9" locked="yes" smashed="yes" rot="R180">
 <attribute name="SUPPLIER" value="Weidmüller" x="84.1" y="74.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="84.25" y="81.85" size="1.778" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="81.35" y="83.05" size="1.778" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="84.1" y="83.79" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="C41" library="strasys_standard" package="CAPAE660X610N" value=" 47UF" x="7" y="27.9" smashed="yes">
@@ -3190,6 +3192,26 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="67.0456" y="82.605" size="1.016" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" x="71.7544" y="84.937" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
+<element name="R71" library="Vishay_By_element14_Batch_1" package="RESC3216X71N" value="0 Ohms" x="67.3" y="13.7" smashed="yes">
+<attribute name="OC_NEWARK" value="53K1778" x="67.3" y="23.1" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="-" x="67.3" y="23.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW12060000Z0EA" x="67.3" y="23.1" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="67.3" y="23.1" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469963" x="67.3" y="23.1" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.25W" x="67.3" y="23.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="66.2456" y="15.305" size="1.016" layer="25" font="vector" rot="SR0"/>
+<attribute name="VALUE" x="63.8456" y="9.763" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+</element>
+<element name="C66" library="supply2" package="CAPC3216X88N" value="1000pF" x="67.7" y="5.9" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="+/- 10%" x="67.7" y="15.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C1206C102KDRACTU" x="67.7" y="15.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="67.7" y="15.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_RATING" value="1000V" x="67.7" y="15.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="KEMET" x="67.7" y="15.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1826304" x="67.7" y="15.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="66.3456" y="7.505" size="1.016" layer="25" font="vector" rot="SR0"/>
+<attribute name="VALUE" x="71.1544" y="9.837" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+</element>
 </elements>
 <signals>
 <signal name="DGND">
@@ -3409,6 +3431,15 @@ Covered vias can be set in Masks (Limit).
 <vertex x="68.4" y="57.5"/>
 <vertex x="67.4" y="57.5"/>
 </polygon>
+<contactref element="R71" pad="1"/>
+<via x="64.8" y="14.2" extent="1-16" drill="0.3"/>
+<via x="64.8" y="13.2" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" orphans="yes" thermals="no">
+<vertex x="66.4" y="14.5"/>
+<vertex x="64.4" y="14.5"/>
+<vertex x="64.4" y="12.9"/>
+<vertex x="66.4" y="12.9"/>
+</polygon>
 </signal>
 <signal name="SYS_RESET">
 <contactref element="T1" pad="2"/>
@@ -3450,9 +3481,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="C37" pad="1"/>
 <contactref element="C38" pad="1"/>
 <contactref element="C19" pad="1"/>
-<via x="63.627" y="14.605" extent="1-16" drill="3.2"/>
 <via x="15.367" y="14.605" extent="1-16" drill="3.2"/>
-<via x="18.542" y="80.645" extent="1-16" drill="3.2"/>
 <via x="60.452" y="80.645" extent="1-16" drill="3.2"/>
 <contactref element="C43" pad="1"/>
 <contactref element="C44" pad="1"/>
@@ -3481,6 +3510,7 @@ Covered vias can be set in Masks (Limit).
 <vertex x="0" y="0"/>
 </polygon>
 <contactref element="C65" pad="2"/>
+<contactref element="C66" pad="2"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="X1" pad="P3"/>
@@ -4323,13 +4353,31 @@ Covered vias can be set in Masks (Limit).
 <wire x1="107.74" y1="37.92" x2="108.9" y2="37.92" width="0.2" layer="1"/>
 <wire x1="108.9" y1="37.92" x2="108.9" y2="37.9" width="0.2" layer="1"/>
 <contactref element="C65" pad="1"/>
-<via x="70.8" y="81.5" extent="1-16" drill="0.3"/>
-<via x="70.8" y="80.5" extent="1-16" drill="0.3"/>
+<via x="70.7" y="81.5" extent="1-16" drill="0.3"/>
+<via x="70.7" y="80.5" extent="1-16" drill="0.3"/>
 <polygon width="0.15" layer="1" orphans="yes" thermals="no">
 <vertex x="69.2" y="82.1"/>
-<vertex x="71.4" y="82.1"/>
-<vertex x="71.4" y="79.9"/>
+<vertex x="71" y="82.1"/>
+<vertex x="71" y="79.9"/>
 <vertex x="69.2" y="79.9"/>
+</polygon>
+<contactref element="R71" pad="2"/>
+<contactref element="C66" pad="1"/>
+<via x="70.1" y="6.3" extent="1-16" drill="0.3"/>
+<via x="70.1" y="5.3" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" orphans="yes" thermals="no">
+<vertex x="68.7" y="6.7"/>
+<vertex x="70.5" y="6.7"/>
+<vertex x="70.5" y="4.9"/>
+<vertex x="68.7" y="4.9"/>
+</polygon>
+<via x="69.8" y="14.2" extent="1-16" drill="0.3"/>
+<via x="69.8" y="13.2" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" orphans="yes" thermals="no">
+<vertex x="68.2" y="14.5"/>
+<vertex x="70.3" y="14.5"/>
+<vertex x="70.3" y="12.9"/>
+<vertex x="68.2" y="12.9"/>
 </polygon>
 </signal>
 <signal name="P8_19">
@@ -4452,9 +4500,6 @@ Covered vias can be set in Masks (Limit).
 <signal name="P8_11">
 <contactref element="X2" pad="P11"/>
 <contactref element="R5" pad="1"/>
-<wire x1="88.7" y1="29.3" x2="88.65" y2="29.35" width="0.2" layer="1"/>
-<wire x1="88.65" y1="29.35" x2="88.4" y2="29.6" width="0.2" layer="1"/>
-<wire x1="88.7" y1="26.3" x2="88.7" y2="29.3" width="0.2" layer="1"/>
 <wire x1="87.4" y1="26.3" x2="88.7" y2="26.3" width="0.2" layer="16"/>
 <wire x1="87.2" y1="26.5" x2="87.4" y2="26.3" width="0.2" layer="16"/>
 <wire x1="81.6" y1="26.5" x2="87.2" y2="26.5" width="0.2" layer="16"/>
@@ -4488,8 +4533,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="91.4" y1="32.3" x2="93.5" y2="34.4" width="0.2" layer="16"/>
 <wire x1="88.9" y1="32.3" x2="91.4" y2="32.3" width="0.2" layer="16"/>
 <wire x1="88.7" y1="32.5" x2="88.9" y2="32.3" width="0.2" layer="16"/>
-<wire x1="88.7" y1="29.4" x2="88.7" y2="32.5" width="0.2" layer="1"/>
-<wire x1="88.7" y1="29.4" x2="88.65" y2="29.35" width="0.2" layer="1"/>
+<wire x1="88.7" y1="26.3" x2="88.7" y2="32.5" width="0.2" layer="1"/>
 <via x="134.5" y="45" extent="1-16" drill="0.3"/>
 <via x="117" y="45" extent="1-16" drill="0.3"/>
 <via x="117" y="41.3" extent="1-16" drill="0.3"/>
@@ -4688,9 +4732,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="69.3" y1="50.3" x2="74" y2="50.3" width="0.2" layer="15"/>
 <wire x1="74" y1="50.3" x2="74.7" y2="51.1" width="0.2" layer="15"/>
 <wire x1="74.7" y1="51.1" x2="74.7" y2="52" width="0.2" layer="15"/>
-<wire x1="74.7" y1="52" x2="75.5" y2="52.7" width="0.2" layer="15"/>
-<wire x1="75.5" y1="52.7" x2="76.4" y2="52.7" width="0.2" layer="15"/>
-<wire x1="76.4" y1="52.7" x2="80.5" y2="56.8" width="0.2" layer="15"/>
+<wire x1="74.7" y1="52" x2="75.2" y2="52.4" width="0.2" layer="15"/>
+<wire x1="75.2" y1="52.4" x2="76.2" y2="52.4" width="0.2" layer="15"/>
+<wire x1="76.2" y1="52.4" x2="80.5" y2="56.8" width="0.2" layer="15"/>
 <wire x1="80.5" y1="56.8" x2="118.4" y2="56.8" width="0.2" layer="15"/>
 <wire x1="118.4" y1="56.8" x2="119" y2="56.2" width="0.2" layer="15"/>
 <wire x1="119" y1="56.2" x2="119" y2="54.7" width="0.2" layer="15"/>
@@ -4787,8 +4831,11 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$46">
 <contactref element="U9" pad="3"/>
 <contactref element="R87" pad="2"/>
-<wire x1="50.8" y1="59.8678" x2="50.4698" y2="59.5376" width="0.2" layer="1"/>
-<wire x1="50.4698" y1="59.5376" x2="50.4698" y2="57.15" width="0.2" layer="1"/>
+<wire x1="50.7698" y1="57.1376" x2="50.4698" y2="57.15" width="0.2" layer="1"/>
+<wire x1="50.8" y1="59.8678" x2="50.85" y2="59.8678" width="0.2" layer="1"/>
+<wire x1="50.85" y1="59.8678" x2="50.85" y2="57.45" width="0.2" layer="1"/>
+<wire x1="50.85" y1="57.45" x2="50.4698" y2="57.45" width="0.2" layer="1"/>
+<wire x1="50.4698" y1="57.45" x2="50.4698" y2="57.15" width="0.2" layer="1"/>
 </signal>
 <signal name="N$47">
 <contactref element="R87" pad="1"/>
@@ -5433,6 +5480,25 @@ Covered vias can be set in Masks (Limit).
 <wire x1="148.6" y1="31.1" x2="149.6602" y2="31.1" width="0.2" layer="1"/>
 <via x="146.2" y="21.6" extent="1-16" drill="0.3"/>
 <wire x1="146.2" y1="21.6" x2="147.2872" y2="21.6" width="0.4" layer="1"/>
+<polygon width="0.2" layer="16" isolate="0.15" orphans="yes" thermals="no">
+<vertex x="105.2" y="22.5"/>
+<vertex x="115.8" y="22.5"/>
+<vertex x="115.8" y="17.7"/>
+<vertex x="105.2" y="17.7"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="119.3" y="22.5"/>
+<vertex x="129.8" y="22.5"/>
+<vertex x="129.8" y="17.7"/>
+<vertex x="119.3" y="17.7"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="133.3" y="22.5"/>
+<vertex x="143.8" y="22.5"/>
+<vertex x="143.8" y="17.7"/>
+<vertex x="133.2" y="17.7"/>
+<vertex x="133.2" y="22.5"/>
+</polygon>
 </signal>
 <signal name="OUT_1">
 <contactref element="X3" pad="14"/>
@@ -7391,9 +7457,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="73.6" y1="19.8" x2="73.4" y2="19.6" width="0.2" layer="16"/>
 <wire x1="77.8" y1="19.8" x2="73.6" y2="19.8" width="0.2" layer="16"/>
 <wire x1="78" y1="19.6" x2="77.8" y2="19.8" width="0.2" layer="16"/>
-<wire x1="106.8" y1="19.6" x2="78" y2="19.6" width="0.2" layer="16"/>
-<wire x1="109.9" y1="22.7" x2="106.8" y2="19.6" width="0.2" layer="16"/>
-<wire x1="150.9" y1="22.7" x2="109.9" y2="22.7" width="0.2" layer="16"/>
+<wire x1="101.8" y1="19.6" x2="78" y2="19.6" width="0.2" layer="16"/>
+<wire x1="104.2" y1="22.7" x2="101.8" y2="19.6" width="0.2" layer="16"/>
+<wire x1="150.9" y1="22.7" x2="104.2" y2="22.7" width="0.2" layer="16"/>
 <wire x1="151.4" y1="23.2" x2="150.9" y2="22.7" width="0.2" layer="16"/>
 <wire x1="151.5" y1="23.3" x2="151.4" y2="23.2" width="0.2" layer="1"/>
 <wire x1="151.5" y1="24.5" x2="151.5" y2="23.3" width="0.2" layer="1"/>
@@ -7655,32 +7721,32 @@ Covered vias can be set in Masks (Limit).
 <approved hash="18,29,670438361419ac6d"/>
 <approved hash="19,1,480fcf91cefc4962"/>
 <approved hash="19,1,4204cd9acef4416a"/>
-<approved hash="19,1,43b8cc26c9f4466a"/>
 <approved hash="19,1,43c2cc5cf1f87e66"/>
+<approved hash="19,1,43b8cc26c9f4466a"/>
 <approved hash="19,1,47c5a65b9bfb7a65"/>
 <approved hash="19,1,4603a79da4f74569"/>
 <approved hash="19,1,47bfa621a3f74269"/>
-<approved hash="19,1,5a054d9b4ef1596f"/>
 <approved hash="19,1,5bc34c5d71fd6663"/>
+<approved hash="19,1,5a054d9b4ef1596f"/>
 <approved hash="19,1,5bb94c2749f15e6f"/>
-<approved hash="19,1,2207bd99bef3216d"/>
 <approved hash="19,1,23bbbc25b9f3266d"/>
+<approved hash="19,1,2207bd99bef3216d"/>
 <approved hash="19,1,23c1bc5f81ff1e61"/>
+<approved hash="19,1,6fc3a65d9bfd5263"/>
 <approved hash="19,1,6e05a79ba4f16d6f"/>
 <approved hash="19,1,6fb9a627a3f16a6f"/>
-<approved hash="19,1,6fc3a65d9bfd5263"/>
-<approved hash="19,1,4a0bcd95cefc4962"/>
 <approved hash="19,1,4bcdcc53f1f0766e"/>
+<approved hash="19,1,4a0bcd95cefc4962"/>
 <approved hash="19,1,4bb7cc29c9fc4e62"/>
-<approved hash="19,1,03b98c2789f1066f"/>
 <approved hash="19,1,03c38c5db1fd3e63"/>
+<approved hash="19,1,03b98c2789f1066f"/>
 <approved hash="19,1,02058d9b8ef1016f"/>
-<approved hash="19,1,27c2165c2bf81a66"/>
-<approved hash="19,1,2604179a14f4256a"/>
 <approved hash="19,1,27b8162613f4226a"/>
+<approved hash="19,1,2604179a14f4256a"/>
+<approved hash="19,1,27c2165c2bf81a66"/>
 <approved hash="19,1,0bb80c2609f50e6b"/>
-<approved hash="19,1,0a040d9a0ef5096b"/>
 <approved hash="19,1,0bc20c5c31f93667"/>
+<approved hash="19,1,0a040d9a0ef5096b"/>
 <approved hash="19,15,6cfcfc2f759f7ddd"/>
 </errors>
 </board>

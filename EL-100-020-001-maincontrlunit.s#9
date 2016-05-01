@@ -12409,6 +12409,13 @@ Multicomp: MCVZ0805M140AGT
 <pinref part="SUPPLY79" gate="PE" pin="PE"/>
 </segment>
 </net>
+<net name="VADC_1.8V" class="0">
+<segment>
+<pinref part="X5" gate="G$1" pin="B10"/>
+<wire x1="157.48" y1="180.34" x2="165.1" y2="180.34" width="0.1524" layer="91"/>
+<label x="165.1" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

@@ -19,14 +19,14 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -38,18 +38,18 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
@@ -806,6 +806,8 @@ at 28/03/2012 12:54:09</description>
 <wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0" layer="51"/>
 <text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-0.1" y1="0.8" x2="0.1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.8" x2="0.1" y2="-0.8" width="0.127" layer="21"/>
 </package>
 <package name="CAPC2013X110N">
 <smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
@@ -1343,7 +1345,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X1" library="strasys_standard" package="2,54_STIFTLEIST_2X23" value="944-12-46-00" x="14.0716" y="19.685" locked="yes" smashed="yes" rot="R90">
 <attribute name="MPN" value="944-12-46-00" x="14.0716" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="W+P" x="14.0716" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.8316" y="15.195" size="1.778" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="21.2316" y="22.795" size="1.778" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="20.4216" y="23.495" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="X2" library="strasys_standard" package="2,54_STIFTLEIST_2X23" value="944-12-46-00" x="62.3316" y="19.685" locked="yes" rot="R90">
@@ -1632,7 +1634,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="VISHAY DRALORIC" x="191.2" y="162" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1514867" x="191.2" y="162" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="191.2" y="162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="105.1256" y="29.03" size="1.016" layer="25" font="vector" rot="SR0"/>
+<attribute name="NAME" x="107.67" y="29.0256" size="1.016" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="110.8544" y="31.175" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="R13" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="47K Ohms" x="103.9" y="28" smashed="yes">
@@ -1781,7 +1783,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X3" library="strasys_standard" package="90G-14" value="90G-14" x="150.13" y="8.29" locked="yes" smashed="yes">
 <attribute name="MPN" value="SL 3.50/14/90G" x="150.13" y="8.29" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="Weidmüller" x="150.13" y="8.29" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="153.21" y="8.37" size="1.778" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="124.93" y="2.81" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.89" y="3.44" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="OC1" library="strasys_standard" package="SOP-16" value="TCMT4106" x="116" y="35" smashed="yes" rot="R270">
@@ -2024,7 +2026,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X4" library="strasys_standard" package="90G-14" value="90G-14" x="104.64" y="77.74" locked="yes" smashed="yes" rot="R180">
 <attribute name="MPN" value="SL 3.50/14/90G" x="104.64" y="77.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Weidmüller" x="104.64" y="77.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="151.8" y="74.04" size="1.778" layer="25" font="vector"/>
+<attribute name="NAME" x="129.3" y="81.84" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="140.88" y="82.59" size="1.778" layer="27"/>
 </element>
 <element name="U3" library="strasys_standard" package="SOP80P1030X247-25N" value="VNI4140K-32" x="138.5" y="20" smashed="yes" rot="R270">
@@ -2622,7 +2624,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="137.72" y="56.24" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="136.98" y="57.34" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C39" library="Kemet_By_element14_1" package="CAPC2013X88N" value="4.7nF" x="148.1" y="21.6" smashed="yes">
+<element name="C39" library="Kemet_By_element14_1" package="CAPC2013X88N" value="4700pF" x="148.1" y="21.6" smashed="yes">
 <attribute name="OC_NEWARK" value="32T6750" x="148.1" y="21.6" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="148.1" y="21.6" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C0805F472K1RACAUTO" x="148.1" y="21.6" size="1.778" layer="27" display="off"/>
@@ -2632,7 +2634,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="145.7456" y="22.77" size="1.016" layer="25" font="vector" rot="SR0"/>
 <attribute name="VALUE" x="144.6456" y="18.425" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="C40" library="Kemet_By_element14_1" package="CAPC2013X88N" value="4.7nF" x="152.9" y="14.6" smashed="yes" rot="R270">
+<element name="C40" library="Kemet_By_element14_1" package="CAPC2013X88N" value="4700pF" x="152.9" y="14.6" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="32T6750" x="152.9" y="14.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±10%" x="152.9" y="14.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C0805F472K1RACAUTO" x="152.9" y="14.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2690,20 +2692,22 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="X9" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="73.6" y="11.2" locked="yes" smashed="yes">
 <attribute name="SUPPLIER" value="Weidmüller" x="73.6" y="11.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="77.2" y="3.65" size="1.778" layer="25" font="vector"/>
+<attribute name="NAME" x="76.4" y="2.85" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="73.6" y="2.31" size="1.778" layer="27"/>
 </element>
-<element name="X10" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="89.1" y="11.2" locked="yes">
+<element name="X10" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="89.1" y="11.2" locked="yes" smashed="yes">
 <attribute name="SUPPLIER" value="Weidmüller" x="89.1" y="11.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="92.4" y="3.15" size="1.778" layer="25"/>
+<attribute name="VALUE" x="89.1" y="2.31" size="1.778" layer="27"/>
 </element>
 <element name="X11" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="99.6" y="74.9" locked="yes" smashed="yes" rot="R180">
 <attribute name="SUPPLIER" value="Weidmüller" x="99.6" y="74.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="100.2" y="81.7" size="1.778" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="98" y="83.1" size="1.778" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="99.6" y="83.79" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="X12" library="strasys_standard" package="S2L-90G-8" value="S2L3.50/8/90G" x="84.1" y="74.9" locked="yes" smashed="yes" rot="R180">
 <attribute name="SUPPLIER" value="Weidmüller" x="84.1" y="74.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="84.25" y="81.85" size="1.778" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="81.35" y="83.05" size="1.778" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="84.1" y="83.79" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="C41" library="strasys_standard" package="CAPAE660X610N" value=" 47UF" x="7" y="27.9" smashed="yes">
@@ -3178,6 +3182,32 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="U$1" library="marks" package="PASSER_SMD4" value="" x="5" y="82"/>
 <element name="U$2" library="marks" package="PASSER_SMD4" value="" x="151" y="4"/>
+<element name="C65" library="supply2" package="CAPC3216X88N" value="1000pF" x="68.3" y="81" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="+/- 10%" x="68.3" y="81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C1206C102KDRACTU" x="68.3" y="81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="68.3" y="81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_RATING" value="1000V" x="68.3" y="81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="KEMET" x="68.3" y="81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1826304" x="68.3" y="81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="67.0456" y="82.605" size="1.016" layer="25" font="vector" rot="SR0"/>
+<attribute name="VALUE" x="71.7544" y="84.937" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+</element>
+<element name="R71" library="Vishay_By_element14_Batch_1" package="RESC3216X71N" value="0 Ohms" x="67.2" y="9.7">
+<attribute name="OC_NEWARK" value="53K1778" x="67.2" y="19.1" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="-" x="67.2" y="19.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW12060000Z0EA" x="67.2" y="19.1" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay" x="67.2" y="19.1" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1469963" x="67.2" y="19.1" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.25W" x="67.2" y="19.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C66" library="supply2" package="CAPC3216X88N" value="1000pF" x="67.1" y="4.5">
+<attribute name="TOLERANCE" value="+/- 10%" x="67.1" y="-4.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C1206C102KDRACTU" x="67.1" y="-4.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Kemet" x="67.1" y="-4.9" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="1000V" x="67.1" y="-4.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="KEMET" x="67.1" y="-4.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1826304" x="67.1" y="-4.9" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="DGND">
@@ -3196,7 +3226,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="C51" pad="1"/>
 <contactref element="U8" pad="4"/>
 <contactref element="C49" pad="1"/>
-<polygon width="0.254" layer="2" thermals="no" rank="6">
+<polygon width="0.254" layer="2" isolate="0.2" thermals="no" rank="6">
 <vertex x="0" y="86"/>
 <vertex x="155.6" y="86"/>
 <vertex x="155.6" y="0"/>
@@ -3255,10 +3285,9 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X13" pad="P1"/>
 <contactref element="X14" pad="P1"/>
 <contactref element="R66" pad="1"/>
-<polygon width="0.4064" layer="2" orphans="yes" thermals="no" rank="4">
+<polygon width="0.2" layer="2" isolate="0.2" orphans="yes" thermals="no" rank="4">
 <vertex x="109.9" y="54.5"/>
-<vertex x="150.1" y="54.4"/>
-<vertex x="150" y="54.4"/>
+<vertex x="150.1" y="54.7"/>
 <vertex x="150" y="35.6"/>
 <vertex x="109.9" y="35.6"/>
 </polygon>
@@ -3398,6 +3427,8 @@ Covered vias can be set in Masks (Limit).
 <vertex x="68.4" y="57.5"/>
 <vertex x="67.4" y="57.5"/>
 </polygon>
+<contactref element="R71" pad="1"/>
+<wire x1="64.8716" y1="19.685" x2="65.7268" y2="9.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYS_RESET">
 <contactref element="T1" pad="2"/>
@@ -3469,6 +3500,8 @@ Covered vias can be set in Masks (Limit).
 <vertex x="31.7" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
+<contactref element="C65" pad="2"/>
+<contactref element="C66" pad="2"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="X1" pad="P3"/>
@@ -4222,14 +4255,14 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X7" pad="B3"/>
 <contactref element="X7" pad="B4"/>
 <contactref element="R66" pad="2"/>
-<polygon width="0.254" layer="2" isolate="0.254" orphans="yes" thermals="no" rank="3">
+<polygon width="0.254" layer="2" isolate="0.2" orphans="yes" thermals="no" rank="3">
 <vertex x="69.59" y="86.01"/>
 <vertex x="101.73" y="86.01"/>
-<vertex x="101.61" y="54.46"/>
+<vertex x="101.74" y="54.41"/>
 <vertex x="109.15" y="54.48"/>
 <vertex x="109.15" y="31.29"/>
-<vertex x="101.57" y="31.28"/>
-<vertex x="101.56" y="-0.01"/>
+<vertex x="101.67" y="31.28"/>
+<vertex x="102.06" y="-0.01"/>
 <vertex x="69.09" y="-0.01"/>
 <vertex x="69.1" y="42.7"/>
 <vertex x="78.6" y="42.7"/>
@@ -4310,6 +4343,19 @@ Covered vias can be set in Masks (Limit).
 <wire x1="108.9" y1="39.19" x2="108.9" y2="39.2" width="0.2" layer="1"/>
 <wire x1="107.74" y1="37.92" x2="108.9" y2="37.92" width="0.2" layer="1"/>
 <wire x1="108.9" y1="37.92" x2="108.9" y2="37.9" width="0.2" layer="1"/>
+<contactref element="C65" pad="1"/>
+<via x="70.8" y="81.5" extent="1-16" drill="0.3"/>
+<via x="70.8" y="80.5" extent="1-16" drill="0.3"/>
+<polygon width="0.15" layer="1" orphans="yes" thermals="no">
+<vertex x="69.2" y="82.1"/>
+<vertex x="71.4" y="82.1"/>
+<vertex x="71.4" y="79.9"/>
+<vertex x="69.2" y="79.9"/>
+</polygon>
+<contactref element="R71" pad="2"/>
+<contactref element="C66" pad="1"/>
+<wire x1="73.6" y1="8.7" x2="68.6732" y2="9.7" width="0" layer="19" extent="1-1"/>
+<wire x1="65.703" y1="4.5" x2="68.6732" y2="9.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P8_19">
 <contactref element="X2" pad="P19"/>
@@ -4431,9 +4477,6 @@ Covered vias can be set in Masks (Limit).
 <signal name="P8_11">
 <contactref element="X2" pad="P11"/>
 <contactref element="R5" pad="1"/>
-<wire x1="88.7" y1="29.3" x2="88.65" y2="29.35" width="0.2" layer="1"/>
-<wire x1="88.65" y1="29.35" x2="88.4" y2="29.6" width="0.2" layer="1"/>
-<wire x1="88.7" y1="26.3" x2="88.7" y2="29.3" width="0.2" layer="1"/>
 <wire x1="87.4" y1="26.3" x2="88.7" y2="26.3" width="0.2" layer="16"/>
 <wire x1="87.2" y1="26.5" x2="87.4" y2="26.3" width="0.2" layer="16"/>
 <wire x1="81.6" y1="26.5" x2="87.2" y2="26.5" width="0.2" layer="16"/>
@@ -4467,8 +4510,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="91.4" y1="32.3" x2="93.5" y2="34.4" width="0.2" layer="16"/>
 <wire x1="88.9" y1="32.3" x2="91.4" y2="32.3" width="0.2" layer="16"/>
 <wire x1="88.7" y1="32.5" x2="88.9" y2="32.3" width="0.2" layer="16"/>
-<wire x1="88.7" y1="29.4" x2="88.7" y2="32.5" width="0.2" layer="1"/>
-<wire x1="88.7" y1="29.4" x2="88.65" y2="29.35" width="0.2" layer="1"/>
+<wire x1="88.7" y1="26.3" x2="88.7" y2="32.5" width="0.2" layer="1"/>
 <via x="134.5" y="45" extent="1-16" drill="0.3"/>
 <via x="117" y="45" extent="1-16" drill="0.3"/>
 <via x="117" y="41.3" extent="1-16" drill="0.3"/>
@@ -4667,9 +4709,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="69.3" y1="50.3" x2="74" y2="50.3" width="0.2" layer="15"/>
 <wire x1="74" y1="50.3" x2="74.7" y2="51.1" width="0.2" layer="15"/>
 <wire x1="74.7" y1="51.1" x2="74.7" y2="52" width="0.2" layer="15"/>
-<wire x1="74.7" y1="52" x2="75.5" y2="52.7" width="0.2" layer="15"/>
-<wire x1="75.5" y1="52.7" x2="76.4" y2="52.7" width="0.2" layer="15"/>
-<wire x1="76.4" y1="52.7" x2="80.5" y2="56.8" width="0.2" layer="15"/>
+<wire x1="74.7" y1="52" x2="75.2" y2="52.4" width="0.2" layer="15"/>
+<wire x1="75.2" y1="52.4" x2="76.2" y2="52.4" width="0.2" layer="15"/>
+<wire x1="76.2" y1="52.4" x2="80.5" y2="56.8" width="0.2" layer="15"/>
 <wire x1="80.5" y1="56.8" x2="118.4" y2="56.8" width="0.2" layer="15"/>
 <wire x1="118.4" y1="56.8" x2="119" y2="56.2" width="0.2" layer="15"/>
 <wire x1="119" y1="56.2" x2="119" y2="54.7" width="0.2" layer="15"/>
@@ -4919,15 +4961,15 @@ Covered vias can be set in Masks (Limit).
 <contactref element="OC6" pad="8"/>
 <contactref element="C40" pad="2"/>
 <contactref element="C1" pad="1"/>
-<polygon width="0.254" layer="2" orphans="yes" thermals="no" rank="2">
-<vertex x="102.1" y="86"/>
+<polygon width="0.254" layer="2" isolate="0.2" orphans="yes" thermals="no" rank="2">
+<vertex x="101.9" y="86"/>
 <vertex x="155.6" y="86"/>
 <vertex x="155.6" y="0"/>
-<vertex x="102.1" y="0"/>
-<vertex x="102.1" y="35.3"/>
+<vertex x="102" y="0"/>
+<vertex x="102" y="35.3"/>
 <vertex x="150.5" y="35.3"/>
-<vertex x="150.5" y="54.9"/>
-<vertex x="102.1" y="54.94"/>
+<vertex x="150.5" y="54.8"/>
+<vertex x="101.9" y="54.84"/>
 </polygon>
 <contactref element="D1" pad="1"/>
 <contactref element="R62" pad="2"/>
@@ -5412,6 +5454,25 @@ Covered vias can be set in Masks (Limit).
 <wire x1="148.6" y1="31.1" x2="149.6602" y2="31.1" width="0.2" layer="1"/>
 <via x="146.2" y="21.6" extent="1-16" drill="0.3"/>
 <wire x1="146.2" y1="21.6" x2="147.2872" y2="21.6" width="0.4" layer="1"/>
+<polygon width="0.2" layer="16" isolate="0.15" orphans="yes" thermals="no">
+<vertex x="105.2" y="22.5"/>
+<vertex x="115.8" y="22.5"/>
+<vertex x="115.8" y="17.7"/>
+<vertex x="105.2" y="17.7"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="119.3" y="22.5"/>
+<vertex x="129.8" y="22.5"/>
+<vertex x="129.8" y="17.7"/>
+<vertex x="119.3" y="17.7"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="133.3" y="22.5"/>
+<vertex x="143.8" y="22.5"/>
+<vertex x="143.8" y="17.7"/>
+<vertex x="133.2" y="17.7"/>
+<vertex x="133.2" y="22.5"/>
+</polygon>
 </signal>
 <signal name="OUT_1">
 <contactref element="X3" pad="14"/>
@@ -7370,9 +7431,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="73.6" y1="19.8" x2="73.4" y2="19.6" width="0.2" layer="16"/>
 <wire x1="77.8" y1="19.8" x2="73.6" y2="19.8" width="0.2" layer="16"/>
 <wire x1="78" y1="19.6" x2="77.8" y2="19.8" width="0.2" layer="16"/>
-<wire x1="106.8" y1="19.6" x2="78" y2="19.6" width="0.2" layer="16"/>
-<wire x1="109.9" y1="22.7" x2="106.8" y2="19.6" width="0.2" layer="16"/>
-<wire x1="150.9" y1="22.7" x2="109.9" y2="22.7" width="0.2" layer="16"/>
+<wire x1="101.8" y1="19.6" x2="78" y2="19.6" width="0.2" layer="16"/>
+<wire x1="104.2" y1="22.7" x2="101.8" y2="19.6" width="0.2" layer="16"/>
+<wire x1="150.9" y1="22.7" x2="104.2" y2="22.7" width="0.2" layer="16"/>
 <wire x1="151.4" y1="23.2" x2="150.9" y2="22.7" width="0.2" layer="16"/>
 <wire x1="151.5" y1="23.3" x2="151.4" y2="23.2" width="0.2" layer="1"/>
 <wire x1="151.5" y1="24.5" x2="151.5" y2="23.3" width="0.2" layer="1"/>
@@ -7498,168 +7559,168 @@ Covered vias can be set in Masks (Limit).
 </signals>
 <errors>
 <approved hash="19,15,e6d4d286eba7f08d"/>
-<approved hash="18,29,de1e5138c473afde"/>
-<approved hash="18,29,a8b49d158556a0db"/>
-<approved hash="18,29,7c00e3886a90f19e"/>
-<approved hash="18,29,131977e7ca3e0eb3"/>
-<approved hash="18,29,6355d7e247ed1f03"/>
-<approved hash="18,29,4d637437ce0d6382"/>
 <approved hash="18,29,a4fdeca72d4b8fd3"/>
 <approved hash="18,29,8d238053a4ffa5e8"/>
 <approved hash="18,29,b81b6510392d2d40"/>
-<approved hash="18,29,561f51ad931e3a58"/>
-<approved hash="18,29,944d49a68391607b"/>
-<approved hash="18,29,ac68746874afac2f"/>
-<approved hash="18,29,007dccc9b6b88661"/>
-<approved hash="18,29,a81871a87267a867"/>
-<approved hash="18,29,00bdb28dc82486a1"/>
-<approved hash="18,29,77414f2ff0b8c944"/>
-<approved hash="18,29,447dfcbef262b2d8"/>
-<approved hash="18,29,561f51ad931e3a58"/>
-<approved hash="18,29,b006968368854e04"/>
-<approved hash="18,29,0ef58bb5de136301"/>
-<approved hash="18,29,b05cafa1fb42208c"/>
-<approved hash="18,29,64aaa29d4aef93e6"/>
-<approved hash="18,29,0c5c1a184a0c22b8"/>
-<approved hash="18,29,dd99026b03a3dc51"/>
-<approved hash="18,29,1adecf230ef13620"/>
-<approved hash="18,29,c6e316e4f880351b"/>
-<approved hash="18,29,bf4c509104152bdb"/>
-<approved hash="18,29,8686c556ce8b27df"/>
-<approved hash="18,29,afc5e54024d28303"/>
-<approved hash="18,29,cd5672ae1f61926f"/>
-<approved hash="18,29,4cd450bcfdb0d38e"/>
-<approved hash="18,29,1f88b80de28f340d"/>
-<approved hash="18,29,99e31eaf7933e0fc"/>
-<approved hash="18,29,a30747555639b405"/>
-<approved hash="18,29,bb4846c957d9ac7e"/>
-<approved hash="18,29,5278b668b7a05220"/>
-<approved hash="18,29,ca0d578e0a3e224e"/>
-<approved hash="18,29,6a5166188eb33709"/>
-<approved hash="18,29,bb970efd96cfddcc"/>
-<approved hash="18,29,4d36ffb94755f428"/>
 <approved hash="18,29,a102abac670e5e7a"/>
 <approved hash="18,29,ba0acd656af812c5"/>
-<approved hash="18,29,ac187058719bacdb"/>
-<approved hash="18,29,bc7d037bb31af061"/>
-<approved hash="18,29,aa2875a8746baa6b"/>
-<approved hash="18,29,bcbd0d71bdc0f0a1"/>
-<approved hash="18,29,f0c5afb0ea22c3ca"/>
-<approved hash="18,29,f582965e86da5d14"/>
-<approved hash="18,29,2019281ea27bcfe0"/>
-<approved hash="18,29,547ceba0e47d5d2a"/>
-<approved hash="18,29,110e578afe19f1c8"/>
-<approved hash="18,29,c6932d6f3d8d6a43"/>
-<approved hash="18,29,9e50f0677014751d"/>
-<approved hash="18,29,1598ea6aeba21450"/>
-<approved hash="18,29,76aa34e254f9f04e"/>
-<approved hash="18,29,681415e8bc3a88eb"/>
-<approved hash="18,29,ad561250c19f4c6f"/>
-<approved hash="18,29,2cd43042234e0d8e"/>
-<approved hash="18,29,1f97ab788a153b7b"/>
-<approved hash="18,29,a583c58273a16175"/>
-<approved hash="18,29,88eb23dfc8f8bfec"/>
-<approved hash="18,29,48e8286828214821"/>
-<approved hash="18,29,02507aeecc444108"/>
-<approved hash="18,29,d60c3f797cc8604f"/>
 <approved hash="18,29,797efe8ae5d0c817"/>
 <approved hash="18,29,cb89adf31b74a5d3"/>
 <approved hash="18,29,a25dba5bab52f94b"/>
-<approved hash="18,29,f53d16d486a0174c"/>
-<approved hash="18,29,f49cc0d24a05c24c"/>
-<approved hash="18,29,16b249833b5b4f6d"/>
-<approved hash="18,29,6735fd942b489819"/>
-<approved hash="18,29,e8f49f00919dbebb"/>
 <approved hash="18,29,e62d6c2f6c83e681"/>
 <approved hash="18,29,9f5b10d99a2f8ec5"/>
-<approved hash="18,29,ac189458959cacdc"/>
-<approved hash="18,29,387c873461552260"/>
 <approved hash="18,29,fce118a1ccc8e317"/>
 <approved hash="18,29,5900c8df1f5939f4"/>
 <approved hash="18,29,bbd83e0b6b4ca1a8"/>
 <approved hash="18,29,d9819077eece58f6"/>
 <approved hash="18,29,951c3a09a1d8ae80"/>
-<approved hash="18,29,42c853b1a62e2b90"/>
-<approved hash="18,29,0cc9033497d6d418"/>
-<approved hash="18,29,d007ae30de422f4b"/>
-<approved hash="18,29,4e4a5bb652643ab5"/>
-<approved hash="18,29,7d98ca6acba27c50"/>
-<approved hash="18,29,98f08eb786a3ae14"/>
-<approved hash="18,29,4bd93c04a881974f"/>
-<approved hash="18,29,7a4e82490c2d81b6"/>
-<approved hash="18,29,a350b9d4b047d796"/>
-<approved hash="18,29,0a2919fa3a27b370"/>
-<approved hash="18,29,bcd4a009a905878e"/>
-<approved hash="18,29,3d56821b4bd4c66f"/>
-<approved hash="18,29,4ce9886988214c21"/>
-<approved hash="18,29,c20caf33b682e64f"/>
-<approved hash="18,29,92506ea44a0e8b08"/>
 <approved hash="18,29,5297ad77cd6365e2"/>
 <approved hash="18,29,56bf88fd8f095ab2"/>
 <approved hash="18,29,add4ce515e300d91"/>
 <approved hash="18,29,50a379a579c450c2"/>
 <approved hash="18,29,c09924d0b825dacc"/>
 <approved hash="18,29,8b14e64fc60a9350"/>
-<approved hash="18,29,aa623b5d2694aeab"/>
-<approved hash="18,29,f7308fb7d9d4fba3"/>
-<approved hash="18,29,97842783c5e7187c"/>
-<approved hash="18,29,81ef72326ab6c978"/>
-<approved hash="18,29,bbe72c35e3e99abe"/>
-<approved hash="18,29,869a9be10a72665c"/>
-<approved hash="18,29,52ffc102d9e11e2f"/>
-<approved hash="18,29,49cd9ffa7788c281"/>
-<approved hash="18,29,b13f2b79a36d1fda"/>
-<approved hash="18,29,1598926a93a21450"/>
-<approved hash="18,29,fc7fe27c73ae1c80"/>
-<approved hash="18,29,4cd453dfdcd3f18e"/>
-<approved hash="18,29,cd5671cd3e02b06f"/>
-<approved hash="18,29,4d6ad97b449a621f"/>
-<approved hash="18,29,07427c8581d069a0"/>
-<approved hash="18,29,da9cba1a53d6a26f"/>
-<approved hash="18,29,1037dd4058a02b20"/>
-<approved hash="18,29,c92bd203343a270a"/>
-<approved hash="18,29,4cdb9a8ae300b307"/>
-<approved hash="18,29,4747883eb6dc871c"/>
-<approved hash="18,29,533b9a3a8f4e41ad"/>
-<approved hash="18,29,b60f14eeeb5f044c"/>
-<approved hash="18,29,4f85859fb3bf8fde"/>
-<approved hash="18,29,585c9df68b4e4f4e"/>
-<approved hash="18,29,2a531979abd3d50b"/>
-<approved hash="18,29,670438361419ac6d"/>
 <approved hash="18,29,722bb70888250f48"/>
 <approved hash="18,29,72ebbeb14bb07998"/>
 <approved hash="18,29,094ee64dd2d96fd6"/>
 <approved hash="18,29,870a6a07fd9aee12"/>
 <approved hash="18,29,2b7008761dda03da"/>
 <approved hash="18,29,9b2b4aea14687374"/>
+<approved hash="18,29,de1e5138c473afde"/>
+<approved hash="18,29,a8b49d158556a0db"/>
+<approved hash="18,29,7c00e3886a90f19e"/>
+<approved hash="18,29,131977e7ca3e0eb3"/>
+<approved hash="18,29,6355d7e247ed1f03"/>
+<approved hash="18,29,4d637437ce0d6382"/>
+<approved hash="18,29,561f51ad931e3a58"/>
+<approved hash="18,29,944d49a68391607b"/>
+<approved hash="18,29,a81871a87267a867"/>
+<approved hash="18,29,00bdb28dc82486a1"/>
+<approved hash="18,29,ac68746874afac2f"/>
+<approved hash="18,29,007dccc9b6b88661"/>
+<approved hash="18,29,77414f2ff0b8c944"/>
+<approved hash="18,29,447dfcbef262b2d8"/>
+<approved hash="18,29,561f51ad931e3a58"/>
+<approved hash="18,29,b006968368854e04"/>
+<approved hash="18,29,0ef58bb5de136301"/>
+<approved hash="18,29,64aaa29d4aef93e6"/>
+<approved hash="18,29,b05cafa1fb42208c"/>
+<approved hash="18,29,dd99026b03a3dc51"/>
+<approved hash="18,29,1adecf230ef13620"/>
+<approved hash="18,29,0c5c1a184a0c22b8"/>
+<approved hash="18,29,bf4c509104152bdb"/>
+<approved hash="18,29,c6e316e4f880351b"/>
+<approved hash="18,29,afc5e54024d28303"/>
+<approved hash="18,29,8686c556ce8b27df"/>
+<approved hash="18,29,cd5672ae1f61926f"/>
+<approved hash="18,29,4cd450bcfdb0d38e"/>
+<approved hash="18,29,99e31eaf7933e0fc"/>
+<approved hash="18,29,1f88b80de28f340d"/>
+<approved hash="18,29,bb4846c957d9ac7e"/>
+<approved hash="18,29,a30747555639b405"/>
+<approved hash="18,29,5278b668b7a05220"/>
+<approved hash="18,29,ca0d578e0a3e224e"/>
+<approved hash="18,29,6a5166188eb33709"/>
+<approved hash="18,29,bb970efd96cfddcc"/>
+<approved hash="18,29,4d36ffb94755f428"/>
+<approved hash="18,29,ac187058719bacdb"/>
+<approved hash="18,29,bc7d037bb31af061"/>
+<approved hash="18,29,aa2875a8746baa6b"/>
+<approved hash="18,29,bcbd0d71bdc0f0a1"/>
+<approved hash="18,29,f0c5afb0ea22c3ca"/>
+<approved hash="18,29,c6932d6f3d8d6a43"/>
+<approved hash="18,29,9e50f0677014751d"/>
+<approved hash="18,29,1598ea6aeba21450"/>
+<approved hash="18,29,681415e8bc3a88eb"/>
+<approved hash="18,29,76aa34e254f9f04e"/>
+<approved hash="18,29,f582965e86da5d14"/>
+<approved hash="18,29,2019281ea27bcfe0"/>
+<approved hash="18,29,110e578afe19f1c8"/>
+<approved hash="18,29,547ceba0e47d5d2a"/>
+<approved hash="18,29,ad561250c19f4c6f"/>
+<approved hash="18,29,2cd43042234e0d8e"/>
+<approved hash="18,29,a583c58273a16175"/>
+<approved hash="18,29,1f97ab788a153b7b"/>
+<approved hash="18,29,88eb23dfc8f8bfec"/>
+<approved hash="18,29,48e8286828214821"/>
+<approved hash="18,29,d60c3f797cc8604f"/>
+<approved hash="18,29,02507aeecc444108"/>
+<approved hash="18,29,f49cc0d24a05c24c"/>
+<approved hash="18,29,f53d16d486a0174c"/>
+<approved hash="18,29,16b249833b5b4f6d"/>
+<approved hash="18,29,6735fd942b489819"/>
+<approved hash="18,29,e8f49f00919dbebb"/>
+<approved hash="18,29,ac189458959cacdc"/>
+<approved hash="18,29,387c873461552260"/>
+<approved hash="18,29,42c853b1a62e2b90"/>
+<approved hash="18,29,7a4e82490c2d81b6"/>
+<approved hash="18,29,4bd93c04a881974f"/>
+<approved hash="18,29,a350b9d4b047d796"/>
+<approved hash="18,29,0a2919fa3a27b370"/>
+<approved hash="18,29,0cc9033497d6d418"/>
+<approved hash="18,29,d007ae30de422f4b"/>
+<approved hash="18,29,4e4a5bb652643ab5"/>
+<approved hash="18,29,7d98ca6acba27c50"/>
+<approved hash="18,29,98f08eb786a3ae14"/>
+<approved hash="18,29,3d56821b4bd4c66f"/>
+<approved hash="18,29,bcd4a009a905878e"/>
+<approved hash="18,29,4ce9886988214c21"/>
+<approved hash="18,29,c20caf33b682e64f"/>
+<approved hash="18,29,92506ea44a0e8b08"/>
+<approved hash="18,29,aa623b5d2694aeab"/>
+<approved hash="18,29,f7308fb7d9d4fba3"/>
+<approved hash="18,29,97842783c5e7187c"/>
+<approved hash="18,29,81ef72326ab6c978"/>
+<approved hash="18,29,bbe72c35e3e99abe"/>
+<approved hash="18,29,869a9be10a72665c"/>
+<approved hash="18,29,49cd9ffa7788c281"/>
+<approved hash="18,29,52ffc102d9e11e2f"/>
+<approved hash="18,29,fc7fe27c73ae1c80"/>
+<approved hash="18,29,b13f2b79a36d1fda"/>
+<approved hash="18,29,1598926a93a21450"/>
+<approved hash="18,29,cd5671cd3e02b06f"/>
+<approved hash="18,29,4cd453dfdcd3f18e"/>
+<approved hash="18,29,4d6ad97b449a621f"/>
+<approved hash="18,29,07427c8581d069a0"/>
+<approved hash="18,29,da9cba1a53d6a26f"/>
+<approved hash="18,29,1037dd4058a02b20"/>
+<approved hash="18,29,c92bd203343a270a"/>
+<approved hash="18,29,4cdb9a8ae300b307"/>
+<approved hash="18,29,b60f14eeeb5f044c"/>
+<approved hash="18,29,2a531979abd3d50b"/>
+<approved hash="18,29,4f85859fb3bf8fde"/>
+<approved hash="18,29,585c9df68b4e4f4e"/>
+<approved hash="18,29,4747883eb6dc871c"/>
+<approved hash="18,29,533b9a3a8f4e41ad"/>
+<approved hash="18,29,670438361419ac6d"/>
 <approved hash="19,1,480fcf91cefc4962"/>
+<approved hash="19,1,4204cd9acef4416a"/>
 <approved hash="19,1,43b8cc26c9f4466a"/>
 <approved hash="19,1,43c2cc5cf1f87e66"/>
-<approved hash="19,1,4204cd9acef4416a"/>
 <approved hash="19,1,47c5a65b9bfb7a65"/>
-<approved hash="19,1,47bfa621a3f74269"/>
 <approved hash="19,1,4603a79da4f74569"/>
-<approved hash="19,1,5bb94c2749f15e6f"/>
-<approved hash="19,1,5bc34c5d71fd6663"/>
+<approved hash="19,1,47bfa621a3f74269"/>
 <approved hash="19,1,5a054d9b4ef1596f"/>
+<approved hash="19,1,5bc34c5d71fd6663"/>
+<approved hash="19,1,5bb94c2749f15e6f"/>
 <approved hash="19,1,2207bd99bef3216d"/>
-<approved hash="19,1,23c1bc5f81ff1e61"/>
 <approved hash="19,1,23bbbc25b9f3266d"/>
+<approved hash="19,1,23c1bc5f81ff1e61"/>
 <approved hash="19,1,6e05a79ba4f16d6f"/>
-<approved hash="19,1,6fc3a65d9bfd5263"/>
 <approved hash="19,1,6fb9a627a3f16a6f"/>
+<approved hash="19,1,6fc3a65d9bfd5263"/>
+<approved hash="19,1,4a0bcd95cefc4962"/>
 <approved hash="19,1,4bcdcc53f1f0766e"/>
 <approved hash="19,1,4bb7cc29c9fc4e62"/>
-<approved hash="19,1,4a0bcd95cefc4962"/>
-<approved hash="19,1,02058d9b8ef1016f"/>
-<approved hash="19,1,03c38c5db1fd3e63"/>
 <approved hash="19,1,03b98c2789f1066f"/>
+<approved hash="19,1,03c38c5db1fd3e63"/>
+<approved hash="19,1,02058d9b8ef1016f"/>
 <approved hash="19,1,27c2165c2bf81a66"/>
-<approved hash="19,1,27b8162613f4226a"/>
 <approved hash="19,1,2604179a14f4256a"/>
+<approved hash="19,1,27b8162613f4226a"/>
 <approved hash="19,1,0bb80c2609f50e6b"/>
-<approved hash="19,1,0bc20c5c31f93667"/>
 <approved hash="19,1,0a040d9a0ef5096b"/>
+<approved hash="19,1,0bc20c5c31f93667"/>
 <approved hash="19,15,6cfcfc2f759f7ddd"/>
 </errors>
 </board>
