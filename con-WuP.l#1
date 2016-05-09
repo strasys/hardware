@@ -3983,6 +3983,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/154818.pdf</description>
 <connect gate="G$1" pin="B10" pad="B10"/>
 <connect gate="G$1" pin="B11" pad="B11"/>
 <connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
 <connect gate="G$1" pin="B2" pad="B2"/>
 <connect gate="G$1" pin="B3" pad="B3"/>
 <connect gate="G$1" pin="B4" pad="B4"/>

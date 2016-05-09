@@ -4694,8 +4694,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Kemet" x="104" y="20" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="104" y="20" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1414603" x="104" y="20" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="107.175" y="16.5456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 <attribute name="MF" value="KEMET" x="104" y="20" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="105.23" y="18.6456" size="0.5" layer="25" rot="SR90"/>
+<attribute name="VALUE" x="107.175" y="16.5456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="L3" library="WE-CBF" package="0603" value="" x="101.3" y="20.7" smashed="yes">
 <attribute name="PACKAGE" value="IND-0603" x="101.3" y="20.7" size="1.778" layer="27" display="off"/>

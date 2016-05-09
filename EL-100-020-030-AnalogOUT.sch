@@ -5260,32 +5260,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="213.36" y1="50.8" x2="238.76" y2="50.8" width="0.1524" layer="91"/>
 <label x="241.3" y="50.8" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U5" gate="A" pin="SCL"/>
-<wire x1="99.06" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="144.78" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
-<label x="15.24" y="142.24" size="1.778" layer="95"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="45.72" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<junction x="45.72" y="142.24"/>
-</segment>
 </net>
 <net name="I2C2_SDA" class="0">
 <segment>
 <pinref part="U16" gate="A" pin="SDA"/>
 <wire x1="208.28" y1="53.34" x2="238.76" y2="53.34" width="0.1524" layer="91"/>
 <label x="241.3" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="SDA"/>
-<wire x1="99.06" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
-<label x="15.24" y="137.16" size="1.778" layer="95"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="45.72" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
-<junction x="45.72" y="137.16"/>
 </segment>
 </net>
 <net name="VDD5V_F" class="0">
@@ -5581,6 +5561,30 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="C33" gate="G$1" pin="C1"/>
 <pinref part="SUPPLY73" gate="PE" pin="PE"/>
+</segment>
+</net>
+<net name="I2C1_SCL" class="0">
+<segment>
+<pinref part="U5" gate="A" pin="SCL"/>
+<wire x1="99.06" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="144.78" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
+<label x="15.24" y="142.24" size="1.778" layer="95"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="45.72" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
+<junction x="45.72" y="142.24"/>
+</segment>
+</net>
+<net name="I2C1_SDA" class="0">
+<segment>
+<pinref part="U5" gate="A" pin="SDA"/>
+<wire x1="99.06" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="142.24" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
+<label x="15.24" y="137.16" size="1.778" layer="95"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="45.72" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
+<junction x="45.72" y="137.16"/>
 </segment>
 </net>
 </nets>

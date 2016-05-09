@@ -2054,7 +2054,7 @@ grid 1.27 mm</description>
 <wire x1="2.45" y1="0.9" x2="2.45" y2="-10.2" width="0.127" layer="51"/>
 <wire x1="-47.95" y1="0.9" x2="-47.95" y2="-10.2" width="0.127" layer="51"/>
 <dimension x1="-45.8" y1="0" x2="-45.8" y2="-10.2" x3="-52.4" y3="-5.1" textsize="1.27" layer="51"/>
-<dimension x1="-47.95" y1="0.9" x2="2.45" y2="0.9" x3="-22.75" y3="4.55" textsize="1.27" layer="51"/>
+<dimension x1="-47.95" y1="0.9" x2="2.45" y2="0.9" x3="-22.75" y3="-17.04" textsize="1.27" layer="51"/>
 <dimension x1="-47.95" y1="0.9" x2="-47.95" y2="-10.2" x3="-56.199996875" y3="-4.65" textsize="1.27" layer="51"/>
 <text x="0.55" y="-2.1" size="1.27" layer="21" rot="R180">1</text>
 <text x="-37.86" y="-7.6" size="1.778" layer="25" rot="R180">&gt;NAME</text>
@@ -3903,8 +3903,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-56.75" y="-50.36" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-56.75" y="-50.36" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-56.75" y="-50.36" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3644" y="23.935" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.91" y="27.11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.3644" y="26.98" size="0.5" layer="26" rot="SMR0"/>
+<attribute name="VALUE" x="20.3644" y="23.935" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="R20" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="10K Ohms" x="16.91" y="30.57" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="52K8062" x="-73.26" y="-46.9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3913,8 +3914,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-73.26" y="-46.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-73.26" y="-46.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-73.26" y="-46.9" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3644" y="27.395" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.91" y="30.57" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.3644" y="30.34" size="0.5" layer="26" rot="SMR0"/>
+<attribute name="VALUE" x="20.3644" y="27.395" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="R21" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="10K Ohms" x="16.91" y="34.01" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="52K8062" x="-89.77" y="-43.46" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3923,8 +3925,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-89.77" y="-43.46" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-89.77" y="-43.46" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-89.77" y="-43.46" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3644" y="30.835" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.91" y="34.01" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.1644" y="33.88" size="0.5" layer="26" rot="SMR0"/>
+<attribute name="VALUE" x="20.3644" y="30.835" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="C3" library="Kemet_By_element14_Batch_1" package="CAPC1608X85N" value="10nF 50V" x="14.62" y="24.075" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="30C5334" x="-80.63" y="145.995" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4013,8 +4016,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-106.28" y="-40" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-106.28" y="-40" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-106.28" y="-40" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3644" y="34.295" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.91" y="37.47" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.2644" y="37.24" size="0.5" layer="26" rot="SMR0"/>
+<attribute name="VALUE" x="20.3644" y="34.295" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="R23" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="10K Ohms" x="16.91" y="40.91" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="52K8062" x="-122.79" y="-36.56" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4023,8 +4027,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-122.79" y="-36.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-122.79" y="-36.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-122.79" y="-36.56" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3644" y="37.735" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.91" y="40.91" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.2644" y="40.68" size="0.5" layer="26" rot="SMR0"/>
+<attribute name="VALUE" x="20.3644" y="37.735" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="R24" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="10K Ohms" x="16.9" y="44.56" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="52K8062" x="-7.23" y="-41.8" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4033,8 +4038,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-7.23" y="-41.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-7.23" y="-41.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-7.23" y="-41.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3544" y="41.385" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.9" y="44.56" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.2544" y="44.33" size="0.5" layer="26" rot="SMR0"/>
+<attribute name="VALUE" x="20.3544" y="41.385" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="R25" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="10K Ohms" x="16.91" y="48.04" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="52K8062" x="-23.73" y="-38.32" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4043,8 +4049,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="-23.73" y="-38.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1469748" x="-23.73" y="-38.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="-23.73" y="-38.32" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="20.3644" y="44.865" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="16.91" y="48.04" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.2644" y="47.81" size="0.5" layer="26" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="20.3644" y="44.865" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="C7" library="Kemet_By_element14_Batch_1" package="CAPC1608X85N" value="10nF 50V" x="14.63" y="38.01" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="30C5334" x="-89.51" y="92.62" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4086,7 +4093,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Kemet" x="-89.51" y="148.97" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGERATING" value="50V" x="-89.51" y="148.97" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_FARNELL" value="1414609" x="-89.51" y="148.97" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="13" y="48.0856" size="1" layer="26" rot="SMR90"/>
+<attribute name="NAME" x="12.9" y="48.1856" size="1" layer="26" rot="SMR90"/>
 <attribute name="VALUE" x="11.455" y="45.1856" size="2.0828" layer="28" ratio="10" rot="SMR90"/>
 <attribute name="MF" value="KEMET" x="14.63" y="48.64" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>

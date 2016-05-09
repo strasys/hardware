@@ -18,12 +18,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -48,8 +48,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
@@ -4790,8 +4790,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="22.7" y="82.3" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="1469819" x="22.7" y="82.3" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="22.7" y="82.3" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="19.2456" y="85.475" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="22.7" y="82.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="21.6456" y="81.43" size="1" layer="26" rot="SMR180"/>
+<attribute name="VALUE" x="19.2456" y="85.475" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
 </element>
 <element name="C30" library="Kemet_By_element14_Batch_1" package="CAPC1608X85N" value="0.1uF" x="26" y="80.2" smashed="yes">
 <attribute name="OC_NEWARK" value="" x="26" y="80.2" size="1.778" layer="27" display="off"/>
@@ -4886,9 +4887,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="22.7" y="85" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="1469740" x="22.7" y="85" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="22.7" y="85" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="30.2544" y="84.47" size="1" layer="26" rot="SMR0"/>
-<attribute name="VALUE" x="19.2456" y="88.175" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="22.7" y="85" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="23.8456" y="85.53" size="1" layer="26" rot="SMR180"/>
+<attribute name="VALUE" x="19.2456" y="88.175" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
 </element>
 <element name="R41" library="Vishay_By_element14_Batch_1" package="RESC1608X60N" value="1K Ohms" x="22.7" y="83.6" smashed="yes" rot="MR180">
 <attribute name="OC_NEWARK" value="52K8015" x="22.7" y="83.6" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -4897,9 +4898,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Vishay" x="22.7" y="83.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="1469740" x="22.7" y="83.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="WATTAGE" value="0.1W" x="22.7" y="83.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="30.2544" y="83.07" size="1" layer="26" rot="SMR0"/>
-<attribute name="VALUE" x="19.2456" y="86.775" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="22.7" y="83.6" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="23.8456" y="84.13" size="1" layer="26" rot="SMR180"/>
+<attribute name="VALUE" x="19.2456" y="86.775" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
 </element>
 <element name="C33" library="supply2" package="CAPC3216X88N" value="1000pF 1kV" x="18.8" y="82.5" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="+/- 10%" x="18.8" y="82.5" size="1.778" layer="27" rot="R180" display="off"/>
