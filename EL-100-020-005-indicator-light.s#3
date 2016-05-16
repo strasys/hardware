@@ -442,7 +442,7 @@ at 30/07/2012 16:36:08</description>
 <segment>
 <pinref part="R2" gate="A" pin="1"/>
 <wire x1="134.62" y1="175.26" x2="147.32" y2="175.26" width="0.1524" layer="91"/>
-<label x="147.32" y="175.26" size="1.778" layer="95"/>
+<label x="149.86" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SYS5V_ON" class="0">
@@ -454,7 +454,7 @@ at 30/07/2012 16:36:08</description>
 <segment>
 <pinref part="R1" gate="A" pin="1"/>
 <wire x1="134.62" y1="185.42" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
-<label x="147.32" y="185.42" size="1.778" layer="95"/>
+<label x="149.86" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEARTBEAT" class="0">
@@ -466,7 +466,7 @@ at 30/07/2012 16:36:08</description>
 <segment>
 <pinref part="R3" gate="A" pin="1"/>
 <wire x1="134.62" y1="165.1" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
-<label x="147.32" y="165.1" size="1.778" layer="95"/>
+<label x="149.86" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ERROR" class="0">
@@ -474,6 +474,11 @@ at 30/07/2012 16:36:08</description>
 <pinref part="X1" gate="G$1" pin="5"/>
 <wire x1="223.52" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
 <label x="208.28" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="A" pin="1"/>
+<wire x1="134.62" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
+<label x="149.86" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -502,13 +507,6 @@ at 30/07/2012 16:36:08</description>
 <pinref part="LED4" gate="LED$1" pin="1"/>
 <pinref part="R4" gate="A" pin="2"/>
 <wire x1="99.06" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R4" gate="A" pin="1"/>
-<wire x1="134.62" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
-<label x="147.32" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

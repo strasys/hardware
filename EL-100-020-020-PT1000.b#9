@@ -25,10 +25,10 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
@@ -77,6 +77,13 @@
 <text x="50.3" y="5.9" size="1.016" layer="21" font="vector" rot="R90">VDD</text>
 <text x="47.7" y="5.9" size="1.016" layer="21" font="vector" rot="R90">SDA</text>
 <text x="45.2" y="5.9" size="1.016" layer="21" font="vector" rot="R90">SCL</text>
+<text x="5.3" y="27.1" size="1.016" layer="1" font="vector">top</text>
+<text x="8.9" y="27.1" size="1.016" layer="16" font="vector" rot="MR0">bottom</text>
+<text x="46" y="13.6" size="1" layer="16" font="vector" ratio="15" rot="MR0">EL-100-020-020</text>
+<text x="46" y="12.3" size="1" layer="16" font="vector" ratio="15" rot="MR0">strasys</text>
+<text x="46" y="10.8" size="1" layer="16" font="vector" ratio="15" rot="MR0">Rev. 1.0</text>
+<text x="3.8" y="24.8" size="1" layer="1" font="vector" ratio="15">PT1000</text>
+<text x="9" y="24.8" size="1" layer="16" font="vector" ratio="15" rot="MR0">PT1000</text>
 </plain>
 <libraries>
 <library name="strasys_standard">
@@ -447,6 +454,18 @@ at 30/07/2012 11:22:31</description>
 <wire x1="9.55" y1="-2.2" x2="9.55" y2="-3.8" width="0.1" layer="51"/>
 <wire x1="9.55" y1="-3.8" x2="10.7" y2="-3.8" width="0.1" layer="51"/>
 <wire x1="10.7" y1="-3.8" x2="10.7" y2="-2.2" width="0.1" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="marks">
+<description>&lt;b&gt;Markers for Layout Outline Definition&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="PASSER_SMD4">
+<rectangle x1="-1" y1="-0.25" x2="1" y2="0.25" layer="1"/>
+<rectangle x1="-0.25" y1="-1" x2="0.25" y2="1" layer="1"/>
+<rectangle x1="-1.2" y1="-0.45" x2="1.2" y2="0.45" layer="29"/>
+<rectangle x1="-0.45" y1="-1.2" x2="0.45" y2="1.2" layer="29"/>
 </package>
 </packages>
 </library>
@@ -841,7 +860,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X3" library="con-WuP" package="9012-26" value="9012-26" x="26.99" y="6.01" locked="yes" smashed="yes">
 <attribute name="MPN" value="9012-26" x="51.12" y="-5.42" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="W+P" x="51.12" y="-5.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.53" y="1.79" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="26.93" y="1.39" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C1" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="28" y="14.4" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="65H7431" x="-62.17" y="-60.53" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1179,6 +1198,8 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="24.83" y="24.1456" size="1.016" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="28.875" y="21.8456" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
+<element name="U$1" library="marks" package="PASSER_SMD4" value="" x="2.2" y="27.5"/>
+<element name="U$2" library="marks" package="PASSER_SMD4" value="" x="51.6" y="9.8"/>
 </elements>
 <signals>
 <signal name="AGND">

@@ -469,13 +469,8 @@ ABS10</description>
 <pad name="12" x="-38.5" y="0" drill="1.3" rot="R180"/>
 <pad name="13" x="-42" y="0" drill="1.3" rot="R180"/>
 <pad name="14" x="-45.5" y="0" drill="1.3" rot="R180"/>
-<text x="0.55" y="-2.1" size="1.27" layer="21" rot="R180">1</text>
 <text x="-37.86" y="-7.6" size="1.778" layer="25" rot="R180">&gt;NAME</text>
 <text x="-36.24" y="-4.85" size="1.778" layer="27" rot="R180">&gt;VALUE</text>
-<text x="-46.59" y="-3.11" size="1.27" layer="21">14</text>
-<dimension x1="-45.8" y1="0" x2="-45.8" y2="-10.2" x3="-52.4" y3="-5.1" textsize="1.27" layer="51"/>
-<dimension x1="-47.95" y1="0.9" x2="2.45" y2="0.9" x3="-22.75" y3="-17.04" textsize="1.27" layer="51"/>
-<dimension x1="-47.95" y1="0.9" x2="-47.95" y2="-10.2" x3="-56.199996875" y3="-4.65" textsize="1.27" layer="51"/>
 </package>
 <package name="SOP-16">
 <text x="-2.54" y="7.62" size="1.27" layer="25">&gt;NAME</text>
@@ -620,10 +615,6 @@ ABS10</description>
 <pad name="6" x="7" y="-2.5" drill="1.3"/>
 <pad name="7" x="10.5" y="0" drill="1.3"/>
 <pad name="8" x="10.5" y="-2.5" drill="1.3"/>
-<text x="-3.9" y="-0.5" size="1.27" layer="21">1</text>
-<text x="13.4" y="-3" size="1.27" layer="21">8</text>
-<text x="-3.9" y="-2.9" size="1.27" layer="21">2</text>
-<text x="13.45" y="-0.45" size="1.27" layer="21">7</text>
 <text x="0" y="-6.35" size="1.778" layer="25">&gt;NAME</text>
 <text x="0" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 </package>
@@ -918,9 +909,9 @@ ABS10</description>
 <text x="-6.3246" y="-12.3952" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="2,54_2X8">
-<wire x1="-4.1" y1="-4.2" x2="11.7" y2="-4.2" width="0.127" layer="51"/>
-<wire x1="11.7" y1="-4.2" x2="11.7" y2="1.7" width="0.127" layer="51"/>
-<wire x1="11.7" y1="1.7" x2="-4.1" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-3.77" x2="8.89" y2="-3.77" width="0.127" layer="51"/>
+<wire x1="8.89" y1="-3.77" x2="8.89" y2="1.23" width="0.127" layer="51"/>
+<wire x1="8.89" y1="1.23" x2="-1.27" y2="1.23" width="0.127" layer="51"/>
 <pad name="P1" x="0" y="0" drill="1" shape="square"/>
 <pad name="P2" x="0" y="-2.54" drill="1"/>
 <pad name="P3" x="2.54" y="0" drill="1"/>
@@ -929,13 +920,9 @@ ABS10</description>
 <pad name="P6" x="5.08" y="-2.54" drill="1"/>
 <pad name="P7" x="7.62" y="0" drill="1"/>
 <pad name="P8" x="7.62" y="-2.54" drill="1"/>
-<text x="-0.06" y="2.25" size="1.27" layer="21">1</text>
-<text x="-0.06" y="-5.7" size="1.27" layer="21">2</text>
-<text x="7.2" y="2.35" size="1.27" layer="21">7</text>
-<text x="7.23" y="-5.97" size="1.27" layer="21">8</text>
 <text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
-<wire x1="-4.1" y1="1.7" x2="-4.1" y2="-4.2" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.23" x2="-1.27" y2="-3.77" width="0.127" layer="51"/>
 </package>
 <package name="2,54_2X1">
 <wire x1="-1.27" y1="-3.77" x2="1.27" y2="-3.77" width="0.127" layer="51"/>
@@ -4810,6 +4797,8 @@ at 28/03/2012 12:54:09</description>
 <wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0" layer="51"/>
 <text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-0.1" y1="0.7" x2="0.1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.7" x2="0.1" y2="-0.7" width="0.127" layer="21"/>
 </package>
 <package name="CAPC3216X180N">
 <smd name="1" x="-1.397" y="0" dx="0.9144" dy="1.8034" layer="1"/>

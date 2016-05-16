@@ -318,6 +318,34 @@ at 30/07/2012 16:36:08</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2">
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DGND" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -344,6 +372,7 @@ at 30/07/2012 16:36:08</description>
 <part name="R2" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
 <part name="R3" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
 <part name="R4" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
+<part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -351,7 +380,7 @@ at 30/07/2012 16:36:08</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="X1" gate="G$1" x="157.48" y="175.26"/>
+<instance part="X1" gate="G$1" x="177.8" y="175.26"/>
 <instance part="LED1" gate="LED$1" x="96.52" y="185.42" rot="R270"/>
 <instance part="LED2" gate="LED$1" x="96.52" y="175.26" rot="R270"/>
 <instance part="LED3" gate="LED$1" x="96.52" y="165.1" rot="R270"/>
@@ -372,10 +401,38 @@ at 30/07/2012 16:36:08</description>
 <attribute name="VALUE" x="121.3358" y="151.2824" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="122.9106" y="157.7086" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 </instance>
+<instance part="SUPPLY1" gate="G$1" x="142.24" y="175.26"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="DGND" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
+<wire x1="167.64" y1="177.8" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+24V_ON" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
+<label x="195.58" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SYS5V_ON" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="3"/>
+<wire x1="167.64" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
+<label x="147.32" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="187.96" y1="175.26" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

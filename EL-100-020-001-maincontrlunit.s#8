@@ -8690,10 +8690,10 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <part name="R70" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K0JNEA" device="" value="10K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="TP1" library="testpad" deviceset="TP" device="PAD1-13"/>
-<part name="TP2" library="testpad" deviceset="TP" device="PAD1-13"/>
-<part name="TP3" library="testpad" deviceset="TP" device="PAD1-13"/>
-<part name="TP4" library="testpad" deviceset="TP" device="PAD1-13"/>
+<part name="I2C1_SCL" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
+<part name="TP2" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
+<part name="TP3" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
+<part name="TP4" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
 </parts>
 <sheets>
 <sheet>
@@ -9204,7 +9204,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <attribute name="NAME" x="324.8914" y="206.7306" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="327.66" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="274.32" y="200.66"/>
+<instance part="I2C1_SCL" gate="G$1" x="274.32" y="200.66"/>
 <instance part="TP2" gate="G$1" x="264.16" y="198.12"/>
 <instance part="TP3" gate="G$1" x="256.54" y="195.58"/>
 <instance part="TP4" gate="G$1" x="248.92" y="193.04"/>
@@ -9366,7 +9366,7 @@ Source: http://www.erni.com/DB/PDF-Drawing/SMC/063209.pdf</description>
 <wire x1="274.32" y1="198.12" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="205.74" x2="292.1" y2="198.12" width="0.1524" layer="91"/>
 <junction x="292.1" y="198.12"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="I2C1_SCL" gate="G$1" pin="TP"/>
 <junction x="274.32" y="198.12"/>
 </segment>
 </net>

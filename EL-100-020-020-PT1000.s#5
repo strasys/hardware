@@ -209,10 +209,6 @@ grid 1.27 mm</description>
 <pad name="P6" x="5.08" y="-2.54" drill="1"/>
 <pad name="P7" x="7.62" y="0" drill="1"/>
 <pad name="P8" x="7.62" y="-2.54" drill="1"/>
-<text x="-0.06" y="2.25" size="1.27" layer="21">1</text>
-<text x="-0.06" y="-5.7" size="1.27" layer="21">2</text>
-<text x="7.2" y="2.35" size="1.27" layer="21">7</text>
-<text x="7.23" y="-5.97" size="1.27" layer="21">8</text>
 <text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 <wire x1="-1.27" y1="1.23" x2="-1.27" y2="-3.77" width="0.127" layer="51"/>

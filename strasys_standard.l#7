@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1507,10 +1507,10 @@ Fa. Aurel</description>
 <pad name="P6" x="5.08" y="-2.54" drill="1"/>
 <pad name="P7" x="7.62" y="0" drill="1"/>
 <pad name="P8" x="7.62" y="-2.54" drill="1"/>
-<text x="-0.06" y="2.25" size="1.27" layer="21">1</text>
-<text x="-0.06" y="-5.7" size="1.27" layer="21">2</text>
-<text x="7.2" y="2.35" size="1.27" layer="21">7</text>
-<text x="7.23" y="-5.97" size="1.27" layer="21">8</text>
+<text x="-2.6" y="-0.29" size="1.27" layer="21">1</text>
+<text x="-2.6" y="-3.16" size="1.27" layer="21">2</text>
+<text x="9.74" y="-0.19" size="1.27" layer="21">7</text>
+<text x="9.77" y="-3.43" size="1.27" layer="21">8</text>
 <text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 <wire x1="-1.27" y1="1.23" x2="-1.27" y2="-3.77" width="0.127" layer="51"/>
@@ -1549,12 +1549,9 @@ Fa. Aurel</description>
 <smd name="2" x="0" y="-1.35" dx="0.55" dy="1" layer="1"/>
 <smd name="1" x="-0.95" y="-1.35" dx="0.55" dy="1" layer="1"/>
 <smd name="3" x="0.95" y="-1.35" dx="0.55" dy="1" layer="1"/>
-<wire x1="-1.6" y1="0.889" x2="-1.6" y2="0.1" width="0.127" layer="21"/>
 <smd name="4" x="-0.95" y="1.4" dx="0.55" dy="1" layer="1"/>
 <smd name="5" x="0.95" y="1.4" dx="0.55" dy="1" layer="1"/>
-<wire x1="-1.6" y1="0.1" x2="-1.6" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0" x2="-1.6" y2="-0.87" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.1" x2="-1.6" y2="0" width="0.127" layer="21" curve="333.434949"/>
+<wire x1="-1.6" y1="0.889" x2="-1.6" y2="-0.87" width="0.127" layer="21"/>
 <wire x1="1.6" y1="0.9" x2="1.6" y2="-0.87" width="0.127" layer="21"/>
 <wire x1="1.6" y1="0.9" x2="1.6" y2="-0.9" width="0.127" layer="51"/>
 <wire x1="1.6" y1="-0.9" x2="-1.6" y2="-0.9" width="0.127" layer="51"/>
@@ -1562,6 +1559,7 @@ Fa. Aurel</description>
 <wire x1="-1.6" y1="0.9" x2="1.6" y2="0.9" width="0.127" layer="51"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.2" x2="-1.5" y2="-0.2" width="0.127" layer="21" curve="-180"/>
 </package>
 </packages>
 <symbols>
@@ -5787,7 +5785,26 @@ LM4030CMF-2.5 =&gt; precission +/- 0.15% &lt;br&gt;</description>
 <connect gate="G$1" pin="NC2" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="AMF-2.5">
+<attribute name="MPN" value="LM4030AMF-2.5/NOPB" constant="no"/>
+<attribute name="OC_FARNELL" value="2492200" constant="no"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" constant="no"/>
+</technology>
+<technology name="BMF-2.5">
+<attribute name="MPN" value="LM4030BMF-2.5/NOPB" constant="no"/>
+<attribute name="OC_FARNELL" value="1674016" constant="no"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" constant="no"/>
+</technology>
+<technology name="CMF-2.5">
+<attribute name="MPN" value="LM4030CMF-2.5/NOPB" constant="no"/>
+<attribute name="OC_FARNELL" value="2492620 " constant="no"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

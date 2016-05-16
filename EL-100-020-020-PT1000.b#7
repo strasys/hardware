@@ -25,10 +25,10 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -44,11 +44,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
@@ -77,6 +77,15 @@
 <text x="50.3" y="5.9" size="1.016" layer="21" font="vector" rot="R90">VDD</text>
 <text x="47.7" y="5.9" size="1.016" layer="21" font="vector" rot="R90">SDA</text>
 <text x="45.2" y="5.9" size="1.016" layer="21" font="vector" rot="R90">SCL</text>
+<text x="5.3" y="27.1" size="1.016" layer="1" font="vector">top</text>
+<text x="8.9" y="27.1" size="1.016" layer="16" font="vector" rot="MR0">bottom</text>
+<text x="46" y="13.6" size="1" layer="16" font="vector" ratio="15" rot="MR0">EL-100-020-020</text>
+<text x="46" y="12.3" size="1" layer="16" font="vector" ratio="15" rot="MR0">strasys</text>
+<text x="46" y="10.8" size="1" layer="16" font="vector" ratio="15" rot="MR0">Rev. 1.0</text>
+<text x="3.8" y="24.8" size="1" layer="1" font="vector" ratio="15">PT1000</text>
+<text x="9" y="24.8" size="1" layer="16" font="vector" ratio="15" rot="MR0">PT1000</text>
+<dimension x1="0" y1="0" x2="0" y2="29.5" x3="-3.4" y3="14.75" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="0" x2="54" y2="0" x3="27" y3="-3.6" textsize="1.778" layer="47" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="strasys_standard">

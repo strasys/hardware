@@ -367,7 +367,10 @@ at 30/07/2012 16:36:08</description>
 <part name="LED1" library="strasys_standard" deviceset="KP-1608QBC-D-LED" device=""/>
 <part name="LED2" library="strasys_standard" deviceset="KP-1608QBC-D-LED" device=""/>
 <part name="LED3" library="strasys_standard" deviceset="KP-1608QBC-D-LED" device=""/>
-<part name="LED4" library="strasys_standard" deviceset="KP-1608QBC-D-LED" device=""/>
+<part name="LED4" library="strasys_standard" deviceset="KP-1608QBC-D-LED" device="" value="P-1608SURCK">
+<attribute name="MPC" value="KP-1608SURCK"/>
+<attribute name="OC_FARNELL" value="2290329"/>
+</part>
 <part name="R1" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
 <part name="R2" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
 <part name="R3" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>

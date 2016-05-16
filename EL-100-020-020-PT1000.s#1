@@ -2358,20 +2358,7 @@ at 30/07/2012 11:22:31</description>
 <label x="175.26" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="I2C2_SDA" class="0">
-<segment>
-<pinref part="U16" gate="A" pin="SDA"/>
-<wire x1="152.4" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
-<label x="185.42" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="259.08" y1="43.18" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="43.18" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="55.88" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
-<junction x="220.98" y="43.18"/>
-<label x="261.62" y="43.18" size="1.778" layer="95"/>
-<pinref part="R28" gate="A" pin="2"/>
-</segment>
+<net name="N$4" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="B5"/>
 <wire x1="167.64" y1="190.5" x2="172.72" y2="190.5" width="0.1524" layer="91"/>
@@ -2478,6 +2465,21 @@ at 30/07/2012 11:22:31</description>
 <junction x="81.28" y="68.58"/>
 <pinref part="R31" gate="A" pin="2"/>
 <pinref part="X2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="I2C2_SDA" class="0">
+<segment>
+<wire x1="259.08" y1="43.18" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="43.18" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="55.88" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
+<junction x="220.98" y="43.18"/>
+<label x="261.62" y="43.18" size="1.778" layer="95"/>
+<pinref part="R28" gate="A" pin="2"/>
+</segment>
+<segment>
+<pinref part="U16" gate="A" pin="SDA"/>
+<wire x1="152.4" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="185.42" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

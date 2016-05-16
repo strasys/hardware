@@ -1,0 +1,47 @@
+Circuit: * C:\users\johannes\Meine Dokumente\eagle\homecontroller\LTSpice-Simu\Analog_OUT_0-10V.asc
+
+u1:vccvs1_in: Missing value, assumed 0V @ DC
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Changing Tseed to 1e-008
+
+Date: Sun May 15 17:23:09 2016
+Total elapsed time: 0.640 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5348
+traniter = 3807
+tranpoints = 984
+accept = 811
+rejected = 172
+matrix size = 182
+fillins = 422
+solver = Normal
+Thread vector: 20.6/15.9[2] 6.0/4.5[2] 4.8/3.8[2] 2.6/2.8[1]  2592/500
+Matrix Compiler1: 36.36 KB object code size  14.0/11.0/[4.1]
+Matrix Compiler2: 21.25 KB object code size  5.4/6.8/[2.6]
+
+
