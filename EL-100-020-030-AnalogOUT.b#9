@@ -8,12 +8,12 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="PWR" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1499,8 +1499,8 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R42" pad="1"/>
 <contactref element="U6" pad="3"/>
 <polygon width="0.15" layer="1" orphans="yes" thermals="no" rank="2">
-<vertex x="23.7" y="24.2"/>
-<vertex x="18.4" y="24.2"/>
+<vertex x="23.7" y="24.1"/>
+<vertex x="18.4" y="24.1"/>
 <vertex x="18.4" y="26.2"/>
 <vertex x="15.5" y="26.2"/>
 <vertex x="15.5" y="29.5"/>
@@ -1570,8 +1570,8 @@ Covered vias can be set in Masks (Limit).
 <polygon width="0.15" layer="1" orphans="yes" thermals="no" rank="2">
 <vertex x="11.5" y="19.4"/>
 <vertex x="18.4" y="19.4"/>
-<vertex x="18.4" y="23.8"/>
-<vertex x="23.7" y="23.8"/>
+<vertex x="18.4" y="23.7"/>
+<vertex x="23.7" y="23.7"/>
 <vertex x="23.7" y="16"/>
 <vertex x="11.5" y="16"/>
 </polygon>
@@ -2261,6 +2261,13 @@ Covered vias can be set in Masks (Limit).
 <vertex x="54" y="29.5"/>
 <vertex x="54" y="0"/>
 <vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.2" layer="15" rank="6">
+<vertex x="0.1" y="29.5"/>
+<vertex x="54" y="29.5"/>
+<vertex x="54" y="0"/>
+<vertex x="0" y="0"/>
+<vertex x="0" y="29.5"/>
 </polygon>
 </signal>
 </signals>

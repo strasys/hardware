@@ -370,7 +370,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="3.65" y="15.7" size="1.016" layer="25"/>
 <attribute name="VALUE" x="3.2" y="14.9" size="1.778" layer="27"/>
 </element>
-<element name="LED4" library="strasys_standard" package="KP-1608QBCD-D-LED" value="KP-1608QBC-D-LED" x="5" y="12.4" smashed="yes">
+<element name="LED4" library="strasys_standard" package="KP-1608QBCD-D-LED" value="P-1608SURCK" x="5" y="12.4" smashed="yes">
 <attribute name="SUPPLIER" value="Kingbright" x="5" y="12.4" size="1.778" layer="27" display="off"/>
 <attribute name="MPC" value="KP-1608SURCK" x="5" y="12.4" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="2290329" x="5" y="12.4" size="1.778" layer="27" display="off"/>

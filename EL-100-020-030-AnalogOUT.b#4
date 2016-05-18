@@ -727,6 +727,18 @@ at 28/03/2012 12:54:09</description>
 </package>
 </packages>
 </library>
+<library name="marks">
+<description>&lt;b&gt;Markers for Layout Outline Definition&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="PASSER_SMD4">
+<rectangle x1="-1" y1="-0.25" x2="1" y2="0.25" layer="1"/>
+<rectangle x1="-0.25" y1="-1" x2="0.25" y2="1" layer="1"/>
+<rectangle x1="-1.2" y1="-0.45" x2="1.2" y2="0.45" layer="29"/>
+<rectangle x1="-0.45" y1="-1.2" x2="0.45" y2="1.2" layer="29"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1391,6 +1403,8 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="26.64" y="1.28" size="1.016" layer="25"/>
 <attribute name="VALUE" x="23.84" y="3.84" size="1.016" layer="27"/>
 </element>
+<element name="U$1" library="marks" package="PASSER_SMD4" value="" x="2.8" y="2.8"/>
+<element name="U$2" library="marks" package="PASSER_SMD4" value="" x="52.3" y="27.9"/>
 </elements>
 <signals>
 <signal name="+3.3V">

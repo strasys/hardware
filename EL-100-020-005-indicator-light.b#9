@@ -534,8 +534,8 @@ Covered vias can be set in Masks (Limit).
 </signal>
 <signal name="PE">
 <polygon width="0.2" layer="16" orphans="yes" thermals="no" rank="6">
-<vertex x="0" y="40"/>
-<vertex x="21" y="40"/>
+<vertex x="0" y="39.8"/>
+<vertex x="21" y="39.8"/>
 <vertex x="21" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>

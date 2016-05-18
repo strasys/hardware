@@ -73,8 +73,12 @@
 <text x="3.3" y="5.5" size="1.016" layer="21" font="vector">A2</text>
 <text x="5.9" y="5.5" size="1.016" layer="21" font="vector">A1</text>
 <text x="8.4" y="5.5" size="1.016" layer="21" font="vector">A0</text>
-<text x="4.6" y="26.7" size="1" layer="1" font="vector">top</text>
-<text x="7.8" y="26.6" size="1" layer="16" font="vector" rot="MR0">bottom</text>
+<text x="5.4" y="27.3" size="1" layer="1" font="vector" ratio="15">top</text>
+<text x="9.2" y="27.3" size="1" layer="16" font="vector" ratio="15" rot="MR0">bottom</text>
+<text x="2.8" y="25.6" size="1" layer="1" ratio="15">Analog IN</text>
+<text x="33.7" y="21.7" size="1" layer="16" ratio="15" rot="MR0">EL-100-020-010</text>
+<text x="33.7" y="20.3" size="1" layer="16" ratio="15" rot="MR0">strasys</text>
+<text x="33.7" y="18.5" size="1" layer="16" ratio="15" rot="MR0">Rev. 1.0</text>
 </plain>
 <libraries>
 <library name="strasys_standard">
@@ -997,7 +1001,7 @@ Covered vias can be set in Masks (Limit).
 <element name="X1" library="con-WuP" package="9012-26" value="9012-26" x="26.87" y="5.93" locked="yes" smashed="yes">
 <attribute name="MPN" value="9012-26" x="51" y="-5.5" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="W+P" x="51" y="-5.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.31" y="5.21" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="26.51" y="2.11" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.71" y="-4.23" size="1.016" layer="27"/>
 </element>
 <element name="C3" library="Kemet_By_element14_1" package="CAPC2013X110N" value="100nF" x="36.1" y="19.2" smashed="yes" rot="R90">

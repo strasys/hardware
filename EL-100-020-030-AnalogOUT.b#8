@@ -8,11 +8,11 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="PWR" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="PWR" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -77,6 +77,9 @@
 <text x="50.4" y="5.5" size="1" layer="25" rot="R90">FLO</text>
 <text x="47.8" y="5.5" size="1" layer="25" rot="R90">VCC</text>
 <text x="0.5" y="16" size="1" layer="1" font="vector" ratio="15">Analog OUT</text>
+<text x="14.4" y="21.8" size="1" layer="16" font="vector" ratio="15" rot="MR0">EL-100-020-030</text>
+<text x="14.4" y="20.5" size="1" layer="16" font="vector" ratio="15" rot="MR0">strasys</text>
+<text x="14.5" y="19" size="1" layer="16" font="vector" ratio="15" rot="MR0">Rev. 1.0</text>
 </plain>
 <libraries>
 <library name="strasys_standard">
@@ -919,7 +922,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SUPPLIER" value="Wuerth Elektronik" x="46.81" y="1.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="WURTH ELEKTRONIK" x="46.81" y="1.54" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1635987" x="46.81" y="1.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="0.6" y="28.1" size="1.016" layer="25"/>
+<attribute name="NAME" x="1.5" y="18.8" size="1.016" layer="25"/>
 <attribute name="VALUE" x="11.35" y="20.16" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C40" library="Kemet_By_element14_Batch_1" package="CAPC2013X140N" value="10uF 10V" x="11.8" y="24.4" smashed="yes" rot="R90">
@@ -2261,6 +2264,19 @@ Covered vias can be set in Masks (Limit).
 <vertex x="54" y="29.5"/>
 <vertex x="54" y="0"/>
 <vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.2" layer="15" rank="6">
+<vertex x="0.1" y="29.5"/>
+<vertex x="54" y="29.5"/>
+<vertex x="54" y="0"/>
+<vertex x="0" y="0"/>
+<vertex x="0" y="29.5"/>
+</polygon>
+<polygon width="0.2" layer="16" rank="6">
+<vertex x="0" y="29.5"/>
+<vertex x="0" y="0"/>
+<vertex x="54" y="0"/>
+<vertex x="54" y="29.5"/>
 </polygon>
 </signal>
 </signals>

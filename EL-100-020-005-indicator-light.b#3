@@ -439,13 +439,13 @@ Covered vias can be set in Masks (Limit).
 <signal name="+24V_ON">
 <contactref element="X1" pad="P2"/>
 <contactref element="R2" pad="1"/>
-<wire x1="14.4" y1="16.1" x2="14.4" y2="24" width="0.2" layer="1"/>
-<wire x1="16" y1="16.1" x2="14.4" y2="16.1" width="0.2" layer="16"/>
+<wire x1="14" y1="16.1" x2="14" y2="24" width="0.2" layer="1"/>
+<wire x1="16" y1="16.1" x2="14" y2="16.1" width="0.2" layer="16"/>
 <wire x1="16" y1="16.1" x2="16.05" y2="16.09" width="0.2" layer="16"/>
-<via x="14.4" y="24" extent="1-16" drill="0.3"/>
-<via x="14.4" y="16.1" extent="1-16" drill="0.3"/>
+<via x="14" y="24" extent="1-16" drill="0.3"/>
+<via x="14" y="16.1" extent="1-16" drill="0.3"/>
 <wire x1="4.9" y1="24" x2="4.9" y2="22.5" width="0.2" layer="16"/>
-<wire x1="14.4" y1="24" x2="4.9" y2="24" width="0.2" layer="16"/>
+<wire x1="14" y1="24" x2="4.9" y2="24" width="0.2" layer="16"/>
 <wire x1="4.9" y1="22.5" x2="4.9398" y2="22.5" width="0.2" layer="16"/>
 </signal>
 <signal name="SYS5V_ON">
