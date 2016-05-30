@@ -812,6 +812,31 @@ at 30/07/2012 16:36:08</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CRCW08051K00JNEA" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRCW08051K00JNEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1652937" constant="no"/>
+<attribute name="OC_NEWARK" value="52K9725" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.125 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CRCW08051K00FKEA" prefix="R">
 <description>RESISTOR, 0805</description>
 <gates>
@@ -3770,8 +3795,8 @@ at 30/07/2012 11:22:31</description>
 <attribute name="SUPPLIER" value="PANASONIC"/>
 <attribute name="TOLERANCE" value="±0.1%"/>
 </part>
-<part name="R7" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms"/>
-<part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms"/>
+<part name="R7" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
+<part name="R8" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
 <part name="C4" library="Kemet_By_element14_1" deviceset="C0805C180J5GACTU" device="" value="0.082µF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MC0805B823K500CT"/>
@@ -3830,8 +3855,8 @@ at 30/07/2012 11:22:31</description>
 <attribute name="SUPPLIER" value="PANASONIC"/>
 <attribute name="TOLERANCE" value="±0.1%"/>
 </part>
-<part name="R17" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms"/>
-<part name="R18" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00FKEA" device="" value="1K Ohms"/>
+<part name="R17" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
+<part name="R18" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051K00JNEA" device="" value="1K Ohms"/>
 <part name="C7" library="Kemet_By_element14_1" deviceset="C0805C180J5GACTU" device="" value="0.082µF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MC0805B823K500CT"/>

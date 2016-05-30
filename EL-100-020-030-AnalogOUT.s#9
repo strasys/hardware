@@ -736,26 +736,26 @@ at 30/07/2012 16:36:08</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW06031M00FKEA" prefix="R">
-<description>RESISTOR, 0603</description>
+<deviceset name="CRCW08051M00FKTB" prefix="R">
+<description>RESISTOR, 0805</description>
 <gates>
 <gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="RESC1608X60N">
+<device name="" package="RESC2013X65N">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CRCW06031M00FKEA" constant="no"/>
-<attribute name="OC_FARNELL" value="1469746" constant="no"/>
-<attribute name="OC_NEWARK" value="52K8053" constant="no"/>
-<attribute name="SUPPLIER" value="Vishay" constant="no"/>
-<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
-<attribute name="VALUE" value="1 MOhms" constant="no"/>
-<attribute name="WATTAGE" value="0.1W" constant="no"/>
+<attribute name="MPN" value="CRCW08051M00FKTB" constant="no"/>
+<attribute name="OC_FARNELL" value="1853267" constant="no"/>
+<attribute name="OC_NEWARK" value="49P0051" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay Dale" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="1M Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.125W" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -911,24 +911,6 @@ at 30/07/2012 16:36:08</description>
 element14 CAD Library consolidation.ulp
 at 28/03/2012 12:54:09</description>
 <packages>
-<package name="CAPC1608X85N">
-<smd name="1" x="-0.7112" y="0" dx="0.6604" dy="0.9398" layer="1"/>
-<smd name="2" x="0.7112" y="0" dx="0.6604" dy="0.9398" layer="1"/>
-<wire x1="-0.381" y1="-0.4826" x2="-0.381" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.381" y1="0.4826" x2="-0.8636" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.8636" y1="-0.4826" x2="-0.381" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.381" y1="0.4826" x2="0.381" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.381" y1="-0.4826" x2="0.8636" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.8636" y1="0.4826" x2="0.381" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.381" y1="-0.4826" x2="0.381" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.8636" y1="-0.4826" x2="0.8636" y2="0.4826" width="0" layer="51"/>
-<wire x1="0.381" y1="0.4826" x2="-0.381" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<wire x1="-0.1" y1="0.5" x2="0.1" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-0.1" y1="-0.5" x2="0.1" y2="-0.5" width="0.127" layer="21"/>
-</package>
 <package name="CAPC2013X140N">
 <smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
 <smd name="2" x="0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
@@ -1024,31 +1006,6 @@ at 28/03/2012 12:54:09</description>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
 <attribute name="VOLTAGERATING" value="25V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="C0603C221J5GACTU" prefix="C">
-<description>CAPACITOR, 0603</description>
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAPC1608X85N">
-<connects>
-<connect gate="A" pin="C1" pad="1"/>
-<connect gate="A" pin="C2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="C0603C221J5GACTU" constant="no"/>
-<attribute name="OC_FARNELL" value="1414623" constant="no"/>
-<attribute name="OC_NEWARK" value="64K2847" constant="no"/>
-<attribute name="SUPPLIER" value="Kemet" constant="no"/>
-<attribute name="TOLERANCE" value="±5%" constant="no"/>
-<attribute name="VALUE" value="220pF" constant="no"/>
-<attribute name="VOLTAGERATING" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3375,6 +3332,31 @@ at 28/03/2012 12:54:09</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="C0805C221J5GACTU" prefix="C">
+<description>CAPACITOR, 0805</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC2013X88N">
+<connects>
+<connect gate="A" pin="C1" pad="1"/>
+<connect gate="A" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="C0805C221J5GACTU" constant="no"/>
+<attribute name="OC_FARNELL" value="1414679" constant="no"/>
+<attribute name="OC_NEWARK" value="64K2915" constant="no"/>
+<attribute name="SUPPLIER" value="Kemet" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="220pF" constant="no"/>
+<attribute name="VOLTAGERATING" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="Microchip_By_element14_Batch_1">
@@ -3527,10 +3509,10 @@ at 30/07/2012 11:22:31</description>
 <part name="R27" library="Vishay_By_element14_Batch_1" deviceset="CRCW060310K2FKEA" device="" value="10.2K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R29" library="Vishay_By_element14_Batch_1" deviceset="CRCW06031M00FKEA" device="" value="1 MOhms">
+<part name="R29" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051M00FKTB" device="" value="1M Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="C14" library="Kemet_By_element14_Batch_1" deviceset="C0603C221J5GACTU" device="" value="220pF 50V">
+<part name="C14" library="Kemet_By_element14_1" deviceset="C0805C221J5GACTU" device="" value="220pF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="C23" library="Kemet_By_element14_1" deviceset="C0805C223K5RACTU" device="" value="22nF">

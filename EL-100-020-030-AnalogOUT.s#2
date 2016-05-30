@@ -843,13 +843,6 @@ at 30/07/2012 16:36:08</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="DGND">
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 <symbol name="AGND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -866,19 +859,6 @@ at 30/07/2012 16:36:08</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DGND" prefix="SUPPLY">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AGND" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -3713,7 +3693,6 @@ at 30/07/2012 11:22:31</description>
 <part name="SUPPLY47" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="+12V" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="AGND" device=""/>
-<part name="SUPPLY55" library="supply2" deviceset="DGND" device=""/>
 <part name="FRAME2" library="strasys_frames" deviceset="A3L-LOC" device="">
 <attribute name="DATE_DRAWING" value="15.05.2016"/>
 <attribute name="DRAWING_NAME1" value="DIN-Rail-controller"/>
@@ -3877,6 +3856,7 @@ at 30/07/2012 11:22:31</description>
 <part name="SUPPLY14" library="supply2" deviceset="AGND" device=""/>
 <part name="U6" library="strasys_standard" deviceset="LMR62421XMF" device=""/>
 <part name="X3" library="con-WuP" deviceset="9012-26" device=""/>
+<part name="SUPPLY15" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3936,7 +3916,6 @@ CA0 = VCC: b0010010 = h12</text>
 <instance part="SUPPLY47" gate="G$1" x="195.58" y="116.84"/>
 <instance part="SUPPLY48" gate="+12V" x="180.34" y="172.72"/>
 <instance part="SUPPLY49" gate="G$1" x="167.64" y="157.48"/>
-<instance part="SUPPLY55" gate="G$1" x="121.92" y="187.96"/>
 <instance part="X1" gate="G$1" x="38.1" y="129.54"/>
 <instance part="U1" gate="A" x="111.76" y="154.94"/>
 <instance part="R5" gate="A" x="48.26" y="78.74" smashed="yes" rot="R90">
@@ -4061,6 +4040,7 @@ CA0 = VCC: b0010010 = h12</text>
 <instance part="SUPPLY14" gate="G$1" x="312.42" y="78.74"/>
 <instance part="U6" gate="A" x="93.98" y="223.52"/>
 <instance part="X3" gate="G$1" x="264.16" y="215.9"/>
+<instance part="SUPPLY15" gate="G$1" x="121.92" y="187.96"/>
 </instances>
 <busses>
 </busses>
@@ -4080,30 +4060,6 @@ CA0 = VCC: b0010010 = h12</text>
 <pinref part="X3" gate="G$1" pin="A4"/>
 <wire x1="256.54" y1="223.52" x2="251.46" y2="223.52" width="0.1524" layer="91"/>
 <label x="233.68" y="223.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DGND" class="0">
-<segment>
-<pinref part="R42" gate="A" pin="2"/>
-<wire x1="121.92" y1="195.58" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="193.04" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
-<junction x="121.92" y="193.04"/>
-<pinref part="C43" gate="A" pin="C1"/>
-<wire x1="154.94" y1="193.04" x2="167.64" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="193.04" x2="167.64" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C42" gate="A" pin="C1"/>
-<wire x1="154.94" y1="213.36" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
-<junction x="154.94" y="193.04"/>
-<wire x1="78.74" y1="215.9" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="215.9" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C40" gate="A" pin="C1"/>
-<wire x1="53.34" y1="208.28" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
-<junction x="66.04" y="193.04"/>
-<pinref part="SUPPLY55" gate="G$1" pin="DGND"/>
-<pinref part="U6" gate="A" pin="GND"/>
 </segment>
 </net>
 <net name="SW_LMR62" class="0">
@@ -4302,6 +4258,28 @@ CA0 = VCC: b0010010 = h12</text>
 <pinref part="X3" gate="G$1" pin="B4"/>
 <wire x1="274.32" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
 <label x="279.4" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R42" gate="A" pin="2"/>
+<wire x1="121.92" y1="195.58" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="193.04" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
+<junction x="121.92" y="193.04"/>
+<pinref part="C43" gate="A" pin="C1"/>
+<wire x1="154.94" y1="193.04" x2="167.64" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="193.04" x2="167.64" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C42" gate="A" pin="C1"/>
+<wire x1="154.94" y1="213.36" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
+<junction x="154.94" y="193.04"/>
+<wire x1="78.74" y1="215.9" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="215.9" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="C40" gate="A" pin="C1"/>
+<wire x1="53.34" y1="208.28" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
+<junction x="66.04" y="193.04"/>
+<pinref part="U6" gate="A" pin="GND"/>
+<pinref part="SUPPLY15" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="OPA21_AOUTB" class="0">

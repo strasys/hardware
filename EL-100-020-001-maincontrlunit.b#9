@@ -6,14 +6,14 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="PWR" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -3570,6 +3570,15 @@ Covered vias can be set in Masks (Limit).
 </polygon>
 <contactref element="C65" pad="2"/>
 <contactref element="C66" pad="2"/>
+<via x="153" y="84" extent="1-16" drill="0.6"/>
+<via x="143" y="84" extent="1-16" drill="0.6"/>
+<via x="133" y="84" extent="1-16" drill="0.6"/>
+<via x="123" y="84" extent="1-16" drill="0.6"/>
+<via x="113" y="84" extent="1-16" drill="0.6"/>
+<via x="103" y="84" extent="1-16" drill="0.6"/>
+<via x="93" y="84" extent="1-16" drill="0.6"/>
+<via x="83" y="84" extent="1-16" drill="0.6"/>
+<via x="73" y="84" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="X1" pad="P3"/>
@@ -5476,14 +5485,14 @@ Covered vias can be set in Masks (Limit).
 <via x="147.1" y="18.4" extent="1-16" drill="0.3"/>
 <wire x1="148.1872" y1="18.4" x2="147.1" y2="18.4" width="0.5" layer="1"/>
 <polygon width="0.15" layer="15" orphans="yes" thermals="no" rank="2">
-<vertex x="109.8" y="34.2"/>
+<vertex x="110.1" y="34.2"/>
 <vertex x="149.2" y="34.2"/>
 <vertex x="149.2" y="22.9"/>
 <vertex x="146" y="22.9"/>
 <vertex x="146" y="21.9"/>
 <vertex x="145.1" y="21.9"/>
 <vertex x="145.1" y="22.9"/>
-<vertex x="109.8" y="22.9"/>
+<vertex x="110.1" y="22.9"/>
 </polygon>
 <via x="114.9" y="23.4" extent="1-16" drill="0.3"/>
 <via x="128.9" y="23.4" extent="1-16" drill="0.3"/>
@@ -7630,6 +7639,33 @@ Covered vias can be set in Masks (Limit).
 <vertex x="7.6" y="75.2"/>
 <vertex x="0" y="75.2"/>
 </polygon>
+</signal>
+<signal name="N$1">
+<via x="153" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$3">
+<via x="143" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$4">
+<via x="133" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$44">
+<via x="123" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$45">
+<via x="113" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$50">
+<via x="103" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$53">
+<via x="93" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$56">
+<via x="83" y="2" extent="1-16" drill="0.6"/>
+</signal>
+<signal name="N$57">
+<via x="73" y="2" extent="1-16" drill="0.6"/>
 </signal>
 </signals>
 <errors>

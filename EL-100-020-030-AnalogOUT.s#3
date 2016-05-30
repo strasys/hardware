@@ -4076,6 +4076,11 @@ CA0 = VCC: b0010010 = h12</text>
 <pinref part="R6" gate="A" pin="1"/>
 <label x="88.9" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="A4"/>
+<wire x1="256.54" y1="223.52" x2="251.46" y2="223.52" width="0.1524" layer="91"/>
+<label x="233.68" y="223.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DGND" class="0">
 <segment>
@@ -4288,6 +4293,16 @@ CA0 = VCC: b0010010 = h12</text>
 <pinref part="C8" gate="A" pin="C1"/>
 <wire x1="312.42" y1="81.28" x2="312.42" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="B3"/>
+<wire x1="274.32" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
+<label x="279.4" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="B4"/>
+<wire x1="274.32" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
+<label x="279.4" y="223.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="OPA21_AOUTB" class="0">
 <segment>
@@ -4353,6 +4368,7 @@ CA0 = VCC: b0010010 = h12</text>
 <segment>
 <pinref part="X3" gate="G$1" pin="A1"/>
 <wire x1="256.54" y1="231.14" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
+<label x="233.68" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AOUT2_0-10V" class="0">
@@ -4367,6 +4383,7 @@ CA0 = VCC: b0010010 = h12</text>
 <segment>
 <pinref part="X3" gate="G$1" pin="B1"/>
 <wire x1="274.32" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
+<label x="279.4" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C1_SCL" class="0">
@@ -4383,6 +4400,11 @@ CA0 = VCC: b0010010 = h12</text>
 <wire x1="93.98" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
 <label x="76.2" y="154.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="A6"/>
+<wire x1="256.54" y1="218.44" x2="251.46" y2="218.44" width="0.1524" layer="91"/>
+<label x="233.68" y="218.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C1_SDA" class="0">
 <segment>
@@ -4397,6 +4419,11 @@ CA0 = VCC: b0010010 = h12</text>
 <pinref part="U1" gate="A" pin="SDA"/>
 <wire x1="88.9" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
 <label x="76.2" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="A5"/>
+<wire x1="256.54" y1="220.98" x2="251.46" y2="220.98" width="0.1524" layer="91"/>
+<label x="233.68" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CA0" class="0">
@@ -4452,6 +4479,11 @@ CA0 = VCC: b0010010 = h12</text>
 <junction x="53.34" y="226.06"/>
 <label x="33.02" y="226.06" size="1.778" layer="95"/>
 <pinref part="U6" gate="A" pin="VIN"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="A3"/>
+<wire x1="256.54" y1="226.06" x2="251.46" y2="226.06" width="0.1524" layer="91"/>
+<label x="233.68" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUTC" class="0">
@@ -4553,6 +4585,7 @@ CA0 = VCC: b0010010 = h12</text>
 <segment>
 <pinref part="X3" gate="G$1" pin="A2"/>
 <wire x1="256.54" y1="228.6" x2="251.46" y2="228.6" width="0.1524" layer="91"/>
+<label x="233.68" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AOUT4_0-10V" class="0">
@@ -4567,54 +4600,21 @@ CA0 = VCC: b0010010 = h12</text>
 <segment>
 <pinref part="X3" gate="G$1" pin="B2"/>
 <wire x1="274.32" y1="228.6" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
+<label x="279.4" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="A3"/>
-<wire x1="256.54" y1="226.06" x2="251.46" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="B3"/>
-<wire x1="274.32" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="A4"/>
-<wire x1="256.54" y1="223.52" x2="251.46" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="B4"/>
-<wire x1="274.32" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="A5"/>
-<wire x1="256.54" y1="220.98" x2="251.46" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
+<net name="I2C2_SDA" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="B5"/>
 <wire x1="274.32" y1="220.98" x2="279.4" y2="220.98" width="0.1524" layer="91"/>
+<label x="279.4" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="A6"/>
-<wire x1="256.54" y1="218.44" x2="251.46" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
+<net name="I2C2_SCL" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="B6"/>
 <wire x1="274.32" y1="218.44" x2="279.4" y2="218.44" width="0.1524" layer="91"/>
+<label x="279.4" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

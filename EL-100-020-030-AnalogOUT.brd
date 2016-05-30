@@ -1265,21 +1265,21 @@ Your Multi-CB Team
 <attribute name="VALUE" x="48.775" y="12.0456" size="1.016" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="R7" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="1K Ohms" x="43.2" y="27.5" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="52K9723" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CRCW08051K00FKEA" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="52K9725" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW08051K00JNEA" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="Vishay" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1469847" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1652937" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="105.43" y="80.84" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="42.3" y="27" size="1.016" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="46.375" y="24.0456" size="1.016" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="R8" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="1K Ohms" x="42.7" y="15.5" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="52K9723" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CRCW08051K00FKEA" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="52K9725" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRCW08051K00JNEA" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="Vishay" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1469847" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1652937" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="-19.53" y="-51.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.8" y="14.8" size="1.016" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="39.525" y="18.9544" size="1.016" layer="27" ratio="10" rot="SR270"/>
@@ -1372,21 +1372,21 @@ Your Multi-CB Team
 <attribute name="VALUE" x="34.975" y="11.5456" size="1.016" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="R17" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="1K Ohms" x="29.7" y="27.4" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="52K9723" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CRCW08051K00FKEA" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="52K9725" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW08051K00JNEA" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="Vishay" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1469847" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1652937" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="109.71" y="78.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.8" y="26.4" size="1.016" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="32.875" y="23.9456" size="1.016" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="R18" library="Vishay_By_element14_Batch_1" package="RESC2013X65N" value="1K Ohms" x="28.9" y="15" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="52K9723" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CRCW08051K00FKEA" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="52K9725" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRCW08051K00JNEA" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="Vishay" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1469847" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1652937" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="WATTAGE" value="0.125 W" x="-51.11" y="-49.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="28" y="13.8" size="1.016" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="25.725" y="18.4544" size="1.016" layer="27" ratio="10" rot="SR270"/>

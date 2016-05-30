@@ -3512,25 +3512,25 @@ at 30/07/2012 11:22:31</description>
 <part name="L1" library="WE-PD" deviceset="WE-PD" device="_7332/7345_PLASTIC_BASE" technology="-7447779006" value="6.8µH 2.91A">
 <attribute name="MF" value="WURTH ELEKTRONIK"/>
 </part>
-<part name="C12" library="Kemet_By_element14_Batch_1" deviceset="C0805C106K8PACTU" device="" value="10uF 10V">
+<part name="C40" library="Kemet_By_element14_Batch_1" deviceset="C0805C106K8PACTU" device="" value="10uF 10V">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="C13" library="Kemet_By_element14_Batch_1" deviceset="C1206C106K3PACTU" device="" value="10uF 25V">
+<part name="C42" library="Kemet_By_element14_Batch_1" deviceset="C1206C106K3PACTU" device="" value="10uF 25V">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="R26" library="Vishay_By_element14_Batch_1" deviceset="CRCW060386K6FKEA" device="" value="86.6K Ohms">
+<part name="R41" library="Vishay_By_element14_Batch_1" deviceset="CRCW060386K6FKEA" device="" value="86.6K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R27" library="Vishay_By_element14_Batch_1" deviceset="CRCW060310K2FKEA" device="" value="10.2K Ohms">
+<part name="R42" library="Vishay_By_element14_Batch_1" deviceset="CRCW060310K2FKEA" device="" value="10.2K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R29" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051M00FKTB" device="" value="1M Ohms">
+<part name="R40" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051M00FKTB" device="" value="1M Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="C14" library="Kemet_By_element14_1" deviceset="C0805C221J5GACTU" device="" value="220pF">
+<part name="C41" library="Kemet_By_element14_1" deviceset="C0805C221J5GACTU" device="" value="220pF">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="C23" library="Kemet_By_element14_1" deviceset="C0805C223K5RACTU" device="" value="22nF">
+<part name="C43" library="Kemet_By_element14_1" deviceset="C0805C223K5RACTU" device="" value="22nF">
 <attribute name="MF" value="KEMET"/>
 </part>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="20V 2A">
@@ -3720,37 +3720,37 @@ CA0 = VCC: b0010010 = h12</text>
 <instance part="L1" gate="G$1" x="93.98" y="241.3">
 <attribute name="MF" x="93.98" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C12" gate="A" x="53.34" y="208.28" smashed="yes" rot="R90">
+<instance part="C40" gate="A" x="53.34" y="208.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="57.6072" y="205.1558" size="1.778" layer="96" rot="SR90"/>
 <attribute name="NAME" x="50.5714" y="207.3656" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="53.34" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C13" gate="A" x="154.94" y="213.36" smashed="yes" rot="R90">
+<instance part="C42" gate="A" x="154.94" y="213.36" smashed="yes" rot="R90">
 <attribute name="VALUE" x="159.2072" y="210.2358" size="1.778" layer="96" rot="SR90"/>
 <attribute name="NAME" x="152.1714" y="212.4456" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="154.94" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R26" gate="A" x="127" y="213.36" smashed="yes">
+<instance part="R41" gate="A" x="127" y="213.36" smashed="yes">
 <attribute name="VALUE" x="126.4158" y="209.7024" size="1.778" layer="96" rot="SR0"/>
 <attribute name="NAME" x="127.9906" y="216.1286" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="MF" x="127" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R27" gate="A" x="121.92" y="195.58" smashed="yes" rot="R90">
+<instance part="R42" gate="A" x="121.92" y="195.58" smashed="yes" rot="R90">
 <attribute name="VALUE" x="125.5776" y="194.9958" size="1.778" layer="96" rot="SR90"/>
 <attribute name="NAME" x="119.1514" y="196.5706" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="121.92" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R29" gate="A" x="63.5" y="220.98" smashed="yes">
+<instance part="R40" gate="A" x="63.5" y="220.98" smashed="yes">
 <attribute name="VALUE" x="62.9158" y="217.3224" size="1.778" layer="96" rot="SR0"/>
 <attribute name="NAME" x="64.4906" y="223.7486" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="MF" x="63.5" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C14" gate="A" x="127" y="223.52" smashed="yes">
+<instance part="C41" gate="A" x="127" y="223.52" smashed="yes">
 <attribute name="VALUE" x="126.4158" y="219.2528" size="1.778" layer="96" rot="SR0"/>
 <attribute name="NAME" x="126.0856" y="226.2886" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="MF" x="127" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C23" gate="A" x="167.64" y="213.36" smashed="yes" rot="R90">
+<instance part="C43" gate="A" x="167.64" y="213.36" smashed="yes" rot="R90">
 <attribute name="VALUE" x="171.9072" y="210.2358" size="1.778" layer="96" rot="SR90"/>
 <attribute name="NAME" x="164.8714" y="212.4456" size="2.0828" layer="95" ratio="10" rot="SR90"/>
 <attribute name="MF" x="167.64" y="213.36" size="1.778" layer="96" display="off"/>
@@ -3908,21 +3908,21 @@ CA0 = VCC: b0010010 = h12</text>
 </net>
 <net name="DGND" class="0">
 <segment>
-<pinref part="R27" gate="A" pin="2"/>
+<pinref part="R42" gate="A" pin="2"/>
 <wire x1="121.92" y1="195.58" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="193.04" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <junction x="121.92" y="193.04"/>
-<pinref part="C23" gate="A" pin="C1"/>
+<pinref part="C43" gate="A" pin="C1"/>
 <wire x1="154.94" y1="193.04" x2="167.64" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="193.04" x2="167.64" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C13" gate="A" pin="C1"/>
+<pinref part="C42" gate="A" pin="C1"/>
 <wire x1="154.94" y1="213.36" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <junction x="154.94" y="193.04"/>
 <wire x1="78.74" y1="215.9" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="215.9" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C12" gate="A" pin="C1"/>
+<pinref part="C40" gate="A" pin="C1"/>
 <wire x1="53.34" y1="208.28" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
 <junction x="66.04" y="193.04"/>
@@ -3944,14 +3944,14 @@ CA0 = VCC: b0010010 = h12</text>
 </net>
 <net name="FB_LMR62" class="0">
 <segment>
-<pinref part="C14" gate="A" pin="C1"/>
+<pinref part="C41" gate="A" pin="C1"/>
 <wire x1="127" y1="223.52" x2="121.92" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="223.52" x2="121.92" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="213.36" x2="109.22" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="R26" gate="A" pin="2"/>
+<pinref part="R41" gate="A" pin="2"/>
 <wire x1="127" y1="213.36" x2="121.92" y2="213.36" width="0.1524" layer="91"/>
 <junction x="121.92" y="213.36"/>
-<pinref part="R27" gate="A" pin="1"/>
+<pinref part="R42" gate="A" pin="1"/>
 <wire x1="121.92" y1="208.28" x2="121.92" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="FB"/>
 <wire x1="109.22" y1="213.36" x2="109.22" y2="218.44" width="0.1524" layer="91"/>
@@ -3959,7 +3959,7 @@ CA0 = VCC: b0010010 = h12</text>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="R29" gate="A" pin="1"/>
+<pinref part="R40" gate="A" pin="1"/>
 <wire x1="78.74" y1="220.98" x2="76.2" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="EN"/>
 </segment>
@@ -3969,17 +3969,17 @@ CA0 = VCC: b0010010 = h12</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="132.08" y1="241.3" x2="142.24" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="241.3" x2="142.24" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="R26" gate="A" pin="1"/>
+<pinref part="R41" gate="A" pin="1"/>
 <wire x1="142.24" y1="223.52" x2="142.24" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="213.36" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C14" gate="A" pin="C2"/>
+<pinref part="C41" gate="A" pin="C2"/>
 <wire x1="134.62" y1="223.52" x2="142.24" y2="223.52" width="0.1524" layer="91"/>
 <junction x="142.24" y="223.52"/>
-<pinref part="C13" gate="A" pin="C2"/>
+<pinref part="C42" gate="A" pin="C2"/>
 <wire x1="154.94" y1="220.98" x2="154.94" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="241.3" x2="142.24" y2="241.3" width="0.1524" layer="91"/>
 <junction x="142.24" y="241.3"/>
-<pinref part="C23" gate="A" pin="C2"/>
+<pinref part="C43" gate="A" pin="C2"/>
 <wire x1="154.94" y1="241.3" x2="167.64" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="241.3" x2="167.64" y2="220.98" width="0.1524" layer="91"/>
 <junction x="154.94" y="241.3"/>
@@ -4260,14 +4260,14 @@ CA0 = VCC: b0010010 = h12</text>
 <wire x1="76.2" y1="226.06" x2="76.2" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="241.3" x2="88.9" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="R29" gate="A" pin="2"/>
+<pinref part="R40" gate="A" pin="2"/>
 <wire x1="63.5" y1="220.98" x2="60.96" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="220.98" x2="60.96" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="226.06" x2="76.2" y2="226.06" width="0.1524" layer="91"/>
 <junction x="76.2" y="226.06"/>
 <wire x1="60.96" y1="226.06" x2="53.34" y2="226.06" width="0.1524" layer="91"/>
 <junction x="60.96" y="226.06"/>
-<pinref part="C12" gate="A" pin="C2"/>
+<pinref part="C40" gate="A" pin="C2"/>
 <wire x1="53.34" y1="226.06" x2="43.18" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="215.9" x2="53.34" y2="226.06" width="0.1524" layer="91"/>
 <junction x="53.34" y="226.06"/>

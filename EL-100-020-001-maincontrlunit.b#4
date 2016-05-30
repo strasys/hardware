@@ -3579,6 +3579,25 @@ Covered vias can be set in Masks (Limit).
 <via x="93" y="84" extent="1-16" drill="0.6"/>
 <via x="83" y="84" extent="1-16" drill="0.6"/>
 <via x="73" y="84" extent="1-16" drill="0.6"/>
+<via x="83" y="2" extent="1-16" drill="0.6"/>
+<via x="73" y="2" extent="1-16" drill="0.6"/>
+<via x="93" y="2" extent="1-16" drill="0.6"/>
+<via x="103" y="2" extent="1-16" drill="0.6"/>
+<via x="113" y="2" extent="1-16" drill="0.6"/>
+<via x="123" y="2" extent="1-16" drill="0.6"/>
+<via x="133" y="2" extent="1-16" drill="0.6"/>
+<via x="143" y="2" extent="1-16" drill="0.6"/>
+<via x="153" y="2" extent="1-16" drill="0.6"/>
+<polygon width="0.1" layer="15" orphans="yes" thermals="no" rank="6">
+<vertex x="0" y="0"/>
+<vertex x="31.8" y="0"/>
+<vertex x="31.8" y="20.3"/>
+<vertex x="52.2" y="20.3"/>
+<vertex x="52.2" y="0"/>
+<vertex x="155.6" y="0"/>
+<vertex x="155.6" y="86"/>
+<vertex x="0" y="86"/>
+</polygon>
 </signal>
 <signal name="+3.3V">
 <contactref element="X1" pad="P3"/>
@@ -3614,13 +3633,13 @@ Covered vias can be set in Masks (Limit).
 <vertex x="55.5" y="42.5"/>
 <vertex x="55.5" y="60.5"/>
 <vertex x="21" y="60.5"/>
-<vertex x="21" y="43"/>
+<vertex x="21" y="43.3"/>
 <vertex x="1.2" y="43.3"/>
 <vertex x="1.2" y="21.1"/>
-<vertex x="19" y="21"/>
+<vertex x="19" y="21.1"/>
 <vertex x="19" y="23.365"/>
-<vertex x="3.9" y="23.565"/>
-<vertex x="3.9" y="39.1"/>
+<vertex x="3.9" y="23.365"/>
+<vertex x="3.9" y="38.9"/>
 <vertex x="115" y="38.9"/>
 <vertex x="115" y="45.5"/>
 <vertex x="152" y="45.5"/>
@@ -4884,14 +4903,15 @@ Covered vias can be set in Masks (Limit).
 <signal name="BAT-SUPPLY">
 <contactref element="BAT1" pad="P2(+)"/>
 <contactref element="U9" pad="1"/>
-<wire x1="55.6" y1="77.5" x2="55.49" y2="67.09" width="0.254" layer="15"/>
-<wire x1="55.49" y1="67.09" x2="51.8" y2="63.4" width="0.254" layer="15"/>
+<wire x1="55.6" y1="77.5" x2="55.6" y2="67.09" width="0.254" layer="15"/>
+<wire x1="55.59" y1="67.09" x2="51.8" y2="63.4" width="0.254" layer="15"/>
 <via x="51.8" y="63.4" extent="1-16" drill="0.3"/>
 <wire x1="38.4" y1="77.5" x2="39.6" y2="78.8" width="0.254" layer="15"/>
 <wire x1="39.6" y1="78.8" x2="54.3" y2="78.8" width="0.254" layer="15"/>
 <wire x1="55.6" y1="77.5" x2="54.3" y2="78.8" width="0.254" layer="15"/>
 <wire x1="51.8" y1="63.4" x2="51.7398" y2="63.3398" width="0.254" layer="1"/>
 <wire x1="51.7398" y1="63.3398" x2="51.7398" y2="62.0522" width="0.2" layer="1"/>
+<wire x1="55.59" y1="67.09" x2="55.6" y2="67.09" width="0" layer="19" extent="15-15"/>
 </signal>
 <signal name="N$46">
 <contactref element="U9" pad="3"/>
@@ -7639,33 +7659,6 @@ Covered vias can be set in Masks (Limit).
 <vertex x="7.6" y="75.2"/>
 <vertex x="0" y="75.2"/>
 </polygon>
-</signal>
-<signal name="N$1">
-<via x="153" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$3">
-<via x="143" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$4">
-<via x="133" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$44">
-<via x="123" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$45">
-<via x="113" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$50">
-<via x="103" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$53">
-<via x="93" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$56">
-<via x="83" y="2" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$57">
-<via x="73" y="2" extent="1-16" drill="0.6"/>
 </signal>
 </signals>
 <errors>

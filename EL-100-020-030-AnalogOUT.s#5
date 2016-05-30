@@ -639,24 +639,6 @@ grid 1.27 mm</description>
 element14 CAD Library consolidation.ulp
 at 30/07/2012 16:36:08</description>
 <packages>
-<package name="RESC1608X60N">
-<smd name="1" x="-0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
-<smd name="2" x="0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
-<wire x1="-0.127" y1="-0.4826" x2="0.127" y2="-0.4826" width="0.1524" layer="21"/>
-<wire x1="0.127" y1="0.4826" x2="-0.127" y2="0.4826" width="0.1524" layer="21"/>
-<wire x1="-0.4572" y1="-0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.4572" y1="0.4826" x2="-0.8382" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.8382" y1="-0.4826" x2="-0.4572" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.4572" y1="0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.4572" y1="-0.4826" x2="0.8382" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.8382" y1="0.4826" x2="0.4572" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.4572" y1="-0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
-<wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
 <package name="RESC2013X65N">
 <smd name="1" x="-0.9398" y="0" dx="1.016" dy="1.397" layer="1"/>
 <smd name="2" x="0.9398" y="0" dx="1.016" dy="1.397" layer="1"/>
@@ -705,51 +687,51 @@ at 30/07/2012 16:36:08</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRCW060386K6FKEA" prefix="R">
-<description>RESISTOR, 0603</description>
+<deviceset name="CRCW080586K6FKEA" prefix="R">
+<description>RESISTOR, 0805</description>
 <gates>
 <gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="RESC1608X60N">
+<device name="" package="RESC2013X65N">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CRCW060386K6FKEA" constant="no"/>
-<attribute name="OC_FARNELL" value="1652901" constant="no"/>
-<attribute name="OC_NEWARK" value="52K8751" constant="no"/>
-<attribute name="SUPPLIER" value="Vishay" constant="no"/>
-<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="MPN" value="CRCW080586K6FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1570801" constant="no"/>
+<attribute name="OC_NEWARK" value="89M6835" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
 <attribute name="VALUE" value="86.6K Ohms" constant="no"/>
-<attribute name="WATTAGE" value="0.1W" constant="no"/>
+<attribute name="WATTAGE" value="0.125 W" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW060310K2FKEA" prefix="R">
-<description>RESISTOR, 0603</description>
+<deviceset name="CRCW080510K2FKEA" prefix="R">
+<description>RESISTOR, 0805</description>
 <gates>
 <gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="RESC1608X60N">
+<device name="" package="RESC2013X65N">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CRCW060310K2FKEA" constant="no"/>
-<attribute name="OC_FARNELL" value="1652829" constant="no"/>
-<attribute name="OC_NEWARK" value="52K8067" constant="no"/>
-<attribute name="SUPPLIER" value="Vishay" constant="no"/>
-<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
+<attribute name="MPN" value="CRCW080510K2FKEA" constant="no"/>
+<attribute name="OC_FARNELL" value="1574022" constant="no"/>
+<attribute name="OC_NEWARK" value="52K9798" constant="no"/>
+<attribute name="SUPPLIER" value="VISHAY DALE ELECTRONICS" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
 <attribute name="VALUE" value="10.2K Ohms" constant="no"/>
-<attribute name="WATTAGE" value="0.1W" constant="no"/>
+<attribute name="WATTAGE" value="0.125 W" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3518,10 +3500,10 @@ at 30/07/2012 11:22:31</description>
 <part name="C42" library="Kemet_By_element14_Batch_1" deviceset="C1206C106K3PACTU" device="" value="10uF 25V">
 <attribute name="MF" value="KEMET"/>
 </part>
-<part name="R41" library="Vishay_By_element14_Batch_1" deviceset="CRCW060386K6FKEA" device="" value="86.6K Ohms">
+<part name="R41" library="Vishay_By_element14_Batch_1" deviceset="CRCW080586K6FKEA" device="" value="86.6K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
-<part name="R42" library="Vishay_By_element14_Batch_1" deviceset="CRCW060310K2FKEA" device="" value="10.2K Ohms">
+<part name="R42" library="Vishay_By_element14_Batch_1" deviceset="CRCW080510K2FKEA" device="" value="10.2K Ohms">
 <attribute name="MF" value="VISHAY DRALORIC"/>
 </part>
 <part name="R40" library="Vishay_By_element14_Batch_1" deviceset="CRCW08051M00FKTB" device="" value="1M Ohms">
