@@ -90,6 +90,14 @@
 <pad name="PWROUT2" x="16.51" y="-6.35" drill="0.8" shape="square"/>
 <pad name="AGND1" x="13.97" y="6.35" drill="0.8" shape="square"/>
 <pad name="PT100_1" x="16.51" y="6.35" drill="0.8" shape="square"/>
+<pad name="PT1000_1" x="19.05" y="6.35" drill="0.8" shape="square"/>
+<pad name="AGND_PT1000_1" x="21.59" y="6.35" drill="0.8" shape="square"/>
+<pad name="PT1000_2" x="24.13" y="6.35" drill="0.8" shape="square"/>
+<pad name="AGND_PT1000_2" x="26.67" y="6.35" drill="0.8" shape="square"/>
+<pad name="PT1000_3" x="19.05" y="-6.35" drill="0.8" shape="square"/>
+<pad name="AGND_PT1000_3" x="21.59" y="-6.35" drill="0.8" shape="square"/>
+<pad name="PT1000_4" x="24.13" y="-6.35" drill="0.8" shape="square"/>
+<pad name="AGND_PT1000_4" x="26.67" y="-6.35" drill="0.8" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -101,51 +109,153 @@ Embeded PC - Controller</description>
 <wire x1="45.72" y1="20.32" x2="45.72" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="45.72" y1="-20.32" x2="-50.8" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-50.8" y1="-20.32" x2="-50.8" y2="20.32" width="0.254" layer="94"/>
-<pin name="+5V(PLC)" x="-45.72" y="25.4" length="middle" direction="pwr" rot="R270"/>
-<pin name="0V(PLC)" x="-40.64" y="25.4" length="middle" direction="pwr" rot="R270"/>
-<pin name="+24V(DIGIOUT)" x="-45.72" y="-25.4" length="middle" direction="pwr" rot="R90"/>
-<pin name="0V(DIGIOUT)" x="-40.64" y="-25.4" length="middle" direction="pwr" rot="R90"/>
-<pin name="PE" x="-35.56" y="-25.4" length="middle" direction="pwr" rot="R90"/>
-<pin name="OUT1" x="-25.4" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT2" x="-20.32" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT3" x="-15.24" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT4" x="-10.16" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT5" x="-5.08" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT6" x="0" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT7" x="5.08" y="-25.4" length="middle" rot="R90"/>
-<pin name="OUT8" x="10.16" y="-25.4" length="middle" rot="R90"/>
-<pin name="IN1" x="15.24" y="-25.4" length="middle" rot="R90"/>
-<pin name="IN2" x="20.32" y="-25.4" length="middle" rot="R90"/>
-<pin name="IN3" x="25.4" y="-25.4" length="middle" rot="R90"/>
-<pin name="IN4" x="30.48" y="-25.4" length="middle" rot="R90"/>
-<pin name="PWROUT1" x="35.56" y="-25.4" length="middle" direction="pwr" rot="R90"/>
-<pin name="PWROUT2" x="40.64" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="+5V(PLC)" x="-45.72" y="25.4" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="0V(PLC)" x="-40.64" y="25.4" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="+24V(DIGIOUT)" x="-45.72" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="0V(DIGIOUT)" x="-40.64" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="PE" x="-35.56" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="OUT1" x="-25.4" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT2" x="-20.32" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT3" x="-15.24" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT4" x="-10.16" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT5" x="-5.08" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT6" x="0" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT7" x="5.08" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT8" x="10.16" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="IN1" x="15.24" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="IN2" x="20.32" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="IN3" x="25.4" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="IN4" x="30.48" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="PWROUT1" x="35.56" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="PWROUT2" x="40.64" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R90"/>
 <text x="-6.35" y="-3.81" size="1.778" layer="94">12 - 24 DC</text>
 <wire x1="-48.26" y1="-2.54" x2="-48.26" y2="0" width="0.127" layer="94"/>
 <wire x1="-48.26" y1="0" x2="43.18" y2="0" width="0.127" layer="94"/>
 <wire x1="43.18" y1="0" x2="43.18" y2="-2.54" width="0.127" layer="94"/>
-<pin name="PT100_1" x="40.64" y="25.4" length="middle" rot="R270"/>
-<pin name="AGND1" x="35.56" y="25.4" length="middle" rot="R270"/>
-<pin name="PT100_2" x="30.48" y="25.4" length="middle" rot="R270"/>
-<pin name="AGND2" x="25.4" y="25.4" length="middle" rot="R270"/>
-<pin name="AIN1(0-10V)" x="20.32" y="25.4" length="middle" rot="R270"/>
-<pin name="AGND3" x="15.24" y="25.4" length="middle" rot="R270"/>
-<pin name="AIN2(0-10V)" x="10.16" y="25.4" length="middle" rot="R270"/>
-<pin name="AGND4" x="5.08" y="25.4" length="middle" rot="R270"/>
-<pin name="AOUT1(0-10V)" x="0" y="25.4" length="middle" rot="R270"/>
-<pin name="AOUT2(0-10V)" x="-5.08" y="25.4" length="middle" rot="R270"/>
+<pin name="PT100_1" x="40.64" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AGND1" x="35.56" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="PT100_2" x="30.48" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AGND2" x="25.4" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AIN1(0-10V)" x="20.32" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AGND3" x="15.24" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AIN2(0-10V)" x="10.16" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AGND4" x="5.08" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AOUT1(0-10V)" x="0" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AOUT2(0-10V)" x="-5.08" y="25.4" visible="pin" length="middle" rot="R270"/>
 <text x="-20.32" y="5.08" size="1.778" layer="94" rot="R180">PRIVAT PLC </text>
 <wire x1="45.72" y1="20.32" x2="66.04" y2="20.32" width="0.254" layer="94"/>
 <wire x1="66.04" y1="20.32" x2="66.04" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="66.04" y1="-20.32" x2="45.72" y2="-20.32" width="0.254" layer="94"/>
-<pin name="PT1000_3" x="48.26" y="-25.4" length="middle" rot="R90"/>
-<pin name="AGND_PT1000_3" x="53.34" y="-25.4" length="middle" rot="R90"/>
-<pin name="PT1000_4" x="58.42" y="-25.4" length="middle" rot="R90"/>
-<pin name="AGND_PT1000_4" x="63.5" y="-25.4" length="middle" rot="R90"/>
-<pin name="PT1000_1" x="48.26" y="25.4" length="middle" rot="R270"/>
-<pin name="AGND_PT1000_1" x="53.34" y="25.4" length="middle" rot="R270"/>
-<pin name="PT1000_2" x="58.42" y="25.4" length="middle" rot="R270"/>
-<pin name="AGND_PT1000_2" x="63.5" y="25.4" length="middle" rot="R270"/>
+<pin name="PT1000_3" x="48.26" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="AGND_PT1000_3" x="53.34" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="PT1000_4" x="58.42" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="AGND_PT1000_4" x="63.5" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="PT1000_1" x="48.26" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AGND_PT1000_1" x="53.34" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="PT1000_2" x="58.42" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="AGND_PT1000_2" x="63.5" y="25.4" visible="pin" length="middle" rot="R270"/>
+</symbol>
+<symbol name="DIN-RAIL-BASIS">
+<description>&lt;b&gt;DIN Rail Controller basis&lt;/b&gt;</description>
+<wire x1="-50.8" y1="17.78" x2="50.8" y2="17.78" width="0.254" layer="94"/>
+<wire x1="50.8" y1="17.78" x2="50.8" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="50.8" y1="-17.78" x2="-50.8" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-50.8" y1="-17.78" x2="-50.8" y2="17.78" width="0.254" layer="94"/>
+<pin name="+5V" x="-45.72" y="-22.86" length="middle" rot="R90"/>
+<pin name="GND" x="-40.64" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT1" x="-17.78" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT2" x="-12.7" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT3" x="-7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT4" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT5" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT6" x="7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT7" x="12.7" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT8" x="17.78" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT9" x="22.86" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT10" x="27.94" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT11" x="33.02" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT12" x="38.1" y="-22.86" length="middle" rot="R90"/>
+<pin name="+24V" x="43.18" y="-22.86" length="middle" rot="R90"/>
+<pin name="0V" x="48.26" y="-22.86" length="middle" rot="R90"/>
+<pin name="IN1" x="-17.78" y="22.86" length="middle" rot="R270"/>
+<pin name="IN2" x="-12.7" y="22.86" length="middle" rot="R270"/>
+<pin name="IN3" x="-7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="IN4" x="-2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="IN5" x="2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="IN6" x="7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="IN7" x="12.7" y="22.86" length="middle" rot="R270"/>
+<pin name="IN8" x="17.78" y="22.86" length="middle" rot="R270"/>
+<pin name="IN9" x="22.86" y="22.86" length="middle" rot="R270"/>
+<pin name="IN10" x="27.94" y="22.86" length="middle" rot="R270"/>
+<pin name="IN11" x="33.02" y="22.86" length="middle" rot="R270"/>
+<pin name="IN12" x="38.1" y="22.86" length="middle" rot="R270"/>
+<pin name="PE_1" x="43.18" y="22.86" length="middle" rot="R270"/>
+<pin name="PE_2" x="48.26" y="22.86" length="middle" rot="R270"/>
+<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-5.08" x2="40.64" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-5.08" x2="40.64" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-7.62" x2="43.18" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-5.08" x2="48.26" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-5.08" x2="48.26" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="7.62" x2="-20.32" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="5.08" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="7.62" width="0.254" layer="94"/>
+<pin name="RJ45(TCP/IP)" x="-30.48" y="-22.86" length="middle" rot="R90"/>
+<pin name="USB" x="-40.64" y="22.86" length="middle" rot="R270"/>
+<text x="2.54" y="-5.08" size="1.778" layer="97">DIGITAL OUT</text>
+<text x="2.54" y="2.54" size="1.778" layer="97">DIGITAL IN</text>
+<text x="48.26" y="-5.08" size="1.778" layer="97" rot="R90">DIGI OUT
+PWR</text>
+<text x="-48.26" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-48.26" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PT1000-DIN-ADDON">
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="0" size="1.778" layer="96">&gt;NAME</text>
+<pin name="PT1000_1" x="-7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="PT_GND_1" x="-2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="PT1000_2" x="2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="PT_GND_2" x="7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="PT1000_3" x="-7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="PT_GND_3" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="PT1000_4" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="PT_GND_4" x="7.62" y="-22.86" length="middle" rot="R90"/>
+</symbol>
+<symbol name="ANALOG-OUT-ADDON">
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
+<pin name="ANOUT_1" x="-7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="ANGND_1" x="-2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="ANOUT_2" x="2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="ANGND_2" x="7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="ANOUT_3" x="-7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="ANGND_3" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="ANOUT_4" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="ANGND_4" x="7.62" y="-22.86" length="middle" rot="R90"/>
+</symbol>
+<symbol name="ANALOG-IN-ADDON">
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
+<pin name="ANIN_1" x="-7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="AN-GND_1" x="-2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="ANIN_2" x="2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="AN-GND_2" x="7.62" y="22.86" length="middle" rot="R270"/>
+<pin name="ANIN_3" x="-7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="AN-GND_3" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="ANIN_4" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="AN-GND_4" x="7.62" y="-22.86" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -167,6 +277,10 @@ Internet Steuerung
 <connect gate="G$1" pin="AGND2" pad="AGND2"/>
 <connect gate="G$1" pin="AGND3" pad="AGND3"/>
 <connect gate="G$1" pin="AGND4" pad="AGND4"/>
+<connect gate="G$1" pin="AGND_PT1000_1" pad="AGND_PT1000_1"/>
+<connect gate="G$1" pin="AGND_PT1000_2" pad="AGND_PT1000_2"/>
+<connect gate="G$1" pin="AGND_PT1000_3" pad="AGND_PT1000_3"/>
+<connect gate="G$1" pin="AGND_PT1000_4" pad="AGND_PT1000_4"/>
 <connect gate="G$1" pin="AIN1(0-10V)" pad="AIN1"/>
 <connect gate="G$1" pin="AIN2(0-10V)" pad="AIN2"/>
 <connect gate="G$1" pin="AOUT1(0-10V)" pad="AOUT1"/>
@@ -184,6 +298,10 @@ Internet Steuerung
 <connect gate="G$1" pin="OUT7" pad="OUT7"/>
 <connect gate="G$1" pin="OUT8" pad="OUT8"/>
 <connect gate="G$1" pin="PE" pad="PE"/>
+<connect gate="G$1" pin="PT1000_1" pad="PT1000_1"/>
+<connect gate="G$1" pin="PT1000_2" pad="PT1000_2"/>
+<connect gate="G$1" pin="PT1000_3" pad="PT1000_3"/>
+<connect gate="G$1" pin="PT1000_4" pad="PT1000_4"/>
 <connect gate="G$1" pin="PT100_1" pad="PT100_1"/>
 <connect gate="G$1" pin="PT100_2" pad="PT100_2"/>
 <connect gate="G$1" pin="PWROUT1" pad="PWROUT1"/>
@@ -195,7 +313,70 @@ Internet Steuerung
 </device>
 </devices>
 </deviceset>
+<deviceset name="DIN-RAIL-BASIS" prefix="PLC" uservalue="yes">
+<description>&lt;b&gt;DIN-RAil-controller basis&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIN-RAIL-BASIS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIN-PT1000-EXT" prefix="EXT" uservalue="yes">
+<description>&lt;b&gt;DIN-Rail-controller&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;PT1000 extension&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PT1000-DIN-ADDON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIN-ANOUT-EXT" prefix="EXT" uservalue="yes">
+<description>&lt;b&gt;DIN-Rail-controller&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Analog OUT extension&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ANALOG-OUT-ADDON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIN-ANIN-EXT" prefix="EXT" uservalue="yes">
+<description>&lt;b&gt;DIN-Rail-controller&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Analog IN extension&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ANALOG-IN-ADDON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

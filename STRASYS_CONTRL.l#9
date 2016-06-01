@@ -241,22 +241,6 @@ PWR</text>
 <pin name="ANOUT_4" x="2.54" y="-22.86" length="middle" rot="R90"/>
 <pin name="ANGND_4" x="7.62" y="-22.86" length="middle" rot="R90"/>
 </symbol>
-<symbol name="ANALOG-IN-ADDON">
-<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
-<text x="-5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="ANIN_1" x="-7.62" y="22.86" length="middle" rot="R270"/>
-<pin name="AN-GND_1" x="-2.54" y="22.86" length="middle" rot="R270"/>
-<pin name="ANIN_2" x="2.54" y="22.86" length="middle" rot="R270"/>
-<pin name="AN-GND_2" x="7.62" y="22.86" length="middle" rot="R270"/>
-<pin name="ANIN_3" x="-7.62" y="-22.86" length="middle" rot="R90"/>
-<pin name="AN-GND_3" x="-2.54" y="-22.86" length="middle" rot="R90"/>
-<pin name="ANIN_4" x="2.54" y="-22.86" length="middle" rot="R90"/>
-<pin name="AN-GND_4" x="7.62" y="-22.86" length="middle" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PRIVATEPLC">
@@ -345,18 +329,6 @@ Internet Steuerung
 &lt;b&gt;Analog OUT extension&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ANALOG-OUT-ADDON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DIN-ANIN-EXT" prefix="EXT" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="ANALOG-IN-ADDON" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
